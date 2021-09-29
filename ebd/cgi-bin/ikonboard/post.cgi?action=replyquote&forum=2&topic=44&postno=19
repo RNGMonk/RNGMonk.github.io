@@ -1,0 +1,465 @@
+<html>
+  <head>
+    
+    <title>FxZone Forum - Posting in Photoshop Tutorials &amp; Tips </title>
+
+
+<!--Javascript-->
+
+<script type="text/javascript">
+
+function openScript(url, width, height) {
+        var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=yes,status=yes' );
+}
+
+</script>
+
+<script type="text/javascript">
+
+clckcnt = 0;
+function clckcntr() {
+clckcnt++;
+if(clckcnt > 1) {
+    if(clckcnt > 2) { return false; }
+    alert('Processing...\n\n' + '     Thank you for your patience.');
+    return false;}
+return true;}
+
+</script>
+
+
+
+
+
+
+
+
+<!--end Java-->
+   
+   
+   
+   
+   
+   
+   
+
+
+<!--css info(editable)-->
+
+<style type="text/css">
+SELECT, option, textarea, input {   FONT-FAMILY:verdana,arial;color:#000000; FONT-SIZE: 12px; background-color:#eeeeee  }
+a:link,a:visited,a:active {text-decoration:none; color:#FFC956; font-weight:plain;}
+</style>
+
+<!--end css info-->
+
+</head>
+
+<body background="http://www.eyeball-design.com/fxzone/images/top_bg.gif" bgcolor=#000000 text="#ABABAB" link="#FFFFFF" vlink="#FFFFFF" alink="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width=771 border=0 cellpadding=0 cellspacing=0 align="center">
+  <tr> 
+    <td rowspan=3><img src="http://www.eyeball-design.com/fxzone/images/hdr01.gif" width=77 height=97></td>
+    <td rowspan=3><img src="http://www.eyeball-design.com/fxzone/images/hdr02.gif" width="13" height="27"><br>
+      <img src="http://www.eyeball-design.com/fxzone/images/hdr_e.gif" width="13" height="54"><br>
+      <img src="http://www.eyeball-design.com/fxzone/images/hdr03.gif" width="13" height="16"></td>
+    <td rowspan=3><img src="http://www.eyeball-design.com/fxzone/images/hdr04.gif" width=45 height=97></td>
+    <td colspan=2><img src="http://www.eyeball-design.com/fxzone/images/hdr05.gif" width=536 height=8></td>
+    <td rowspan=3 valign="top"><img src="http://www.eyeball-design.com/fxzone/images/hdr08.gif" width=100 height=50></td>
+  </tr>
+  <tr> 
+    <td><img src="http://www.eyeball-design.com/fxzone/images/hdr06.gif" width=380 height=20></td>
+    <td rowspan=2 valign="top"> <img src="http://www.eyeball-design.com/fxzone/images/hdr_forums.gif" width=156 height=33></td>
+  </tr>
+  <tr> 
+    <td><img src="http://www.eyeball-design.com/fxzone/images/hdr07.gif" width=380 height=69></td>
+  </tr>
+</table>
+
+<p>
+
+
+
+
+<table width="750" align="center" cellspacing="1" cellpadding="0"  border="0" bgcolor=#000000>
+  <tr>
+    <td bgcolor=#000000>
+      <table width="100%" cellspacing="0" cellpadding="4" border="0">
+        <tr>
+        <td bgcolor=#000000><font face=arial color=#FFC956 size=4><b>FxZone Forum</font></b><br><font face=arial color=#FFC956 size=2></font></td>
+        <td bgcolor=#000000 align=right valign=bottom><font face=arial color=#FFC956 size=1><a href="http://www.eyeball-design.com/fxzone/news.htm">&raquo; back to Eyeball-Design &#0124; FxZone</a></font></td>
+        </tr>
+            <tr>
+            <td bgcolor=#000000 colspan=2>
+                <font face=arial color=#FFFFFF size=2>
+                <a href="register.cgi">Register</a> | <a href="profile.cgi">Profile</a> | <a href="loginout.cgi">Log-in</a> | <a href="profile.cgi?action=lostpassword">Lost Password</a> | <a href="whosonline.cgi">Active Users</a> | <a href="javascript:openScript('help.cgi',500,400)">Help</a> | <a href="search.cgi">Search</a>
+                </font>
+            </td>
+            </tr>
+        </table>
+        </td>
+    </tr>
+</table>
+<p>
+<table width="750" align="center" cellspacing="0" cellpadding="1"  border="0" bgcolor=#000000>
+  <tr>
+    <td>
+      <table width="100%" cellspacing="0" cellpadding="4" border="0">
+        <tr>
+        <td bgcolor=#000000 valign="middle">
+            <font face=arial color=#FFFFFF size=1>
+            &raquo; Welcome Guest: <a href="loginout.cgi">log in</a> | <a href="register.cgi">Register</a> 
+            </font>
+            </td>
+            </tr>
+        </table>
+        </td>
+    </tr>
+</table>
+<p>
+
+            
+            <table cellpadding=0 cellspacing=0 border=0 width=750 align=center>
+                <tr>
+                    <td width=30% rowspan=2>
+                    <a href="forums.cgi?forum=2"><img src="http://www.eyeball-design.com/ikonboard/images/logo.gif
+" border=0></a>
+                    </td>
+                    <td valign=top align=left>
+                        <font face=arial color=#FFC956 size=2>
+                        &nbsp;&nbsp;<img src="http://www.eyeball-design.com/ikonboard/images/closedfold.gif" border=0><a href="ikonboard.cgi">&nbsp;&nbsp;FxZone Forum</a>
+	                    <br>
+                        &nbsp;&nbsp;<img src="http://www.eyeball-design.com/ikonboard/images/bar.gif" border=0><img src="http://www.eyeball-design.com/ikonboard/images/closedfold.gif" border=0>&nbsp;&nbsp;<a href="forums.cgi?forum=2">Photoshop Tutorials &amp; Tips </a>
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.eyeball-design.com/ikonboard/images/bar.gif" border=0><img src="http://www.eyeball-design.com/ikonboard/images/openfold.gif" border=0>&nbsp;&nbsp;Replying to post in
+                    </td>
+                    
+                </tr>
+            </table>
+            
+            <p>
+            
+        <table cellpadding=0 cellspacing=0 border=0 width=750 bgcolor=#222222 align=center>
+            <tr><td>
+                <table cellpadding=4 cellspacing=1 border=0 width=100%>
+                <tr>
+                    <td bgcolor=#263C83 colspan=2><font face="arial" color=#FFFFFF size=1>Topic: Live Photoshop Tutorials on IRC</td>
+                </tr>
+                <tr><form action="post.cgi" method=post>
+                    <input type=hidden name="action" value="addreply">
+                    <input type=hidden name="forum" value="2">
+                    <input type=hidden name="topic" value="44">
+                </tr><tr>
+                    <td bgcolor=#263C83 valign=middle><font face="arial" color=#FFC956 size=1><b>Username</b></font></td>
+                    <td bgcolor=#263C83 valign=middle><input type=text size=20 name="membername" value="Guest"><font face="arial" color=#FFC956 size=1> &nbsp; <a href="register.cgi">Are you registered?</a></font></td>
+                </tr><tr>
+                    <td bgcolor=#263C83 valign=middle><font face="arial" color=#FFC956 size=1><b>Password</b></font></td>
+                    <td bgcolor=#263C83 valign=middle><input type=password size=20 name="password" value=""><font face="arial" color=#FFC956 size=1> &nbsp; <a href="profile.cgi?action=lostpass">Forgotten your password?</a></font></td>
+                </tr><tr>
+                    <td bgcolor=#263C83 valign=top><font face="arial" color=#FFC956 size=1><b>Post</b><p>
+                    HTML is <b>on</b> for this forum<p>IkonCode is <b>on</b> for this forum<p></font></td>
+                    <td bgcolor=#263C83 valign=middle><textarea cols=60 rows=6 wrap="soft" name="inpost">[quote]Quote: from tekno on 2:54 pm on Nov. 1, 2001[br]friday or saturday is all good......i live in australia so i hope its a good time here=)
+[/quote]</textarea></td>
+                </tr><tr>
+                    <td bgcolor=#263C83 valign=top><font face="arial" color=#FFC956 size=1><b>Post Options</b></font></td>
+                    <td bgcolor=#263C83 valign=middle><font face="arial" color=#FFC956 size=1><input type=checkbox name="inshowsignature" value="yes" checked>Do you wish to add your signature?<br>
+                    <input type=checkbox name="notify" value="yes">Do you want email notification of replies?<br>
+                    
+                    <b>Do you wish to preview before posting?</b><input name="previewfirst" type="radio" value="yes"> Yes &nbsp; <input name="previewfirst" type="radio" value="no" checked> No</font>
+                    </font></td>
+                </tr><tr>
+                    <td bgcolor=#263C83 valign=middle colspan=2 align=center>
+                    <input type=Submit value=Submit name=Submit" onClick="return clckcntr();"> &nbsp; <input type="reset" name="Clear"></form>
+                    </td></tr></table></tr></td></table>
+                    
+        <p>
+        <table cellpadding=0 cellspacing=0 border=0 width=750 bgcolor=#222222 align=center>
+        <tr><td>
+        <table cellpadding=8 cellspacing=1 border=0 width=100%>
+        <tr>
+        <td bgcolor=#263C83 colspan=2><font face="arial" color=#FFFFFF size=2><b>Thread Review for Live Photoshop Tutorials on IRC (newest post first)</b></td>
+        
+        <tr>
+            <td bgcolor="#263C83" rowspan=2 valign="top" width=20%><font face="arial" color=#FFC956 size=2>
+            <b>Virtual Ry</b></font></td>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2><b>Posted on 9:19 am on Nov. 13, 2001</b></td>
+        </tr>
+        <tr>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2>I will start with interface tutorials and will work on different tutorials as we go along. The first session will be a dry run and will determine if I will do more of them in the future. </td>
+        </tr>
+        <tr>
+            <td colspan=2 bgcolor="#263C83">&nbsp;</td>
+        </tr>
+        
+        <tr>
+            <td bgcolor="#263C83" rowspan=2 valign="top" width=20%><font face="arial" color=#FFC956 size=2>
+            <b>sImOLf</b></font></td>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2><b>Posted on 11:27 pm on Nov. 12, 2001</b></td>
+        </tr>
+        <tr>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2>I'm also new to this community. Like many others already posted, Friday or Saturday evening i think is a good time (GMT +01:00 in my case). Do you plan to do PS Tuts on IRC more often?
+</td>
+        </tr>
+        <tr>
+            <td colspan=2 bgcolor="#263C83">&nbsp;</td>
+        </tr>
+        
+        <tr>
+            <td bgcolor="#263C83" rowspan=2 valign="top" width=20%><font face="arial" color=#FFC956 size=2>
+            <b>SirShankAlot</b></font></td>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2><b>Posted on 1:59 pm on Nov. 12, 2001</b></td>
+        </tr>
+        <tr>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2>Well...I'm new to the whole Eyeball Design community but I'm hoping to get more involved.  As for an IRC time, I think Friday orr Saturday evening PST.
+</td>
+        </tr>
+        <tr>
+            <td colspan=2 bgcolor="#263C83">&nbsp;</td>
+        </tr>
+        
+        <tr>
+            <td bgcolor="#263C83" rowspan=2 valign="top" width=20%><font face="arial" color=#FFC956 size=2>
+            <b>RhoX</b></font></td>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2><b>Posted on 2:06 am on Nov. 12, 2001</b></td>
+        </tr>
+        <tr>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2>I think Saturday is great. I have the IRC program so it doesent matter what you decide about having it on the page or not. I live in Sweden and my time is -1:00 GMT.  <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Good Luck with the tutorials! <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Love your site!
+</td>
+        </tr>
+        <tr>
+            <td colspan=2 bgcolor="#263C83">&nbsp;</td>
+        </tr>
+        
+        <tr>
+            <td bgcolor="#263C83" rowspan=2 valign="top" width=20%><font face="arial" color=#FFC956 size=2>
+            <b>doctor2k</b></font></td>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2><b>Posted on 6:08 pm on Nov. 11, 2001</b></td>
+        </tr>
+        <tr>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2>well i`m gonna go for saturday ... at 9am my time .. i`m +2:00 GMT ..  <br>there is already a irc chat script .. check it @ jpilot.com
+</td>
+        </tr>
+        <tr>
+            <td colspan=2 bgcolor="#263C83">&nbsp;</td>
+        </tr>
+        
+        <tr>
+            <td bgcolor="#263C83" rowspan=2 valign="top" width=20%><font face="arial" color=#FFC956 size=2>
+            <b>HiepNotik</b></font></td>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2><b>Posted on 5:10 pm on Nov. 11, 2001</b></td>
+        </tr>
+        <tr>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2>Good Question eyefantry. will it be RY?
+</td>
+        </tr>
+        <tr>
+            <td colspan=2 bgcolor="#263C83">&nbsp;</td>
+        </tr>
+        
+        <tr>
+            <td bgcolor="#263C83" rowspan=2 valign="top" width=20%><font face="arial" color=#FFC956 size=2>
+            <b>eyefantry</b></font></td>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2><b>Posted on 4:20 pm on Nov. 11, 2001</b></td>
+        </tr>
+        <tr>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2>Will it be just 100% interface related?
+</td>
+        </tr>
+        <tr>
+            <td colspan=2 bgcolor="#263C83">&nbsp;</td>
+        </tr>
+        
+        <tr>
+            <td bgcolor="#263C83" rowspan=2 valign="top" width=20%><font face="arial" color=#FFC956 size=2>
+            <b>HiepNotik</b></font></td>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2><b>Posted on 3:39 pm on Nov. 11, 2001</b></td>
+        </tr>
+        <tr>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2>didnt you read he said you dont have to bother getting irc he will get it to you some how.
+</td>
+        </tr>
+        <tr>
+            <td colspan=2 bgcolor="#263C83">&nbsp;</td>
+        </tr>
+        
+        <tr>
+            <td bgcolor="#263C83" rowspan=2 valign="top" width=20%><font face="arial" color=#FFC956 size=2>
+            <b>TPM Earthling</b></font></td>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2><b>Posted on 10:10 am on Nov. 11, 2001</b></td>
+        </tr>
+        <tr>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2>How about this... <br> <br>Weekends at 1:00 to how ever long you guess want to stay on, now tell us the room name, or what ever we will need to get to this live tutorial I downloaded mIRC for this.
+</td>
+        </tr>
+        <tr>
+            <td colspan=2 bgcolor="#263C83">&nbsp;</td>
+        </tr>
+        
+        <tr>
+            <td bgcolor="#263C83" rowspan=2 valign="top" width=20%><font face="arial" color=#FFC956 size=2>
+            <b>TPM Earthling</b></font></td>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2><b>Posted on 10:07 am on Nov. 11, 2001</b></td>
+        </tr>
+        <tr>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2>What room in IRC?
+</td>
+        </tr>
+        <tr>
+            <td colspan=2 bgcolor="#263C83">&nbsp;</td>
+        </tr>
+        
+        <tr>
+            <td bgcolor="#263C83" rowspan=2 valign="top" width=20%><font face="arial" color=#FFC956 size=2>
+            <b>HiepNotik</b></font></td>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2><b>Posted on 9:50 am on Nov. 11, 2001</b></td>
+        </tr>
+        <tr>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2>Thanks RY for the info I cant wait, to see all your techniques.
+</td>
+        </tr>
+        <tr>
+            <td colspan=2 bgcolor="#263C83">&nbsp;</td>
+        </tr>
+        
+        <tr>
+            <td bgcolor="#263C83" rowspan=2 valign="top" width=20%><font face="arial" color=#FFC956 size=2>
+            <b>Virtual Ry</b></font></td>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2><b>Posted on 8:32 am on Nov. 11, 2001</b></td>
+        </tr>
+        <tr>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2>The schedule will be announced shortly. We will also release a screen shot of the interface or effect that we will be featuring in the session. <br> <br>eyefantry:  <br> <br>a. It could be 1-1 1/2 hours. I will make room for people to ask questions on specific steps. I will also stay for some time after the session is over to answer more questions. <br> <br>b. You'll only need photoshop. Any version will do but I will be using six for my tutorial. 
+</td>
+        </tr>
+        <tr>
+            <td colspan=2 bgcolor="#263C83">&nbsp;</td>
+        </tr>
+        
+        <tr>
+            <td bgcolor="#263C83" rowspan=2 valign="top" width=20%><font face="arial" color=#FFC956 size=2>
+            <b>eyefantry</b></font></td>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2><b>Posted on 7:38 am on Nov. 11, 2001</b></td>
+        </tr>
+        <tr>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2>Here are a few questions before I get ahead of myself:  <br> <br>a. If this will materialized, how long will the session be? Any off the bat ideas? I was wondering about breaking the session up into two parts.  <br> <br>I.e. part 1, outline the interface. We will focus all on that on day one. Examples of students and instructors will be on display. Then part 2 next day, where textures and details can be add. Then all up for viewing. <br> <br>b. What kind of tools will we need to bring along (figurative speaking)? I only equipped with Photoshop 6. Was thinking about putting in Freehand 10 and Flash 5. <br> <br>The dates shoudl be on the weekend or something. Since I am not busy at all on those two dates, any time frame will be fine too.
+</td>
+        </tr>
+        <tr>
+            <td colspan=2 bgcolor="#263C83">&nbsp;</td>
+        </tr>
+        
+        <tr>
+            <td bgcolor="#263C83" rowspan=2 valign="top" width=20%><font face="arial" color=#FFC956 size=2>
+            <b>HiepNotik</b></font></td>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2><b>Posted on 1:13 am on Nov. 8, 2001</b></td>
+        </tr>
+        <tr>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2>Yeah I think you should post this topic in a way that everyone can view it, I would hate for anyone to miss this tut out. yup Sunday would be great I am always home on Sundays.
+</td>
+        </tr>
+        <tr>
+            <td colspan=2 bgcolor="#263C83">&nbsp;</td>
+        </tr>
+        
+        <tr>
+            <td bgcolor="#263C83" rowspan=2 valign="top" width=20%><font face="arial" color=#FFC956 size=2>
+            <b>Que Onda</b></font></td>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2><b>Posted on 10:47 am on Nov. 7, 2001</b></td>
+        </tr>
+        <tr>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2>umm...90%? &nbsp;anyways the weekend sounds great, a sunday evening would be cool, most people are free then
+</td>
+        </tr>
+        <tr>
+            <td colspan=2 bgcolor="#263C83">&nbsp;</td>
+        </tr>
+        
+        <tr>
+            <td bgcolor="#263C83" rowspan=2 valign="top" width=20%><font face="arial" color=#FFC956 size=2>
+            <b>cherylanne</b></font></td>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2><b>Posted on 10:35 am on Nov. 7, 2001</b></td>
+        </tr>
+        <tr>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2>Count me in :-) <br>the problem is however, that I think most are not seeing this who come to this site. I just came across this by accident, perhaps a notice that this is going on - on the first part of the forum area would be good, and even on your front page.... I'd say 90% of viewers here have not seen this post, I almost missed it. <br> <br>Cheryl-Anne
+</td>
+        </tr>
+        <tr>
+            <td colspan=2 bgcolor="#263C83">&nbsp;</td>
+        </tr>
+        
+        <tr>
+            <td bgcolor="#263C83" rowspan=2 valign="top" width=20%><font face="arial" color=#FFC956 size=2>
+            <b>Mister Si</b></font></td>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2><b>Posted on 4:43 am on Nov. 6, 2001</b></td>
+        </tr>
+        <tr>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2>also - jIRC is a lovely plug in you could use on eyeball
+</td>
+        </tr>
+        <tr>
+            <td colspan=2 bgcolor="#263C83">&nbsp;</td>
+        </tr>
+        
+        <tr>
+            <td bgcolor="#263C83" rowspan=2 valign="top" width=20%><font face="arial" color=#FFC956 size=2>
+            <b>Mister Si</b></font></td>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2><b>Posted on 4:41 am on Nov. 6, 2001</b></td>
+        </tr>
+        <tr>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2>personally i would love to be in on this tutorial, and i am free most of the time. &nbsp;ummm... the best times for me are as follows: <br> <br>Weekdays: after 4pm Est <br>Sundays: around 6pm Est <br> <br>in my opinion the best time would be sunday, ensuring that most people dont have work or classes to go to. &nbsp;but thats just my opinion :D
+</td>
+        </tr>
+        <tr>
+            <td colspan=2 bgcolor="#263C83">&nbsp;</td>
+        </tr>
+        
+        <tr>
+            <td bgcolor="#263C83" rowspan=2 valign="top" width=20%><font face="arial" color=#FFC956 size=2>
+            <b>Virtual Ry</b></font></td>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2><b>Posted on 12:53 am on Nov. 3, 2001</b></td>
+        </tr>
+        <tr>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2>We'll try to plugin a java irc client you guys dont have to bother getting an IRC chat client to be able to login and join the live session. <br> <br>
+</td>
+        </tr>
+        <tr>
+            <td colspan=2 bgcolor="#263C83">&nbsp;</td>
+        </tr>
+        
+        <tr>
+            <td bgcolor="#263C83" rowspan=2 valign="top" width=20%><font face="arial" color=#FFC956 size=2>
+            <b>mfboggs</b></font></td>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2><b>Posted on 11:21 pm on Nov. 2, 2001</b></td>
+        </tr>
+        <tr>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2>I'm interested in viewing the tutorials, but I don't know to much about IRC. &nbsp;If there was another way to go, and still see the tutorials I'm all for it. <br> <br>Thnx.
+</td>
+        </tr>
+        <tr>
+            <td colspan=2 bgcolor="#263C83">&nbsp;</td>
+        </tr>
+        </table></td></tr></table>
+
+
+        <p>
+        <table width=80% align=center cellpadding=3 cellspacing=0>
+        <tr><td align=center valign=middle>
+        <font face=verdana color=#FFC956 size=1>
+        &copy; 1998-2001 Ryan Lacdao.  &#0124; <a href="http://www.eyeball-design.com/cgi-bin/ikonboard/privacy.cgi">Our Privacy Statement</a><br><br>
+        Powered by <a href="http://www.ikonboard.com">Ikonboard 2.1.9 Beta</a><br>&copy; 2001 Ikonboard.com
+        </font></td></tr></table>
+        <p>
+        
+
+
+
+<p>
+</body>
+</html>
+    
+
+   
+   
+   
+   
+   
+   
+   

@@ -1,0 +1,373 @@
+<html>
+  <head>
+    
+    <title>FxZone Forum &gt;  &gt; Photoshop Tutorials &amp; Tips </title>
+
+
+<!--Javascript-->
+
+<script type="text/javascript">
+
+function openScript(url, width, height) {
+        var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=yes,status=yes' );
+}
+
+</script>
+
+<script type="text/javascript">
+
+clckcnt = 0;
+function clckcntr() {
+clckcnt++;
+if(clckcnt > 1) {
+    if(clckcnt > 2) { return false; }
+    alert('Processing...\n\n' + '     Thank you for your patience.');
+    return false;}
+return true;}
+
+</script>
+
+
+
+
+
+
+
+
+
+<!--end Java-->
+   
+   
+   
+   
+   
+   
+   
+   
+
+
+<!--css info(editable)-->
+
+<style type="text/css">
+SELECT, option, textarea, input {   FONT-FAMILY:verdana,arial;color:#000000; FONT-SIZE: 12px; background-color:#eeeeee  }
+a:link,a:visited,a:active {text-decoration:none; color:#FFC956; font-weight:plain;}
+b { font-family: Arial; color: #FFC956}
+</style>
+
+<!--end css info-->
+
+</head>
+
+<body background="http://www.eyeball-design.com/fxzone/images/top_bg.gif" bgcolor=#000000 text="#ABABAB" link="#FFFFFF" vlink="#FFFFFF" alink="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width=771 border=0 cellpadding=0 cellspacing=0 align="center">
+  <tr> 
+    <td rowspan=3><img src="http://www.eyeball-design.com/fxzone/images/hdr01.gif" width=77 height=97></td>
+    <td rowspan=3><img src="http://www.eyeball-design.com/fxzone/images/hdr02.gif" width="13" height="27"><br>
+      <img src="http://www.eyeball-design.com/fxzone/images/hdr_e.gif" width="13" height="54"><br>
+      <img src="http://www.eyeball-design.com/fxzone/images/hdr03.gif" width="13" height="16"></td>
+    <td rowspan=3><img src="http://www.eyeball-design.com/fxzone/images/hdr04.gif" width=45 height=97></td>
+    <td colspan=2><img src="http://www.eyeball-design.com/fxzone/images/hdr05.gif" width=536 height=8></td>
+    <td rowspan=3 valign="top"><img src="http://www.eyeball-design.com/fxzone/images/hdr08.gif" width=100 height=50></td>
+  </tr>
+  <tr> 
+    <td><img src="http://www.eyeball-design.com/fxzone/images/hdr06.gif" width=380 height=20></td>
+    <td rowspan=2 valign="top"> <img src="http://www.eyeball-design.com/fxzone/images/hdr_forums.gif" width=156 height=33></td>
+  </tr>
+  <tr> 
+    <td><img src="http://www.eyeball-design.com/fxzone/images/hdr07.gif" width=380 height=69></td>
+  </tr>
+</table>
+
+<p>
+
+
+
+
+<table width="750" align="center" cellspacing="1" cellpadding="0"  border="0" bgcolor=#000000>
+  <tr>
+    <td bgcolor=#000000>
+      <table width="100%" cellspacing="0" cellpadding="4" border="0">
+        <tr>
+        <td bgcolor=#000000><font face=arial color=#FFC956 size=4><b>FxZone Forum</font></b><br><font face=arial color=#FFC956 size=2></font></td>
+        <td bgcolor=#000000 align=right valign=bottom><font face=arial color=#FFC956 size=1><a href="http://www.eyeball-design.com/fxzone/news.htm">&raquo; back to Eyeball-Design &#0124; FxZone</a></font></td>
+        </tr>
+            <tr>
+            <td bgcolor=#000000 colspan=2>
+                <font face=arial color=#FFFFFF size=2>
+                <a href="register.cgi">Register</a> | <a href="profile.cgi">Profile</a> | <a href="loginout.cgi">Log-in</a> | <a href="profile.cgi?action=lostpassword">Lost Password</a> | <a href="whosonline.cgi">Active Users</a> | <a href="javascript:openScript('help.cgi',500,400)">Help</a> | <a href="search.cgi">Search</a>
+                </font>
+            </td>
+            </tr>
+        </table>
+        </td>
+    </tr>
+</table>
+<p>
+<table width="750" align="center" cellspacing="0" cellpadding="1"  border="0" bgcolor=#000000>
+  <tr>
+    <td>
+      <table width="100%" cellspacing="0" cellpadding="4" border="0">
+        <tr>
+        <td bgcolor=#000000 valign="middle">
+            <font face=arial color=#FFFFFF size=1>
+            &raquo; Welcome Guest: <a href="loginout.cgi">log in</a> | <a href="register.cgi">Register</a> 
+            </font>
+            </td>
+            </tr>
+        </table>
+        </td>
+    </tr>
+</table>
+<p>
+
+        <table cellpadding=0 cellspacing=0 border=0 width=750 align=center>
+                <tr>
+                    <td width=30% rowspan=2><a href="forums.cgi?forum=2"><img src="http://www.eyeball-design.com/ikonboard/images/logo.gif
+" border=0></a>
+                       </td>
+                       <td align=left valign=top><font face="arial" color=#FFC956 size=2>
+                            <font face="arial" color=#FFC956 size=2>
+	                        &nbsp;&nbsp;<img src="http://www.eyeball-design.com/ikonboard/images/closedfold.gif" border=0><a href="ikonboard.cgi">&nbsp;&nbsp;FxZone Forum</a>
+	                        <br>
+                            &nbsp;&nbsp;<img src="http://www.eyeball-design.com/ikonboard/images/bar.gif" border=0><img src="http://www.eyeball-design.com/ikonboard/images/openfold.gif" border=0>&nbsp;&nbsp;Photoshop Tutorials &amp; Tips 
+                       </td>
+                </tr>
+            
+    <tr>
+        <td valign=bottom align=right>
+        <font face=arial color=#FFFFFF size=1>
+        <a href="forums.cgi?forum=2&action=resetposts">Mark all forum posts as read</a> &nbsp; <a href="javascript:openScript('help.cgi?helpon=Post_Markers',500,400)">[ help ]</a><br>&raquo;  Welcome to Photoshop Tutorials &amp; Tips  &laquo; 
+        </font>
+        </td>
+    </tr>
+    
+        </tr>
+        </table>
+        <br>
+        
+            <table cellpadding=0 cellspacing=1 border=0 width=750 bgcolor=#222222 align=center>
+            <tr>
+                <td>
+            <table cellpadding=6 cellspacing=0 border=0 width=100%>
+                <tr>
+                  <td valign=middle align=left width="100%" bgcolor="#000000" nowrap><font face="arial" color=#FFFFFF size=1><b>Multiple pages for this forum</b> [ see below ]</td>
+                  <td valign=middle align=right bgcolor="#000000" nowrap><font face="arial" color=#FFC956 size=1>
+                   <b>Forum moderated by:</b> <a href="profile.cgi?action=show&member=TheDPQ">TheDPQ</a>, <a href="profile.cgi?action=show&member=Raptor">Raptor</a>, <a href="profile.cgi?action=show&member=Allgood1">Allgood1</a>, <a href="profile.cgi?action=show&member=vogonpoet">vogonpoet</a>
+                    </td>
+                </tr>
+           </table>
+           </tr>
+          </td>
+         </table>
+        <br>
+        
+                <table cellpadding=0 cellspacing=0 border=0 width=750 bgcolor=#222222 align=center>
+                <tr>
+                 <td>
+                  <table cellpadding=3 cellspacing=1 border=0 width=100%>
+                <tr>
+                   <td bgcolor=#263C83 width=50% colspan=2><font face="arial" color=#FFFFFF size=1><b><a href="post.cgi?action=new&forum=2"><img src="http://www.eyeball-design.com/ikonboard/images/newthread.gif" border="0"></a></b></td>
+                    <td bgcolor=#263C83 align=left width=25%><font face="arial" color=#FFFFFF size=1><b>Topic Info</b></td>
+                   <td bgcolor=#263C83 width=25%><font face="arial" color=#FFFFFF size=1><b>Last Post</b></td>
+                </tr>
+                
+                                <tr>
+                                <td bgcolor=#333333 width=5% align=center><font face="arial" color=#EEEEEE size=2><img src="http://www.eyeball-design.com/ikonboard/images/topichotnonew.gif" border="0"></td>
+                                <td bgcolor=#333333 width=40%><font face="arial" color=#EEEEEE size=2><b><a href="topic.cgi?forum=2&topic=187">Splitting...</a></b> <br><font size=1></font></td>
+                                <td bgcolor=#333333 align=left valign=middle><font face="arial" color=#EEEEEE size=1><b>3</b> replies, viewed <b>67</b> times
+                                <br>Started by: <a href="profile.cgi?action=show&member=Lumpy_Milk"><b>Lumpy Milk</b></a></td>
+                                <td bgcolor=#484848><font face="arial" color=#EEEEEE size=2><font size="1" face="arial" color="#FFC956">Dec. 3, 2001 - <font size="1" face="arial" color="#FFC956">6:20am<br>by: <b><a href="profile.cgi?action=show&member=Lumpy_Milk">Lumpy Milk</a></b></td>
+                                </tr>
+                                
+                                <tr>
+                                <td bgcolor=#333333 width=5% align=center><font face="arial" color=#EEEEEE size=2><img src="http://www.eyeball-design.com/ikonboard/images/topichotnonew.gif" border="0"></td>
+                                <td bgcolor=#333333 width=40%><font face="arial" color=#EEEEEE size=2><b><a href="topic.cgi?forum=2&topic=183">Making an eye?</a></b> <br><font size=1>&nbsp;&nbsp;&raquo;How can I make an eye?</font></td>
+                                <td bgcolor=#333333 align=left valign=middle><font face="arial" color=#EEEEEE size=1><b>4</b> replies, viewed <b>118</b> times
+                                <br>Started by: <a href="profile.cgi?action=show&member=DarkJester"><b>DarkJester</b></a></td>
+                                <td bgcolor=#484848><font face="arial" color=#EEEEEE size=2><font size="1" face="arial" color="#FFC956">Dec. 3, 2001 - <font size="1" face="arial" color="#FFC956">1:03am<br>by: <b><a href="profile.cgi?action=show&member=DarkJester">DarkJester</a></b></td>
+                                </tr>
+                                
+                                <tr>
+                                <td bgcolor=#333333 width=5% align=center><font face="arial" color=#EEEEEE size=2><img src="http://www.eyeball-design.com/ikonboard/images/topichotnonew.gif" border="0"></td>
+                                <td bgcolor=#333333 width=40%><font face="arial" color=#EEEEEE size=2><b><a href="topic.cgi?forum=2&topic=144">Odd Shaped Pipes</a></b> <br><font size=1>&nbsp;&nbsp;&raquo;How would you make 'em?</font></td>
+                                <td bgcolor=#333333 align=left valign=middle><font face="arial" color=#EEEEEE size=1><b>17</b> replies, viewed <b>295</b> times
+                                <br>Started by: <a href="profile.cgi?action=show&member=Illusions"><b>Illusions</b></a></td>
+                                <td bgcolor=#484848><font face="arial" color=#EEEEEE size=2><font size="1" face="arial" color="#FFC956">Dec. 1, 2001 - <font size="1" face="arial" color="#FFC956">1:28pm<br>by: <b><a href="profile.cgi?action=show&member=Kojaru">Kojaru</a></b></td>
+                                </tr>
+                                
+                                <tr>
+                                <td bgcolor=#333333 width=5% align=center><font face="arial" color=#EEEEEE size=2><img src="http://www.eyeball-design.com/ikonboard/images/topichotnonew.gif" border="0"></td>
+                                <td bgcolor=#333333 width=40%><font face="arial" color=#EEEEEE size=2><b><a href="topic.cgi?forum=2&topic=178">Help IM kinda new.</a></b> <br><font size=1></font></td>
+                                <td bgcolor=#333333 align=left valign=middle><font face="arial" color=#EEEEEE size=1><b>8</b> replies, viewed <b>102</b> times
+                                <br>Started by: <a href="profile.cgi?action=show&member=Zodiac"><b>Zodiac</b></a></td>
+                                <td bgcolor=#484848><font face="arial" color=#EEEEEE size=2><font size="1" face="arial" color="#FFC956">Dec. 1, 2001 - <font size="1" face="arial" color="#FFC956">10:15am<br>by: <b><a href="profile.cgi?action=show&member=Raptor">Raptor</a></b></td>
+                                </tr>
+                                
+                                <tr>
+                                <td bgcolor=#333333 width=5% align=center><font face="arial" color=#EEEEEE size=2><img src="http://www.eyeball-design.com/ikonboard/images/topichotnonew.gif" border="0"></td>
+                                <td bgcolor=#333333 width=40%><font face="arial" color=#EEEEEE size=2><b><a href="topic.cgi?forum=2&topic=174">Masking, Anyone got any good tutorials?</a></b> <br><font size=1>&nbsp;&nbsp;&raquo;Masking a person's hair is rather difficult.</font></td>
+                                <td bgcolor=#333333 align=left valign=middle><font face="arial" color=#EEEEEE size=1><b>14</b> replies, viewed <b>168</b> times
+                                <br>Started by: <a href="profile.cgi?action=show&member=Nightshade"><b>Nightshade</b></a></td>
+                                <td bgcolor=#484848><font face="arial" color=#EEEEEE size=2><font size="1" face="arial" color="#FFC956">Dec. 1, 2001 - <font size="1" face="arial" color="#FFC956">9:14am<br>by: <b><a href="profile.cgi?action=show&member=Nightshade">Nightshade</a></b></td>
+                                </tr>
+                                
+                                <tr>
+                                <td bgcolor=#333333 width=5% align=center><font face="arial" color=#EEEEEE size=2><img src="http://www.eyeball-design.com/ikonboard/images/topichotnonew.gif" border="0"></td>
+                                <td bgcolor=#333333 width=40%><font face="arial" color=#EEEEEE size=2><b><a href="topic.cgi?forum=2&topic=172">Metallic Border......</a></b> <br><font size=1>&nbsp;&nbsp;&raquo;need a tutorial plz :)</font></td>
+                                <td bgcolor=#333333 align=left valign=middle><font face="arial" color=#EEEEEE size=1><b>1</b> replies, viewed <b>115</b> times
+                                <br>Started by: <a href="profile.cgi?action=show&member=AdvancedMasta"><b>AdvancedMasta</b></a></td>
+                                <td bgcolor=#484848><font face="arial" color=#EEEEEE size=2><font size="1" face="arial" color="#FFC956">Dec. 1, 2001 - <font size="1" face="arial" color="#FFC956">8:05am<br>by: <b><a href="profile.cgi?action=show&member=b4bygirl">b4bygirl</a></b></td>
+                                </tr>
+                                
+                                <tr>
+                                <td bgcolor=#333333 width=5% align=center><font face="arial" color=#EEEEEE size=2><img src="http://www.eyeball-design.com/ikonboard/images/topichotnonew.gif" border="0"></td>
+                                <td bgcolor=#333333 width=40%><font face="arial" color=#EEEEEE size=2><b><a href="topic.cgi?forum=2&topic=176">New? Effect</a></b> <br><font size=1>&nbsp;&nbsp;&raquo;found a kind of cool effect the other day...</font></td>
+                                <td bgcolor=#333333 align=left valign=middle><font face="arial" color=#EEEEEE size=1><b>4</b> replies, viewed <b>146</b> times
+                                <br>Started by: <a href="profile.cgi?action=show&member=ctwigley"><b>ctwigley</b></a></td>
+                                <td bgcolor=#484848><font face="arial" color=#EEEEEE size=2><font size="1" face="arial" color="#FFC956">Dec. 1, 2001 - <font size="1" face="arial" color="#FFC956">7:11am<br>by: <b><a href="profile.cgi?action=show&member=ctwigley">ctwigley</a></b></td>
+                                </tr>
+                                
+                                <tr>
+                                <td bgcolor=#333333 width=5% align=center><font face="arial" color=#EEEEEE size=2><img src="http://www.eyeball-design.com/ikonboard/images/topichotnonew.gif" border="0"></td>
+                                <td bgcolor=#333333 width=40%><font face="arial" color=#EEEEEE size=2><b><a href="topic.cgi?forum=2&topic=173">Complex shapes </a></b> <br><font size=1></font></td>
+                                <td bgcolor=#333333 align=left valign=middle><font face="arial" color=#EEEEEE size=1><b>2</b> replies, viewed <b>84</b> times
+                                <br>Started by: <a href="profile.cgi?action=show&member=Lykke"><b>Lykke</b></a></td>
+                                <td bgcolor=#484848><font face="arial" color=#EEEEEE size=2><font size="1" face="arial" color="#FFC956">Dec. 1, 2001 - <font size="1" face="arial" color="#FFC956">3:28am<br>by: <b><a href="profile.cgi?action=show&member=Lykke">Lykke</a></b></td>
+                                </tr>
+                                
+                                <tr>
+                                <td bgcolor=#333333 width=5% align=center><font face="arial" color=#EEEEEE size=2><img src="http://www.eyeball-design.com/ikonboard/images/topichotnonew.gif" border="0"></td>
+                                <td bgcolor=#333333 width=40%><font face="arial" color=#EEEEEE size=2><b><a href="topic.cgi?forum=2&topic=171">Photo to 3D</a></b> <font face="arial" color=#EEEEEE size=1> &nbsp;[ Pages&nbsp;<a href="topic.cgi?forum=2&topic=171&start=0"> 1 </a><a href="topic.cgi?forum=2&topic=171&start=20"> 2 </a> ]<br><font size=1>&nbsp;&nbsp;&raquo;How to make photos look as if made in 3d?</font></td>
+                                <td bgcolor=#333333 align=left valign=middle><font face="arial" color=#EEEEEE size=1><b>24</b> replies, viewed <b>303</b> times
+                                <br>Started by: <a href="profile.cgi?action=show&member=Casper"><b>Casper</b></a></td>
+                                <td bgcolor=#484848><font face="arial" color=#EEEEEE size=2><font size="1" face="arial" color="#FFC956">Dec. 1, 2001 - <font size="1" face="arial" color="#FFC956">3:16am<br>by: <b><a href="profile.cgi?action=show&member=Casper">Casper</a></b></td>
+                                </tr>
+                                
+                                <tr>
+                                <td bgcolor=#333333 width=5% align=center><font face="arial" color=#EEEEEE size=2><img src="http://www.eyeball-design.com/ikonboard/images/topichotnonew.gif" border="0"></td>
+                                <td bgcolor=#333333 width=40%><font face="arial" color=#EEEEEE size=2><b><a href="topic.cgi?forum=2&topic=177">How in Gods Name can I.....</a></b> <br><font size=1>&nbsp;&nbsp;&raquo;I hope you guys can figure this one out</font></td>
+                                <td bgcolor=#333333 align=left valign=middle><font face="arial" color=#EEEEEE size=1><b>0</b> replies, viewed <b>82</b> times
+                                <br>Started by: <a href="profile.cgi?action=show&member=Raggit"><b>Raggit</b></a></td>
+                                <td bgcolor=#484848><font face="arial" color=#EEEEEE size=2><font size="1" face="arial" color="#FFC956">Dec. 1, 2001 - <font size="1" face="arial" color="#FFC956">2:06am<br>by: <b><a href="profile.cgi?action=show&member=Raggit">Raggit</a></b></td>
+                                </tr>
+                                
+                                <tr>
+                                <td bgcolor=#333333 width=5% align=center><font face="arial" color=#EEEEEE size=2><img src="http://www.eyeball-design.com/ikonboard/images/topichotnonew.gif" border="0"></td>
+                                <td bgcolor=#333333 width=40%><font face="arial" color=#EEEEEE size=2><b><a href="topic.cgi?forum=2&topic=163">Probably a very simple answer but...</a></b> <br><font size=1>&nbsp;&nbsp;&raquo;jpg ? gif ? bmp ? png ?</font></td>
+                                <td bgcolor=#333333 align=left valign=middle><font face="arial" color=#EEEEEE size=1><b>6</b> replies, viewed <b>115</b> times
+                                <br>Started by: <a href="profile.cgi?action=show&member=SDBX"><b>SDBX</b></a></td>
+                                <td bgcolor=#484848><font face="arial" color=#EEEEEE size=2><font size="1" face="arial" color="#FFC956">Nov. 30, 2001 - <font size="1" face="arial" color="#FFC956">1:32pm<br>by: <b><a href="profile.cgi?action=show&member=ReMiXx">ReMiXx</a></b></td>
+                                </tr>
+                                
+                                <tr>
+                                <td bgcolor=#333333 width=5% align=center><font face="arial" color=#EEEEEE size=2><img src="http://www.eyeball-design.com/ikonboard/images/topichotnonew.gif" border="0"></td>
+                                <td bgcolor=#333333 width=40%><font face="arial" color=#EEEEEE size=2><b><a href="topic.cgi?forum=2&topic=170">How do you do this?</a></b> <br><font size=1></font></td>
+                                <td bgcolor=#333333 align=left valign=middle><font face="arial" color=#EEEEEE size=1><b>7</b> replies, viewed <b>174</b> times
+                                <br>Started by: <a href="profile.cgi?action=show&member=Tyrus"><b>Tyrus</b></a></td>
+                                <td bgcolor=#484848><font face="arial" color=#EEEEEE size=2><font size="1" face="arial" color="#FFC956">Nov. 30, 2001 - <font size="1" face="arial" color="#FFC956">11:13am<br>by: <b><a href="profile.cgi?action=show&member=Tyrus">Tyrus</a></b></td>
+                                </tr>
+                                
+                                <tr>
+                                <td bgcolor=#333333 width=5% align=center><font face="arial" color=#EEEEEE size=2><img src="http://www.eyeball-design.com/ikonboard/images/topichotnonew.gif" border="0"></td>
+                                <td bgcolor=#333333 width=40%><font face="arial" color=#EEEEEE size=2><b><a href="topic.cgi?forum=2&topic=149">Smoke Effect</a></b> <br><font size=1>&nbsp;&nbsp;&raquo;need help..blah</font></td>
+                                <td bgcolor=#333333 align=left valign=middle><font face="arial" color=#EEEEEE size=1><b>12</b> replies, viewed <b>334</b> times
+                                <br>Started by: <a href="profile.cgi?action=show&member=kronik"><b>kronik</b></a></td>
+                                <td bgcolor=#484848><font face="arial" color=#EEEEEE size=2><font size="1" face="arial" color="#FFC956">Nov. 30, 2001 - <font size="1" face="arial" color="#FFC956">10:38am<br>by: <b><a href="profile.cgi?action=show&member=FleZ">FleZ</a></b></td>
+                                </tr>
+                                
+                                <tr>
+                                <td bgcolor=#333333 width=5% align=center><font face="arial" color=#EEEEEE size=2><img src="http://www.eyeball-design.com/ikonboard/images/topichotnonew.gif" border="0"></td>
+                                <td bgcolor=#333333 width=40%><font face="arial" color=#EEEEEE size=2><b><a href="topic.cgi?forum=2&topic=165">book effect</a></b> <br><font size=1>&nbsp;&nbsp;&raquo;i'm looking for a tut to create a book effect</font></td>
+                                <td bgcolor=#333333 align=left valign=middle><font face="arial" color=#EEEEEE size=1><b>7</b> replies, viewed <b>159</b> times
+                                <br>Started by: <a href="profile.cgi?action=show&member=b4bygirl"><b>b4bygirl</b></a></td>
+                                <td bgcolor=#484848><font face="arial" color=#EEEEEE size=2><font size="1" face="arial" color="#FFC956">Nov. 30, 2001 - <font size="1" face="arial" color="#FFC956">9:45am<br>by: <b><a href="profile.cgi?action=show&member=b4bygirl">b4bygirl</a></b></td>
+                                </tr>
+                                
+                                <tr>
+                                <td bgcolor=#333333 width=5% align=center><font face="arial" color=#EEEEEE size=2><img src="http://www.eyeball-design.com/ikonboard/images/topichotnonew.gif" border="0"></td>
+                                <td bgcolor=#333333 width=40%><font face="arial" color=#EEEEEE size=2><b><a href="topic.cgi?forum=2&topic=169">Pen tool (paths)</a></b> <br><font size=1></font></td>
+                                <td bgcolor=#333333 align=left valign=middle><font face="arial" color=#EEEEEE size=1><b>3</b> replies, viewed <b>106</b> times
+                                <br>Started by: <a href="profile.cgi?action=show&member=skinzz"><b>skinzz</b></a></td>
+                                <td bgcolor=#484848><font face="arial" color=#EEEEEE size=2><font size="1" face="arial" color="#FFC956">Nov. 30, 2001 - <font size="1" face="arial" color="#FFC956">12:38am<br>by: <b><a href="profile.cgi?action=show&member=Stroker">Stroker</a></b></td>
+                                </tr>
+                                
+        <tr>
+        <td bgcolor=#263C83 colspan=4><font face="arial" color=#FFFFFF size=1><b><a href="post.cgi?action=new&forum=2"><img src="http://www.eyeball-design.com/ikonboard/images/newthread.gif" border="0"></a></b></td>
+        </tr></table></td>
+        </tr></table>
+        <table align=center width=750 bgcolor=#000000><tr>
+        <td align=left><font face="arial" color=#FFFFFF size=1><b>Multiple pages for this forum</b> [ <a href="forums.cgi?forum=2&show=0"><font face="arial" color=#FFC956 size=1><b>1</b></font></a> <a href="forums.cgi?forum=2&show=15"><font face="arial" color=#FFC956 size=1><b>2</b></font></a> <a href="forums.cgi?forum=2&show=30"><font face="arial" color=#FFC956 size=1><b>3</b></font></a> <a href="forums.cgi?forum=2&show=45"><font face="arial" color=#FFC956 size=1><b>4</b></font></a> <a href="forums.cgi?forum=2&show=60"><font face="arial" color=#FFC956 size=1><b>5</b></font></a> <a href="forums.cgi?forum=2&show=75"><font face="arial" color=#FFFFFF size=1>6</font></a> <a href="forums.cgi?forum=2&show=90"><font face="arial" color=#FFC956 size=1><b>7</b></font></a> <a href="forums.cgi?forum=2&show=105"><font face="arial" color=#FFC956 size=1><b>8</b></font></a> <a href="forums.cgi?forum=2&show=120"><font face="arial" color=#FFC956 size=1><b>9</b></font></a> <a href="forums.cgi?forum=2&show=135"><font face="arial" color=#FFC956 size=1><b>10</b></font></a> <a href="forums.cgi?forum=2&show=150"><font face="arial" color=#FFC956 size=1><b>11</b></font></a> <a href="forums.cgi?forum=2&show=165"><font face="arial" color=#FFC956 size=1><b>12</b></font></a> <a href="forums.cgi?forum=2&show=180"><font face="arial" color=#FFC956 size=1><b>13</b></font></a> <a href="forums.cgi?forum=2&show=195"><font face="arial" color=#FFC956 size=1><b>14</b></font></a> <a href="forums.cgi?forum=2&show=210"><font face="arial" color=#FFC956 size=1><b>15</b></font></a>  ]</td><td align=right>
+<SCRIPT LANGUAGE="JavaScript">
+<!-- 
+function menu(){
+var URL = document.jump.jumpto.options[document.jump.jumpto.selectedIndex].value;
+top.location.href = URL; target = '_self';
+}
+// -->
+</SCRIPT>
+<form action="http://www.eyeball-design.com/cgi-bin/ikonboard/forums.cgi" method="post" name="jump">
+<select name="jumpto" onchange="menu()">
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/ikonboard.cgi">Forum Jump
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/ikonboard.cgi">
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/ikonboard.cgi">-- &nbsp; 
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/forums.cgi?forum=1" target="_self"> 2001 Web Interface Design Contest
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/forums.cgi?forum=7" target="_self"> General Discussions
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/ikonboard.cgi">
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/ikonboard.cgi">-- &nbsp; 
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/forums.cgi?forum=11" target="_self"> Flash Tutorials and Tips
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/forums.cgi?forum=12" target="_self"> Flash Works
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/forums.cgi?forum=9" target="_self"> Photoshop Artwork
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/forums.cgi?forum=2" target="_self"> Photoshop Tutorials &amp; Tips 
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/ikonboard.cgi">
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/ikonboard.cgi">-- &nbsp; 
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/forums.cgi?forum=3" target="_self"> Interface Depot
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/ikonboard.cgi">
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/ikonboard.cgi">-- &nbsp; 
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/forums.cgi?forum=8" target="_self"> Cool Site of the day
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/forums.cgi?forum=4" target="_self"> Site Critique
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/forums.cgi?forum=6" target="_self"> Web design / HTML
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/ikonboard.cgi">
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/ikonboard.cgi">-- &nbsp; 
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/forums.cgi?forum=5" target="_self"> Administrator
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/forums.cgi?forum=10" target="_self"> Moderators Lounge
+</select></form>
+</td></tr></table>
+        
+	 
+        <table align=center width=750>
+        <tr>
+        <td align=left><img src="http://www.eyeball-design.com/ikonboard/images/topiclocked.gif" border="0"></td>
+        <td align=left><font face="arial" color=#FFC956 size=1>Locked topic, no new replies accepted</font></td>
+        </tr>
+        <tr>
+        <td align=left><img src="http://www.eyeball-design.com/ikonboard/images/topicnonew.gif" border="0"></td>
+        <td align=left><font face="arial" color=#FFC956 size=1>Open topic</font></td>
+        </tr>
+        </table><p><p>
+
+
+        <p>
+        <table width=80% align=center cellpadding=3 cellspacing=0>
+        <tr><td align=center valign=middle>
+        <font face=verdana color=#FFC956 size=1>
+        &copy; 1998-2001 Ryan Lacdao.  &#0124; <a href="http://www.eyeball-design.com/cgi-bin/ikonboard/privacy.cgi">Our Privacy Statement</a><br><br>
+        Powered by <a href="http://www.ikonboard.com">Ikonboard 2.1.9 Beta</a><br>&copy; 2001 Ikonboard.com
+        </font></td></tr></table>
+        <p>
+        
+
+
+
+<p>
+</body>
+</html>
+    
+
+   
+   
+   
+   
+   
+   
+   
+   

@@ -1,0 +1,226 @@
+<HTML><head> <TITLE>Virtual Ry's Homepage</TITLE> 
+
+<!-- 	
+Turnover Script : modified version 
+Designed for multidynamic image swapping 
+© 1997 Virtual Ry 	-->
+
+
+<SCRIPT LANGUAGE = "JavaScript">
+<!-- hide
+
+	browserName = navigator.appName;
+	browserVer = parseInt(navigator.appVersion);
+        if (browserName == "Netscape" && browserVer >= 3) version = "n3";
+        else version = "n2";
+        if (version == "n3") {
+	
+        swapR_1 = new Image(); swapR_1.src = "b_swap1.gif";
+        swapR_1out = new Image(); swapR_1out.src = "p4b.gif";
+        swapK_1 = new Image(); swapK_1.src = "b_swap2.gif";
+        swapK_1out = new Image(); swapK_1out.src = "p5b.gif";
+        swapB_1 = new Image(); swapB_1.src = "b_swap3.gif";
+        swapB_1out = new Image(); swapB_1out.src = "p2b.gif";
+
+        swapR_2 = new Image(); swapR_2.src = "r_swap3.gif";
+        swapR_2out = new Image(); swapR_2out.src = "p4b.gif";
+        swapW_2 = new Image(); swapW_2.src = "r_swap1.gif";
+        swapW_2out = new Image(); swapW_2out.src = "p1c.gif";
+        swapB_2 = new Image(); swapB_2.src = "r_swap2.gif";
+        swapB_2out = new Image(); swapB_2out.src = "p2b.gif";
+
+        swapK_3 = new Image(); swapK_3.src = "k_swap3.gif";
+        swapK_3out = new Image(); swapK_3out.src = "p5b.gif";
+        swapO_3 = new Image(); swapO_3.src = "k_swap2.gif";
+        swapO_3out = new Image(); swapO_3out.src = "p3b.gif";
+        swapB_3 = new Image(); swapB_3.src = "k_swap1.gif";
+        swapB_3out = new Image(); swapB_3out.src = "p2b.gif";
+
+        swapW_4 = new Image(); swapW_4.src = "w_swap3.gif";
+        swapW_4out = new Image(); swapW_4out.src = "p1c.gif";
+        swapO2_4 = new Image(); swapO2_4.src = "w_swap1.gif";
+        swapO2_4out = new Image(); swapO2_4out.src = "p4c.gif";
+        swapK2_4 = new Image(); swapK2_4.src = "w_swap2.gif";
+        swapK2_4out = new Image(); swapK2_4out.src = "p5d.gif";
+
+
+	}
+
+function turn_on(imgName,sequence) {
+        if (version == "n3") {	
+		if (sequence == 'a') {
+        	imgOn = eval(imgName + "_1.src");
+	        document [imgName].src = imgOn;
+		}
+		if (sequence == 'b') {
+        	imgOn = eval(imgName + "_2.src");
+	        document [imgName].src = imgOn;
+		}
+		if (sequence == 'c') {
+        	imgOn = eval(imgName + "_3.src");
+	        document [imgName].src = imgOn;
+		}
+		if (sequence == 'd') {
+        	imgOn = eval(imgName + "_4.src");
+	        document [imgName].src = imgOn;
+		}
+
+
+        }}
+
+function turn_off(imgName,sequence) {
+        if (version == "n3") {
+		if (sequence == 'a') {
+        	imgOff = eval(imgName+ "_1out.src");
+	        document [imgName].src = imgOff;
+		}
+		if (sequence == 'b') {
+        	imgOff = eval(imgName+ "_2out.src");
+	        document [imgName].src = imgOff;
+		}
+		if (sequence == 'c') {
+        	imgOff = eval(imgName+ "_3out.src");
+	        document [imgName].src = imgOff;
+		}
+		if (sequence == 'd') {
+        	imgOff = eval(imgName+ "_4out.src");
+	        document [imgName].src = imgOff;
+		}
+
+
+
+        }} // -->
+
+
+</SCRIPT>
+</HEAD>
+
+
+<!--	Virtual Ry's Homepage © 1997 Virtual Ry 
+	All images are copyrighted to Virtual Ry
+	None may be used without permission.
+
+ -->
+</head>
+
+<BODY text=E5E5E4 link=FFB86A vlink=FFB86A bgcolor=#E7D59C background=back.gif onLoad="window.defaultStatus='The WorkBook © 1997 Virtual Ry'">
+
+<center><br><br>
+
+<table border=0 cellpadding=0 cellspacing=0><tr>
+
+<td>	<table border=0 cellpadding=0 cellspacing=0>
+	<tr><td>
+	
+		<table border=0 cellpadding=0 cellspacing=0>
+
+		<tr><td> <img src=p1a.gif border=0><br> </td></tr> 
+		<tr><td>
+		
+		<table border=0 cellpadding=0 cellspacing=0><tr>
+		<td><img src=p1b.gif border=0><br> </td>
+		<td>
+
+		<a href=gallery.html
+		onMouseOver="turn_on('swapW','d'); turn_on('swapO2','d');turn_on('swapK2','d');
+		window.status='Learn how I make my designs'; return true;"
+		onMouseout="turn_off('swapW','d');turn_off('swapO2','d');turn_off('swapK2','d');">
+		<img name=swapW src=p1c.gif border=0><br> 
+		</a>
+
+
+		</td>
+		</tr></table>
+		
+		</td></tr></table> 
+	</td></tr>
+	<tr><td>
+		
+		<table border=0 cellpadding=0 cellspacing=0><tr>
+		<td><img src=p2a.gif border=0><br> </td>
+		<td>
+
+		<a href=gallery.html
+		onMouseOver="turn_on('swapB','a'); turn_on('swapR','a');turn_on('swapK','a');
+		window.status='Visit my gallery'; return true;"
+		onMouseout="turn_off('swapB','a');turn_off('swapR','a');turn_off('swapK','a');">
+		<img name=swapB src=p2b.gif border=0><br> 
+		</a>   
+
+		</a>
+		<img src=p2c.gif border=0><br> </td>
+		</tr></table>
+		
+	</td></tr></table>
+
+</td>
+
+<td> 
+	<table border=0 cellpadding=0 cellspacing=0>
+	<tr><td><img src=p3a.gif border=0><br> </td></tr>
+	<tr><td><img name=swapO src=p3b.gif border=0><br> </td></tr>
+	<tr><td><img src=p3c.gif border=0><br> </td></tr>
+	</table>
+</td>
+<td> 
+
+	<table border=0 cellpadding=0 cellspacing=0>
+	<tr><td><img src=p4a.gif border=0><br> </td></tr>
+	<tr><td>
+
+		<a href=me.html
+		onMouseOver="turn_on('swapB','b'); turn_on('swapW','b');turn_on('swapR','b');
+		window.status='Who is Virtual Ry'; return true;"
+		onMouseout="turn_off('swapB','b');turn_off('swapW','b');turn_off('swapR','b');">
+	
+		<img name=swapR src=p4b.gif border=0><br> 
+		</a>
+	
+	</td></tr>
+	<tr><td><img name=swapO2 src=p4c.gif border=0><br>	</td></tr>
+	<tr><td><img src=p4d.gif border=0><br> </td></tr>
+	</table>
+
+
+
+
+</td>
+<td>	
+
+	<table border=0 cellpadding=0 cellspacing=0>
+	<tr><td> <img src=p5a.gif border=0><br> </td></tr>
+	<tr><td>
+		<table border=0 cellpadding=0 cellspacing=0><tr>
+		<td>
+
+		<a href=links
+		onMouseOver="turn_on('swapB','c'); turn_on('swapO','c');turn_on('swapK','c');
+		window.status='Check out my Favorite sites on the web'; return true;"
+		onMouseout="turn_off('swapB','c');turn_off('swapO','c');turn_off('swapK','c');">
+
+		<img name=swapK src=p5b.gif border=0><br> 
+
+		</a></td>
+	
+		<td><img src=p5c.gif border=0><br> </td>
+		</tr></table>
+	</td></tr>
+	<tr><td>
+
+	<table border=0 cellpadding=0 cellspacing=0><tr>
+	<td><img name=swapK2 src=p5d.gif border=0><br> </td>
+	<td><img src=p5e.gif border=0><br> </td>
+	</tr></table>
+	
+	<img src=p5f.gif border=0><br>
+	
+	</td></tr></table>		
+
+	</td>
+
+</tr></table>
+
+
+
+
+</center></BODY></HTML>

@@ -1,0 +1,871 @@
+<html>
+  <head>
+    
+    <title>FxZone Forum - Psychobabble</title>
+
+
+<!--Javascript-->
+
+<script type="text/javascript">
+
+function openScript(url, width, height) {
+        var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=yes,status=yes' );
+}
+
+</script>
+
+<script type="text/javascript">
+
+clckcnt = 0;
+function clckcntr() {
+clckcnt++;
+if(clckcnt > 1) {
+    if(clckcnt > 2) { return false; }
+    alert('Processing...\n\n' + '     Thank you for your patience.');
+    return false;}
+return true;}
+
+</script>
+
+
+
+
+
+
+
+
+
+<!--end Java-->
+   
+   
+   
+   
+   
+   
+   
+   
+
+
+<!--css info(editable)-->
+
+<style type="text/css">
+SELECT, option, textarea, input {   FONT-FAMILY:verdana,arial;color:#000000; FONT-SIZE: 12px; background-color:#eeeeee  }
+a:link,a:visited,a:active {text-decoration:none; color:#FFC956; font-weight:plain;}
+b { font-family: Arial; color: #FFC956}
+</style>
+
+<!--end css info-->
+
+</head>
+
+<body background="http://www.eyeball-design.com/fxzone/images/top_bg.gif" bgcolor=#000000 text="#ABABAB" link="#FFFFFF" vlink="#FFFFFF" alink="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width=771 border=0 cellpadding=0 cellspacing=0 align="center">
+  <tr> 
+    <td rowspan=3><img src="http://www.eyeball-design.com/fxzone/images/hdr01.gif" width=77 height=97></td>
+    <td rowspan=3><img src="http://www.eyeball-design.com/fxzone/images/hdr02.gif" width="13" height="27"><br>
+      <img src="http://www.eyeball-design.com/fxzone/images/hdr_e.gif" width="13" height="54"><br>
+      <img src="http://www.eyeball-design.com/fxzone/images/hdr03.gif" width="13" height="16"></td>
+    <td rowspan=3><img src="http://www.eyeball-design.com/fxzone/images/hdr04.gif" width=45 height=97></td>
+    <td colspan=2><img src="http://www.eyeball-design.com/fxzone/images/hdr05.gif" width=536 height=8></td>
+    <td rowspan=3 valign="top"><img src="http://www.eyeball-design.com/fxzone/images/hdr08.gif" width=100 height=50></td>
+  </tr>
+  <tr> 
+    <td><img src="http://www.eyeball-design.com/fxzone/images/hdr06.gif" width=380 height=20></td>
+    <td rowspan=2 valign="top"> <img src="http://www.eyeball-design.com/fxzone/images/hdr_forums.gif" width=156 height=33></td>
+  </tr>
+  <tr> 
+    <td><img src="http://www.eyeball-design.com/fxzone/images/hdr07.gif" width=380 height=69></td>
+  </tr>
+</table>
+
+<p>
+
+
+
+
+<table width="750" align="center" cellspacing="1" cellpadding="0"  border="0" bgcolor=#000000>
+  <tr>
+    <td bgcolor=#000000>
+      <table width="100%" cellspacing="0" cellpadding="4" border="0">
+        <tr>
+        <td bgcolor=#000000><font face=arial color=#FFC956 size=4><b>FxZone Forum</font></b><br><font face=arial color=#FFC956 size=2></font></td>
+        <td bgcolor=#000000 align=right valign=bottom><font face=arial color=#FFC956 size=1><a href="http://www.eyeball-design.com/fxzone/news.htm">&raquo; back to Eyeball-Design &#0124; FxZone</a></font></td>
+        </tr>
+            <tr>
+            <td bgcolor=#000000 colspan=2>
+                <font face=arial color=#FFFFFF size=2>
+                <a href="register.cgi">Register</a> | <a href="profile.cgi">Profile</a> | <a href="loginout.cgi">Log-in</a> | <a href="profile.cgi?action=lostpassword">Lost Password</a> | <a href="whosonline.cgi">Active Users</a> | <a href="javascript:openScript('help.cgi',500,400)">Help</a> | <a href="search.cgi">Search</a>
+                </font>
+            </td>
+            </tr>
+        </table>
+        </td>
+    </tr>
+</table>
+<p>
+<table width="750" align="center" cellspacing="0" cellpadding="1"  border="0" bgcolor=#000000>
+  <tr>
+    <td>
+      <table width="100%" cellspacing="0" cellpadding="4" border="0">
+        <tr>
+        <td bgcolor=#000000 valign="middle">
+            <font face=arial color=#FFFFFF size=1>
+            &raquo; Welcome Guest: <a href="loginout.cgi">log in</a> | <a href="register.cgi">Register</a> 
+            </font>
+            </td>
+            </tr>
+        </table>
+        </td>
+    </tr>
+</table>
+<p>
+
+        <!-- Cgi-bot Start top of topic page -->
+        <table cellpadding=0 cellspacing=0 border=0 width=750 align=center>
+            <tr><td width=30% rowspan=2><a href="forums.cgi?forum=7"><img src="http://www.eyeball-design.com/ikonboard/images/logo.gif
+" border=0></a></td>
+                    <td valign=middle align=top><font face="arial" color=#FFC956 size=2>
+                        <font face="arial" color=#FFC956 size=2>
+	                    &nbsp;&nbsp;<img src="http://www.eyeball-design.com/ikonboard/images/closedfold.gif" border=0><a href="ikonboard.cgi">&nbsp;&nbsp;FxZone Forum</a>
+	                    <br>
+                        &nbsp;&nbsp;<img src="http://www.eyeball-design.com/ikonboard/images/bar.gif" border=0><img src="http://www.eyeball-design.com/ikonboard/images/closedfold.gif" border=0>&nbsp;&nbsp;<a href="forums.cgi?forum=7">General Discussions</a>
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.eyeball-design.com/ikonboard/images/bar.gif" border=0><img src="http://www.eyeball-design.com/ikonboard/images/openfold.gif" border=0>&nbsp;&nbsp;Psychobabble
+                    </td>
+                
+    <tr>
+        <td valign=bottom align=right>
+        <font face=arial color=#FFFFFF size=1>
+        <a href="forums.cgi?forum=7&action=resetposts">Mark all forum posts as read</a> &nbsp; <a href="javascript:openScript('help.cgi?helpon=Post_Markers',500,400)">[ help ]</a><br>&raquo;  Welcome to General Discussions &laquo; 
+        </font>
+        </td>
+    </tr>
+    
+                </tr>
+        </table>
+        <br>
+        <table cellpadding=0 cellspacing=0 border=0 width=750 bgcolor=#222222 align=center>
+            <tr><td>
+        <table cellpadding=3 cellspacing=1 border=0 width=100%>
+            <tr bgcolor="#000000"><td valign=middle align=center nowrap width=10%><font face="arial" color=#FFC956 size=1>
+                Topic Jump<br><a href="topic.cgi?forum=7&topic=168"><< Back </a><a href="topic.cgi?forum=7&topic=176"> Next >></a></td><td width=100%><font face="arial" color=#FFFFFF size=1><b>Multiple pages for this topic</b> [ <a href="topic.cgi?forum=7&topic=17&start=0"><font face="arial" color=#FFC956 size=1><b>1</b></font></a> <a href="topic.cgi?forum=7&topic=17&start=20"><font face="arial" color=#FFC956 size=1><b>2</b></font></a> <a href="topic.cgi?forum=7&topic=17&start=40"><font face="arial" color=#FFC956 size=1><b>3</b></font></a> <a href="topic.cgi?forum=7&topic=17&start=60"><font face="arial" color=#FFC956 size=1><b>4</b></font></a> <a href="topic.cgi?forum=7&topic=17&start=80"><font face="arial" color=#FFC956 size=1><b>5</b></font></a> <a href="topic.cgi?forum=7&topic=17&start=100"><font face="arial" color=#FFC956 size=1><b>6</b></font></a> <a href="topic.cgi?forum=7&topic=17&start=120"><font face="arial" color=#FFFFFF size=1>7</font></a> <a href="topic.cgi?forum=7&topic=17&start=140"><font face="arial" color=#FFC956 size=1><b>8</b></font></a> <a href="topic.cgi?forum=7&topic=17&start=160"><font face="arial" color=#FFC956 size=1><b>9</b></font></a> <a href="topic.cgi?forum=7&topic=17&start=180"><font face="arial" color=#FFC956 size=1><b>10</b></font></a> <a href="topic.cgi?forum=7&topic=17&start=200"><font face="arial" color=#FFC956 size=1><b>11</b></font></a>  ]<br><font face="arial" color=#FFC956 size=1><b>Forum moderated by:</b> <a href="profile.cgi?action=show&member=TheDPQ">TheDPQ</a>, <a href="profile.cgi?action=show&member=Raptor">Raptor</a>, <a href="profile.cgi?action=show&member=vogonpoet">vogonpoet</a>, <a href="profile.cgi?action=show&member=Allgood1">Allgood1</a>, <a href="profile.cgi?action=show&member=Adiemus">Adiemus</a>
+                </td>
+                <td align=right valign=bottom bgcolor=#000000 nowrap><a href="ikonfriend.cgi?forum=7&topic=17"><img src="http://www.eyeball-design.com/ikonboard/images/emailtofriend.gif" border=0></a>&nbsp;<a href="printpage.cgi?forum=7&topic=17"><img src="http://www.eyeball-design.com/ikonboard/images/printpage.gif" border=0></a>
+                </td>
+                </tr>
+            </table>
+        </td></tr></table>
+        <p>
+        <table cellpadding=0 cellspacing=0 border=0 width=750 bgcolor=#222222 align=center>
+            <tr><td>
+                <table cellpadding=3 cellspacing=1 border=0 width=100%>
+                <tr>
+                <td bgcolor=#263C83 colspan=2 align="left" valign="middle"><a href="post.cgi?action=new&forum=7"><img src="http://www.eyeball-design.com/ikonboard/images/newthread.gif" border="0"></a> &nbsp; <a href="post.cgi?action=reply&forum=7&topic=17"><img src="http://www.eyeball-design.com/ikonboard/images/replytothread.gif" border="0"></a></td>
+            </tr>
+         <!-- Cgi-bot End top of topic page -->
+         
+    <!--Begin Msg Number 0-->
+		<tr>
+			<td bgcolor="#444444">
+			<table width=100% cellpadding=4 cellspacing=0 bgcolor="#444444">
+			<tr>
+        		<td bgcolor="#444444" valign="top" width=20%  rowspan=2>
+            		<font face="arial" color="#FFC956" size="2">
+            		<b>TheDPQ <img src="http://www.eyeball-design.com/ikonboard/images/team.gif" border=0></b></font>
+            		<br>
+            		<br><img src="http://www.eyeball-design.com/ikonboard/images/pips4.gif" border="0">
+                    <br><font face="arial" color=#FFFFFFF size=1>Moderator</font>
+        		</td>
+        		<td bgcolor="#444444" valign=top width=80% height=100%>
+            		<a href="postings.cgi?action=edit&forum=7&topic=17&postno=121"><img src="http://www.eyeball-design.com/ikonboard/images/edit.gif" border=0></a> &nbsp; <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> <a href="profile.cgi?action=show&member=TheDPQ"><img src="http://www.eyeball-design.com/ikonboard/images/profile.gif" border=0></a> <a href="http://www.thedpq.com" target="_blank"><img src="http://www.eyeball-design.com/ikonboard/images/homepage.gif" border=0></a> <a href="mailto:thedpq@eyeball-design.com"><img src="http://www.eyeball-design.com/ikonboard/images/email.gif" border=0></a> <a href="javascript:openScript('messenger.cgi?action=new&touser=TheDPQ',600,400)"><img src="http://www.eyeball-design.com/ikonboard/images/message.gif" border=0></a> <a href="javascript:openScript('misc.cgi?action=aim&aimname=TheDPQ',450,200)"><img src="http://www.eyeball-design.com/ikonboard/images/aol.gif" border=0></a> <a href="javascript:openScript('misc.cgi?action=icq&UIN=2156743',450,300)"><img src="http://wwp.icq.com/scripts/online.dll?icq=2156743&img=5" border=0><img src="http://www.eyeball-design.com/ikonboard/images/icq.gif" border=0></a> <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> &nbsp; <a href="post.cgi?action=replyquote&forum=7&topic=17&postno=121"><img src="http://www.eyeball-design.com/ikonboard/images/reply.gif" border=0></a>
+    			    <hr size=1 width=100% color=#222222>
+            		<font face="arial" color=#FFFFFFF size=2>
+           			1 case of purecane Dublic DP- $18.50  <br>Shipping:$14.95 <br>The look on peoples face when you tell them you just paid 33.45 for Dr Pepper- Priceless
+<br><br>-----<br>We're all here because we're not all there
+				</td>
+			</tr>
+			<tr>
+				<td class="bottomline" bgcolor="#444444">
+					<hr size=1 width=100% color=#222222>
+                    <font face="arial" color=#FFFFFFF size=1>Total Posts: <b>760</b> | Joined <b>Oct. 2001</b> | Posted on: <b>10:07 am on Oct. 31, 2001</b> | <a href="viewip.cgi?forum=7&topic=17&postno=121">IP</a></font>
+    		    </td>
+             </tr>
+			</table>
+			</td>
+		</tr>
+    <!-- end Message -->
+    
+    <!--Begin Msg Number 1-->
+		<tr>
+			<td bgcolor="#333333">
+			<table width=100% cellpadding=4 cellspacing=0 bgcolor="#333333">
+			<tr>
+        		<td bgcolor="#333333" valign="top" width=20%  rowspan=2>
+            		<font face="arial" color="#FFC956" size="2">
+            		<b>Raptor <img src="http://www.eyeball-design.com/ikonboard/images/team.gif" border=0></b></font>
+            		<br>
+            		<br><img src="http://www.eyeball-design.com/ikonboard/images/pips4.gif" border="0">
+                    <br><font face="arial" color=#EEEEEE size=1>Moderator</font>
+        		</td>
+        		<td bgcolor="#333333" valign=top width=80% height=100%>
+            		<a href="postings.cgi?action=edit&forum=7&topic=17&postno=122"><img src="http://www.eyeball-design.com/ikonboard/images/edit.gif" border=0></a> &nbsp; <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> <a href="profile.cgi?action=show&member=Raptor"><img src="http://www.eyeball-design.com/ikonboard/images/profile.gif" border=0></a> <a href="http://www.umich.edu/~jvhollan" target="_blank"><img src="http://www.eyeball-design.com/ikonboard/images/homepage.gif" border=0></a> <a href="mailto:raptor@eyeball-design.com"><img src="http://www.eyeball-design.com/ikonboard/images/email.gif" border=0></a> <a href="javascript:openScript('messenger.cgi?action=new&touser=Raptor',600,400)"><img src="http://www.eyeball-design.com/ikonboard/images/message.gif" border=0></a> <a href="javascript:openScript('misc.cgi?action=aim&aimname=Rapt0r2k1',450,200)"><img src="http://www.eyeball-design.com/ikonboard/images/aol.gif" border=0></a> <a href="javascript:openScript('misc.cgi?action=icq&UIN=92169212',450,300)"><img src="http://wwp.icq.com/scripts/online.dll?icq=92169212&img=5" border=0><img src="http://www.eyeball-design.com/ikonboard/images/icq.gif" border=0></a> <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> &nbsp; <a href="post.cgi?action=replyquote&forum=7&topic=17&postno=122"><img src="http://www.eyeball-design.com/ikonboard/images/reply.gif" border=0></a>
+    			    <hr size=1 width=100% color=#222222>
+            		<font face="arial" color=#EEEEEE size=2>
+           			Yeah, but it's in glass bottles, and the sugar is pretty pure. So it's probably worth it :)
+<br><br>-----<br>Of course you're entitled to your own opinion.<br><b>Who said I have to agree with it?</b>
+				</td>
+			</tr>
+			<tr>
+				<td class="bottomline" bgcolor="#333333">
+					<hr size=1 width=100% color=#222222>
+                    <font face="arial" color=#EEEEEE size=1>Total Posts: <b>1328</b> | Joined <b>Oct. 2001</b> | Posted on: <b>11:38 am on Oct. 31, 2001</b> | <a href="viewip.cgi?forum=7&topic=17&postno=122">IP</a></font>
+    		    </td>
+             </tr>
+			</table>
+			</td>
+		</tr>
+    <!-- end Message -->
+    
+    <!--Begin Msg Number 2-->
+		<tr>
+			<td bgcolor="#444444">
+			<table width=100% cellpadding=4 cellspacing=0 bgcolor="#444444">
+			<tr>
+        		<td bgcolor="#444444" valign="top" width=20%  rowspan=2>
+            		<font face="arial" color="#FFC956" size="2">
+            		<b>TheDPQ <img src="http://www.eyeball-design.com/ikonboard/images/team.gif" border=0></b></font>
+            		<br>
+            		<br><img src="http://www.eyeball-design.com/ikonboard/images/pips4.gif" border="0">
+                    <br><font face="arial" color=#FFFFFFF size=1>Moderator</font>
+        		</td>
+        		<td bgcolor="#444444" valign=top width=80% height=100%>
+            		<a href="postings.cgi?action=edit&forum=7&topic=17&postno=123"><img src="http://www.eyeball-design.com/ikonboard/images/edit.gif" border=0></a> &nbsp; <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> <a href="profile.cgi?action=show&member=TheDPQ"><img src="http://www.eyeball-design.com/ikonboard/images/profile.gif" border=0></a> <a href="http://www.thedpq.com" target="_blank"><img src="http://www.eyeball-design.com/ikonboard/images/homepage.gif" border=0></a> <a href="mailto:thedpq@eyeball-design.com"><img src="http://www.eyeball-design.com/ikonboard/images/email.gif" border=0></a> <a href="javascript:openScript('messenger.cgi?action=new&touser=TheDPQ',600,400)"><img src="http://www.eyeball-design.com/ikonboard/images/message.gif" border=0></a> <a href="javascript:openScript('misc.cgi?action=aim&aimname=TheDPQ',450,200)"><img src="http://www.eyeball-design.com/ikonboard/images/aol.gif" border=0></a> <a href="javascript:openScript('misc.cgi?action=icq&UIN=2156743',450,300)"><img src="http://wwp.icq.com/scripts/online.dll?icq=2156743&img=5" border=0><img src="http://www.eyeball-design.com/ikonboard/images/icq.gif" border=0></a> <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> &nbsp; <a href="post.cgi?action=replyquote&forum=7&topic=17&postno=123"><img src="http://www.eyeball-design.com/ikonboard/images/reply.gif" border=0></a>
+    			    <hr size=1 width=100% color=#222222>
+            		<font face="arial" color=#FFFFFFF size=2>
+           			Yah, most soda uses beat sugar, so purecane sugar really makes a difference. So does the glass bottles. <br> <br>It IS worth it. I've ordered it before
+<br><br>-----<br>We're all here because we're not all there
+				</td>
+			</tr>
+			<tr>
+				<td class="bottomline" bgcolor="#444444">
+					<hr size=1 width=100% color=#222222>
+                    <font face="arial" color=#FFFFFFF size=1>Total Posts: <b>760</b> | Joined <b>Oct. 2001</b> | Posted on: <b>12:19 pm on Oct. 31, 2001</b> | <a href="viewip.cgi?forum=7&topic=17&postno=123">IP</a></font>
+    		    </td>
+             </tr>
+			</table>
+			</td>
+		</tr>
+    <!-- end Message -->
+    
+    <!--Begin Msg Number 3-->
+		<tr>
+			<td bgcolor="#333333">
+			<table width=100% cellpadding=4 cellspacing=0 bgcolor="#333333">
+			<tr>
+        		<td bgcolor="#333333" valign="top" width=20%  rowspan=2>
+            		<font face="arial" color="#FFC956" size="2">
+            		<b>Raptor <img src="http://www.eyeball-design.com/ikonboard/images/team.gif" border=0></b></font>
+            		<br>
+            		<br><img src="http://www.eyeball-design.com/ikonboard/images/pips4.gif" border="0">
+                    <br><font face="arial" color=#EEEEEE size=1>Moderator</font>
+        		</td>
+        		<td bgcolor="#333333" valign=top width=80% height=100%>
+            		<a href="postings.cgi?action=edit&forum=7&topic=17&postno=124"><img src="http://www.eyeball-design.com/ikonboard/images/edit.gif" border=0></a> &nbsp; <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> <a href="profile.cgi?action=show&member=Raptor"><img src="http://www.eyeball-design.com/ikonboard/images/profile.gif" border=0></a> <a href="http://www.umich.edu/~jvhollan" target="_blank"><img src="http://www.eyeball-design.com/ikonboard/images/homepage.gif" border=0></a> <a href="mailto:raptor@eyeball-design.com"><img src="http://www.eyeball-design.com/ikonboard/images/email.gif" border=0></a> <a href="javascript:openScript('messenger.cgi?action=new&touser=Raptor',600,400)"><img src="http://www.eyeball-design.com/ikonboard/images/message.gif" border=0></a> <a href="javascript:openScript('misc.cgi?action=aim&aimname=Rapt0r2k1',450,200)"><img src="http://www.eyeball-design.com/ikonboard/images/aol.gif" border=0></a> <a href="javascript:openScript('misc.cgi?action=icq&UIN=92169212',450,300)"><img src="http://wwp.icq.com/scripts/online.dll?icq=92169212&img=5" border=0><img src="http://www.eyeball-design.com/ikonboard/images/icq.gif" border=0></a> <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> &nbsp; <a href="post.cgi?action=replyquote&forum=7&topic=17&postno=124"><img src="http://www.eyeball-design.com/ikonboard/images/reply.gif" border=0></a>
+    			    <hr size=1 width=100% color=#222222>
+            		<font face="arial" color=#EEEEEE size=2>
+           			I'm going to stop procrastinating......tomorrow..
+<br><br>-----<br>Of course you're entitled to your own opinion.<br><b>Who said I have to agree with it?</b>
+				</td>
+			</tr>
+			<tr>
+				<td class="bottomline" bgcolor="#333333">
+					<hr size=1 width=100% color=#222222>
+                    <font face="arial" color=#EEEEEE size=1>Total Posts: <b>1328</b> | Joined <b>Oct. 2001</b> | Posted on: <b>4:36 am on Nov. 1, 2001</b> | <a href="viewip.cgi?forum=7&topic=17&postno=124">IP</a></font>
+    		    </td>
+             </tr>
+			</table>
+			</td>
+		</tr>
+    <!-- end Message -->
+    
+    <!--Begin Msg Number 4-->
+		<tr>
+			<td bgcolor="#444444">
+			<table width=100% cellpadding=4 cellspacing=0 bgcolor="#444444">
+			<tr>
+        		<td bgcolor="#444444" valign="top" width=20%  rowspan=2>
+            		<font face="arial" color="#FFC956" size="2">
+            		<b>TPM Earthling</b></font>
+            		<br>
+            		<br><img src="http://www.eyeball-design.com/ikonboard/images/pips3.gif" border="0">
+                    <br><font face="arial" color=#FFFFFFF size=1>Member</font>
+        		</td>
+        		<td bgcolor="#444444" valign=top width=80% height=100%>
+            		<a href="postings.cgi?action=edit&forum=7&topic=17&postno=125"><img src="http://www.eyeball-design.com/ikonboard/images/edit.gif" border=0></a> &nbsp; <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> <a href="profile.cgi?action=show&member=TPM_Earthling"><img src="http://www.eyeball-design.com/ikonboard/images/profile.gif" border=0></a> <a href="http://www.thepeoplemachine.com" target="_blank"><img src="http://www.eyeball-design.com/ikonboard/images/homepage.gif" border=0></a> <a href="mailto:graves_anthony@hotmail.com"><img src="http://www.eyeball-design.com/ikonboard/images/email.gif" border=0></a> <a href="javascript:openScript('messenger.cgi?action=new&touser=TPM_Earthling',600,400)"><img src="http://www.eyeball-design.com/ikonboard/images/message.gif" border=0></a> <a href="javascript:openScript('misc.cgi?action=aim&aimname=TPMSecularSheep',450,200)"><img src="http://www.eyeball-design.com/ikonboard/images/aol.gif" border=0></a>  <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> &nbsp; <a href="post.cgi?action=replyquote&forum=7&topic=17&postno=125"><img src="http://www.eyeball-design.com/ikonboard/images/reply.gif" border=0></a>
+    			    <hr size=1 width=100% color=#222222>
+            		<font face="arial" color=#FFFFFFF size=2>
+           			Soda uses Gucose sugar, it is somewhere around 10x sweeter then regualer suger, could be more actually, the reason is because its cheaper, and you need less. &nbsp;I am a genious and know all!!!!!!
+<br><br>-----<br>[TPM] Earthling<br>I am what cannot be.
+				</td>
+			</tr>
+			<tr>
+				<td class="bottomline" bgcolor="#444444">
+					<hr size=1 width=100% color=#222222>
+                    <font face="arial" color=#FFFFFFF size=1>Total Posts: <b>163</b> | Joined <b>Oct. 2001</b> | Posted on: <b>4:43 am on Nov. 1, 2001</b> | <a href="viewip.cgi?forum=7&topic=17&postno=125">IP</a></font>
+    		    </td>
+             </tr>
+			</table>
+			</td>
+		</tr>
+    <!-- end Message -->
+    
+    <!--Begin Msg Number 5-->
+		<tr>
+			<td bgcolor="#333333">
+			<table width=100% cellpadding=4 cellspacing=0 bgcolor="#333333">
+			<tr>
+        		<td bgcolor="#333333" valign="top" width=20%  rowspan=2>
+            		<font face="arial" color="#FFC956" size="2">
+            		<b>TPM Earthling</b></font>
+            		<br>
+            		<br><img src="http://www.eyeball-design.com/ikonboard/images/pips3.gif" border="0">
+                    <br><font face="arial" color=#EEEEEE size=1>Member</font>
+        		</td>
+        		<td bgcolor="#333333" valign=top width=80% height=100%>
+            		<a href="postings.cgi?action=edit&forum=7&topic=17&postno=126"><img src="http://www.eyeball-design.com/ikonboard/images/edit.gif" border=0></a> &nbsp; <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> <a href="profile.cgi?action=show&member=TPM_Earthling"><img src="http://www.eyeball-design.com/ikonboard/images/profile.gif" border=0></a> <a href="http://www.thepeoplemachine.com" target="_blank"><img src="http://www.eyeball-design.com/ikonboard/images/homepage.gif" border=0></a> <a href="mailto:graves_anthony@hotmail.com"><img src="http://www.eyeball-design.com/ikonboard/images/email.gif" border=0></a> <a href="javascript:openScript('messenger.cgi?action=new&touser=TPM_Earthling',600,400)"><img src="http://www.eyeball-design.com/ikonboard/images/message.gif" border=0></a> <a href="javascript:openScript('misc.cgi?action=aim&aimname=TPMSecularSheep',450,200)"><img src="http://www.eyeball-design.com/ikonboard/images/aol.gif" border=0></a>  <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> &nbsp; <a href="post.cgi?action=replyquote&forum=7&topic=17&postno=126"><img src="http://www.eyeball-design.com/ikonboard/images/reply.gif" border=0></a>
+    			    <hr size=1 width=100% color=#222222>
+            		<font face="arial" color=#EEEEEE size=2>
+           			ROTF LOL @ TheDPQ priceless thing above, lol
+<br><br>-----<br>[TPM] Earthling<br>I am what cannot be.
+				</td>
+			</tr>
+			<tr>
+				<td class="bottomline" bgcolor="#333333">
+					<hr size=1 width=100% color=#222222>
+                    <font face="arial" color=#EEEEEE size=1>Total Posts: <b>163</b> | Joined <b>Oct. 2001</b> | Posted on: <b>4:44 am on Nov. 1, 2001</b> | <a href="viewip.cgi?forum=7&topic=17&postno=126">IP</a></font>
+    		    </td>
+             </tr>
+			</table>
+			</td>
+		</tr>
+    <!-- end Message -->
+    
+    <!--Begin Msg Number 6-->
+		<tr>
+			<td bgcolor="#444444">
+			<table width=100% cellpadding=4 cellspacing=0 bgcolor="#444444">
+			<tr>
+        		<td bgcolor="#444444" valign="top" width=20%  rowspan=2>
+            		<font face="arial" color="#FFC956" size="2">
+            		<b>Raptor <img src="http://www.eyeball-design.com/ikonboard/images/team.gif" border=0></b></font>
+            		<br>
+            		<br><img src="http://www.eyeball-design.com/ikonboard/images/pips4.gif" border="0">
+                    <br><font face="arial" color=#FFFFFFF size=1>Moderator</font>
+        		</td>
+        		<td bgcolor="#444444" valign=top width=80% height=100%>
+            		<a href="postings.cgi?action=edit&forum=7&topic=17&postno=127"><img src="http://www.eyeball-design.com/ikonboard/images/edit.gif" border=0></a> &nbsp; <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> <a href="profile.cgi?action=show&member=Raptor"><img src="http://www.eyeball-design.com/ikonboard/images/profile.gif" border=0></a> <a href="http://www.umich.edu/~jvhollan" target="_blank"><img src="http://www.eyeball-design.com/ikonboard/images/homepage.gif" border=0></a> <a href="mailto:raptor@eyeball-design.com"><img src="http://www.eyeball-design.com/ikonboard/images/email.gif" border=0></a> <a href="javascript:openScript('messenger.cgi?action=new&touser=Raptor',600,400)"><img src="http://www.eyeball-design.com/ikonboard/images/message.gif" border=0></a> <a href="javascript:openScript('misc.cgi?action=aim&aimname=Rapt0r2k1',450,200)"><img src="http://www.eyeball-design.com/ikonboard/images/aol.gif" border=0></a> <a href="javascript:openScript('misc.cgi?action=icq&UIN=92169212',450,300)"><img src="http://wwp.icq.com/scripts/online.dll?icq=92169212&img=5" border=0><img src="http://www.eyeball-design.com/ikonboard/images/icq.gif" border=0></a> <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> &nbsp; <a href="post.cgi?action=replyquote&forum=7&topic=17&postno=127"><img src="http://www.eyeball-design.com/ikonboard/images/reply.gif" border=0></a>
+    			    <hr size=1 width=100% color=#222222>
+            		<font face="arial" color=#FFFFFFF size=2>
+           			I just deleted about 8 topics that were nothing but garbage posts. Lets try to keep some organization here guys.
+<br><br>-----<br>Of course you're entitled to your own opinion.<br><b>Who said I have to agree with it?</b>
+				</td>
+			</tr>
+			<tr>
+				<td class="bottomline" bgcolor="#444444">
+					<hr size=1 width=100% color=#222222>
+                    <font face="arial" color=#FFFFFFF size=1>Total Posts: <b>1328</b> | Joined <b>Oct. 2001</b> | Posted on: <b>2:21 pm on Nov. 1, 2001</b> | <a href="viewip.cgi?forum=7&topic=17&postno=127">IP</a></font>
+    		    </td>
+             </tr>
+			</table>
+			</td>
+		</tr>
+    <!-- end Message -->
+    
+    <!--Begin Msg Number 7-->
+		<tr>
+			<td bgcolor="#333333">
+			<table width=100% cellpadding=4 cellspacing=0 bgcolor="#333333">
+			<tr>
+        		<td bgcolor="#333333" valign="top" width=20%  rowspan=2>
+            		<font face="arial" color="#FFC956" size="2">
+            		<b>decimator</b></font>
+            		<br>
+            		<br><img src="http://www.eyeball-design.com/ikonboard/images/pips3.gif" border="0">
+                    <br><font face="arial" color=#EEEEEE size=1>Member</font>
+        		</td>
+        		<td bgcolor="#333333" valign=top width=80% height=100%>
+            		<a href="postings.cgi?action=edit&forum=7&topic=17&postno=128"><img src="http://www.eyeball-design.com/ikonboard/images/edit.gif" border=0></a> &nbsp; <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> <a href="profile.cgi?action=show&member=decimator"><img src="http://www.eyeball-design.com/ikonboard/images/profile.gif" border=0></a> <a href="http://www.dualtype.com" target="_blank"><img src="http://www.eyeball-design.com/ikonboard/images/homepage.gif" border=0></a> <a href="mailto:decimator@mail.com"><img src="http://www.eyeball-design.com/ikonboard/images/email.gif" border=0></a> <a href="javascript:openScript('messenger.cgi?action=new&touser=decimator',600,400)"><img src="http://www.eyeball-design.com/ikonboard/images/message.gif" border=0></a>  <a href="javascript:openScript('misc.cgi?action=icq&UIN=82701366',450,300)"><img src="http://wwp.icq.com/scripts/online.dll?icq=82701366&img=5" border=0><img src="http://www.eyeball-design.com/ikonboard/images/icq.gif" border=0></a> <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> &nbsp; <a href="post.cgi?action=replyquote&forum=7&topic=17&postno=128"><img src="http://www.eyeball-design.com/ikonboard/images/reply.gif" border=0></a>
+    			    <hr size=1 width=100% color=#222222>
+            		<font face="arial" color=#EEEEEE size=2>
+           			Yeah let's keep some organization and file this under X...
+<br><br>-----<br><b>http://www.dualtype.com/superflyreality/index.html</b><br>dualtype &quot;no need for reality&quot;
+				</td>
+			</tr>
+			<tr>
+				<td class="bottomline" bgcolor="#333333">
+					<hr size=1 width=100% color=#222222>
+                    <font face="arial" color=#EEEEEE size=1>Total Posts: <b>294</b> | Joined <b>Oct. 2001</b> | Posted on: <b>4:32 pm on Nov. 1, 2001</b> | <a href="viewip.cgi?forum=7&topic=17&postno=128">IP</a></font>
+    		    </td>
+             </tr>
+			</table>
+			</td>
+		</tr>
+    <!-- end Message -->
+    
+    <!--Begin Msg Number 8-->
+		<tr>
+			<td bgcolor="#444444">
+			<table width=100% cellpadding=4 cellspacing=0 bgcolor="#444444">
+			<tr>
+        		<td bgcolor="#444444" valign="top" width=20%  rowspan=2>
+            		<font face="arial" color="#FFC956" size="2">
+            		<b>HiepNotik</b></font>
+            		<br>
+            		<br><img src="http://www.eyeball-design.com/ikonboard/images/pips4.gif" border="0">
+                    <br><font face="arial" color=#FFFFFFF size=1>Full Member</font>
+        		</td>
+        		<td bgcolor="#444444" valign=top width=80% height=100%>
+            		<a href="postings.cgi?action=edit&forum=7&topic=17&postno=129"><img src="http://www.eyeball-design.com/ikonboard/images/edit.gif" border=0></a> &nbsp; <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> <a href="profile.cgi?action=show&member=HiepNotik"><img src="http://www.eyeball-design.com/ikonboard/images/profile.gif" border=0></a>  <a href="mailto:HiepNotik@hotmail.com"><img src="http://www.eyeball-design.com/ikonboard/images/email.gif" border=0></a> <a href="javascript:openScript('messenger.cgi?action=new&touser=HiepNotik',600,400)"><img src="http://www.eyeball-design.com/ikonboard/images/message.gif" border=0></a> <a href="javascript:openScript('misc.cgi?action=aim&aimname=HiepNotik',450,200)"><img src="http://www.eyeball-design.com/ikonboard/images/aol.gif" border=0></a>  <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> &nbsp; <a href="post.cgi?action=replyquote&forum=7&topic=17&postno=129"><img src="http://www.eyeball-design.com/ikonboard/images/reply.gif" border=0></a>
+    			    <hr size=1 width=100% color=#222222>
+            		<font face="arial" color=#FFFFFFF size=2>
+           			ok What the Hell was all that about I didnt even want to read it look how long it is.
+<br><br>-----<br><b>&quot;Shut up and hit some one&quot;</b> -Fresno Bull Dog foot ball team.
+				</td>
+			</tr>
+			<tr>
+				<td class="bottomline" bgcolor="#444444">
+					<hr size=1 width=100% color=#222222>
+                    <font face="arial" color=#FFFFFFF size=1>Total Posts: <b>481</b> | Joined <b>Oct. 2001</b> | Posted on: <b>4:37 pm on Nov. 1, 2001</b> | <a href="viewip.cgi?forum=7&topic=17&postno=129">IP</a></font>
+    		    </td>
+             </tr>
+			</table>
+			</td>
+		</tr>
+    <!-- end Message -->
+    
+    <!--Begin Msg Number 9-->
+		<tr>
+			<td bgcolor="#333333">
+			<table width=100% cellpadding=4 cellspacing=0 bgcolor="#333333">
+			<tr>
+        		<td bgcolor="#333333" valign="top" width=20%  rowspan=2>
+            		<font face="arial" color="#FFC956" size="2">
+            		<b>TheDPQ <img src="http://www.eyeball-design.com/ikonboard/images/team.gif" border=0></b></font>
+            		<br>
+            		<br><img src="http://www.eyeball-design.com/ikonboard/images/pips4.gif" border="0">
+                    <br><font face="arial" color=#EEEEEE size=1>Moderator</font>
+        		</td>
+        		<td bgcolor="#333333" valign=top width=80% height=100%>
+            		<a href="postings.cgi?action=edit&forum=7&topic=17&postno=130"><img src="http://www.eyeball-design.com/ikonboard/images/edit.gif" border=0></a> &nbsp; <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> <a href="profile.cgi?action=show&member=TheDPQ"><img src="http://www.eyeball-design.com/ikonboard/images/profile.gif" border=0></a> <a href="http://www.thedpq.com" target="_blank"><img src="http://www.eyeball-design.com/ikonboard/images/homepage.gif" border=0></a> <a href="mailto:thedpq@eyeball-design.com"><img src="http://www.eyeball-design.com/ikonboard/images/email.gif" border=0></a> <a href="javascript:openScript('messenger.cgi?action=new&touser=TheDPQ',600,400)"><img src="http://www.eyeball-design.com/ikonboard/images/message.gif" border=0></a> <a href="javascript:openScript('misc.cgi?action=aim&aimname=TheDPQ',450,200)"><img src="http://www.eyeball-design.com/ikonboard/images/aol.gif" border=0></a> <a href="javascript:openScript('misc.cgi?action=icq&UIN=2156743',450,300)"><img src="http://wwp.icq.com/scripts/online.dll?icq=2156743&img=5" border=0><img src="http://www.eyeball-design.com/ikonboard/images/icq.gif" border=0></a> <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> &nbsp; <a href="post.cgi?action=replyquote&forum=7&topic=17&postno=130"><img src="http://www.eyeball-design.com/ikonboard/images/reply.gif" border=0></a>
+    			    <hr size=1 width=100% color=#222222>
+            		<font face="arial" color=#EEEEEE size=2>
+           			Its just babble it isn't about anything at all <br> <br>My DP arrives Nov 6, oh i can't wait. I love this stuff
+<br><br>-----<br>We're all here because we're not all there
+				</td>
+			</tr>
+			<tr>
+				<td class="bottomline" bgcolor="#333333">
+					<hr size=1 width=100% color=#222222>
+                    <font face="arial" color=#EEEEEE size=1>Total Posts: <b>760</b> | Joined <b>Oct. 2001</b> | Posted on: <b>12:48 am on Nov. 2, 2001</b> | <a href="viewip.cgi?forum=7&topic=17&postno=130">IP</a></font>
+    		    </td>
+             </tr>
+			</table>
+			</td>
+		</tr>
+    <!-- end Message -->
+    
+    <!--Begin Msg Number 10-->
+		<tr>
+			<td bgcolor="#444444">
+			<table width=100% cellpadding=4 cellspacing=0 bgcolor="#444444">
+			<tr>
+        		<td bgcolor="#444444" valign="top" width=20%  rowspan=2>
+            		<font face="arial" color="#FFC956" size="2">
+            		<b>Raptor <img src="http://www.eyeball-design.com/ikonboard/images/team.gif" border=0></b></font>
+            		<br>
+            		<br><img src="http://www.eyeball-design.com/ikonboard/images/pips4.gif" border="0">
+                    <br><font face="arial" color=#FFFFFFF size=1>Moderator</font>
+        		</td>
+        		<td bgcolor="#444444" valign=top width=80% height=100%>
+            		<a href="postings.cgi?action=edit&forum=7&topic=17&postno=131"><img src="http://www.eyeball-design.com/ikonboard/images/edit.gif" border=0></a> &nbsp; <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> <a href="profile.cgi?action=show&member=Raptor"><img src="http://www.eyeball-design.com/ikonboard/images/profile.gif" border=0></a> <a href="http://www.umich.edu/~jvhollan" target="_blank"><img src="http://www.eyeball-design.com/ikonboard/images/homepage.gif" border=0></a> <a href="mailto:raptor@eyeball-design.com"><img src="http://www.eyeball-design.com/ikonboard/images/email.gif" border=0></a> <a href="javascript:openScript('messenger.cgi?action=new&touser=Raptor',600,400)"><img src="http://www.eyeball-design.com/ikonboard/images/message.gif" border=0></a> <a href="javascript:openScript('misc.cgi?action=aim&aimname=Rapt0r2k1',450,200)"><img src="http://www.eyeball-design.com/ikonboard/images/aol.gif" border=0></a> <a href="javascript:openScript('misc.cgi?action=icq&UIN=92169212',450,300)"><img src="http://wwp.icq.com/scripts/online.dll?icq=92169212&img=5" border=0><img src="http://www.eyeball-design.com/ikonboard/images/icq.gif" border=0></a> <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> &nbsp; <a href="post.cgi?action=replyquote&forum=7&topic=17&postno=131"><img src="http://www.eyeball-design.com/ikonboard/images/reply.gif" border=0></a>
+    			    <hr size=1 width=100% color=#222222>
+            		<font face="arial" color=#FFFFFFF size=2>
+           			lol. &nbsp;5 more days Q :)
+<br><br>-----<br>Of course you're entitled to your own opinion.<br><b>Who said I have to agree with it?</b>
+				</td>
+			</tr>
+			<tr>
+				<td class="bottomline" bgcolor="#444444">
+					<hr size=1 width=100% color=#222222>
+                    <font face="arial" color=#FFFFFFF size=1>Total Posts: <b>1328</b> | Joined <b>Oct. 2001</b> | Posted on: <b>12:51 pm on Nov. 2, 2001</b> | <a href="viewip.cgi?forum=7&topic=17&postno=131">IP</a></font>
+    		    </td>
+             </tr>
+			</table>
+			</td>
+		</tr>
+    <!-- end Message -->
+    
+    <!--Begin Msg Number 11-->
+		<tr>
+			<td bgcolor="#333333">
+			<table width=100% cellpadding=4 cellspacing=0 bgcolor="#333333">
+			<tr>
+        		<td bgcolor="#333333" valign="top" width=20%  rowspan=2>
+            		<font face="arial" color="#FFC956" size="2">
+            		<b>TheDPQ <img src="http://www.eyeball-design.com/ikonboard/images/team.gif" border=0></b></font>
+            		<br>
+            		<br><img src="http://www.eyeball-design.com/ikonboard/images/pips4.gif" border="0">
+                    <br><font face="arial" color=#EEEEEE size=1>Moderator</font>
+        		</td>
+        		<td bgcolor="#333333" valign=top width=80% height=100%>
+            		<a href="postings.cgi?action=edit&forum=7&topic=17&postno=132"><img src="http://www.eyeball-design.com/ikonboard/images/edit.gif" border=0></a> &nbsp; <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> <a href="profile.cgi?action=show&member=TheDPQ"><img src="http://www.eyeball-design.com/ikonboard/images/profile.gif" border=0></a> <a href="http://www.thedpq.com" target="_blank"><img src="http://www.eyeball-design.com/ikonboard/images/homepage.gif" border=0></a> <a href="mailto:thedpq@eyeball-design.com"><img src="http://www.eyeball-design.com/ikonboard/images/email.gif" border=0></a> <a href="javascript:openScript('messenger.cgi?action=new&touser=TheDPQ',600,400)"><img src="http://www.eyeball-design.com/ikonboard/images/message.gif" border=0></a> <a href="javascript:openScript('misc.cgi?action=aim&aimname=TheDPQ',450,200)"><img src="http://www.eyeball-design.com/ikonboard/images/aol.gif" border=0></a> <a href="javascript:openScript('misc.cgi?action=icq&UIN=2156743',450,300)"><img src="http://wwp.icq.com/scripts/online.dll?icq=2156743&img=5" border=0><img src="http://www.eyeball-design.com/ikonboard/images/icq.gif" border=0></a> <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> &nbsp; <a href="post.cgi?action=replyquote&forum=7&topic=17&postno=132"><img src="http://www.eyeball-design.com/ikonboard/images/reply.gif" border=0></a>
+    			    <hr size=1 width=100% color=#222222>
+            		<font face="arial" color=#EEEEEE size=2>
+           			4 more days. weeee <br> <br>I still have the box from my last order. I used it to throw crap in when i cleaned my rooms <br> <br>see its a gift that keeps on giving! DP and storage space!
+<br><br>-----<br>We're all here because we're not all there
+				</td>
+			</tr>
+			<tr>
+				<td class="bottomline" bgcolor="#333333">
+					<hr size=1 width=100% color=#222222>
+                    <font face="arial" color=#EEEEEE size=1>Total Posts: <b>760</b> | Joined <b>Oct. 2001</b> | Posted on: <b>1:53 am on Nov. 3, 2001</b> | <a href="viewip.cgi?forum=7&topic=17&postno=132">IP</a></font>
+    		    </td>
+             </tr>
+			</table>
+			</td>
+		</tr>
+    <!-- end Message -->
+    
+    <!--Begin Msg Number 12-->
+		<tr>
+			<td bgcolor="#444444">
+			<table width=100% cellpadding=4 cellspacing=0 bgcolor="#444444">
+			<tr>
+        		<td bgcolor="#444444" valign="top" width=20%  rowspan=2>
+            		<font face="arial" color="#FFC956" size="2">
+            		<b>decimator</b></font>
+            		<br>
+            		<br><img src="http://www.eyeball-design.com/ikonboard/images/pips3.gif" border="0">
+                    <br><font face="arial" color=#FFFFFFF size=1>Member</font>
+        		</td>
+        		<td bgcolor="#444444" valign=top width=80% height=100%>
+            		<a href="postings.cgi?action=edit&forum=7&topic=17&postno=133"><img src="http://www.eyeball-design.com/ikonboard/images/edit.gif" border=0></a> &nbsp; <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> <a href="profile.cgi?action=show&member=decimator"><img src="http://www.eyeball-design.com/ikonboard/images/profile.gif" border=0></a> <a href="http://www.dualtype.com" target="_blank"><img src="http://www.eyeball-design.com/ikonboard/images/homepage.gif" border=0></a> <a href="mailto:decimator@mail.com"><img src="http://www.eyeball-design.com/ikonboard/images/email.gif" border=0></a> <a href="javascript:openScript('messenger.cgi?action=new&touser=decimator',600,400)"><img src="http://www.eyeball-design.com/ikonboard/images/message.gif" border=0></a>  <a href="javascript:openScript('misc.cgi?action=icq&UIN=82701366',450,300)"><img src="http://wwp.icq.com/scripts/online.dll?icq=82701366&img=5" border=0><img src="http://www.eyeball-design.com/ikonboard/images/icq.gif" border=0></a> <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> &nbsp; <a href="post.cgi?action=replyquote&forum=7&topic=17&postno=133"><img src="http://www.eyeball-design.com/ikonboard/images/reply.gif" border=0></a>
+    			    <hr size=1 width=100% color=#222222>
+            		<font face="arial" color=#FFFFFFF size=2>
+           			Did you already get the DP stuff?
+<br><br>-----<br><b>http://www.dualtype.com/superflyreality/index.html</b><br>dualtype &quot;no need for reality&quot;
+				</td>
+			</tr>
+			<tr>
+				<td class="bottomline" bgcolor="#444444">
+					<hr size=1 width=100% color=#222222>
+                    <font face="arial" color=#FFFFFFF size=1>Total Posts: <b>294</b> | Joined <b>Oct. 2001</b> | Posted on: <b>6:01 pm on Nov. 6, 2001</b> | <a href="viewip.cgi?forum=7&topic=17&postno=133">IP</a></font>
+    		    </td>
+             </tr>
+			</table>
+			</td>
+		</tr>
+    <!-- end Message -->
+    
+    <!--Begin Msg Number 13-->
+		<tr>
+			<td bgcolor="#333333">
+			<table width=100% cellpadding=4 cellspacing=0 bgcolor="#333333">
+			<tr>
+        		<td bgcolor="#333333" valign="top" width=20%  rowspan=2>
+            		<font face="arial" color="#FFC956" size="2">
+            		<b>TheDPQ <img src="http://www.eyeball-design.com/ikonboard/images/team.gif" border=0></b></font>
+            		<br>
+            		<br><img src="http://www.eyeball-design.com/ikonboard/images/pips4.gif" border="0">
+                    <br><font face="arial" color=#EEEEEE size=1>Moderator</font>
+        		</td>
+        		<td bgcolor="#333333" valign=top width=80% height=100%>
+            		<a href="postings.cgi?action=edit&forum=7&topic=17&postno=134"><img src="http://www.eyeball-design.com/ikonboard/images/edit.gif" border=0></a> &nbsp; <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> <a href="profile.cgi?action=show&member=TheDPQ"><img src="http://www.eyeball-design.com/ikonboard/images/profile.gif" border=0></a> <a href="http://www.thedpq.com" target="_blank"><img src="http://www.eyeball-design.com/ikonboard/images/homepage.gif" border=0></a> <a href="mailto:thedpq@eyeball-design.com"><img src="http://www.eyeball-design.com/ikonboard/images/email.gif" border=0></a> <a href="javascript:openScript('messenger.cgi?action=new&touser=TheDPQ',600,400)"><img src="http://www.eyeball-design.com/ikonboard/images/message.gif" border=0></a> <a href="javascript:openScript('misc.cgi?action=aim&aimname=TheDPQ',450,200)"><img src="http://www.eyeball-design.com/ikonboard/images/aol.gif" border=0></a> <a href="javascript:openScript('misc.cgi?action=icq&UIN=2156743',450,300)"><img src="http://wwp.icq.com/scripts/online.dll?icq=2156743&img=5" border=0><img src="http://www.eyeball-design.com/ikonboard/images/icq.gif" border=0></a> <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> &nbsp; <a href="post.cgi?action=replyquote&forum=7&topic=17&postno=134"><img src="http://www.eyeball-design.com/ikonboard/images/reply.gif" border=0></a>
+    			    <hr size=1 width=100% color=#222222>
+            		<font face="arial" color=#EEEEEE size=2>
+           			No its coming today!! or tomorrow! I checked the tracking # and its arrived in my city at 10:09am. It might be too late to make todays UPS. I'll let you know. 
+<br><br>-----<br>We're all here because we're not all there
+				</td>
+			</tr>
+			<tr>
+				<td class="bottomline" bgcolor="#333333">
+					<hr size=1 width=100% color=#222222>
+                    <font face="arial" color=#EEEEEE size=1>Total Posts: <b>760</b> | Joined <b>Oct. 2001</b> | Posted on: <b>3:09 am on Nov. 7, 2001</b> | <a href="viewip.cgi?forum=7&topic=17&postno=134">IP</a></font>
+    		    </td>
+             </tr>
+			</table>
+			</td>
+		</tr>
+    <!-- end Message -->
+    
+    <!--Begin Msg Number 14-->
+		<tr>
+			<td bgcolor="#444444">
+			<table width=100% cellpadding=4 cellspacing=0 bgcolor="#444444">
+			<tr>
+        		<td bgcolor="#444444" valign="top" width=20%  rowspan=2>
+            		<font face="arial" color="#FFC956" size="2">
+            		<b>decimator</b></font>
+            		<br>
+            		<br><img src="http://www.eyeball-design.com/ikonboard/images/pips3.gif" border="0">
+                    <br><font face="arial" color=#FFFFFFF size=1>Member</font>
+        		</td>
+        		<td bgcolor="#444444" valign=top width=80% height=100%>
+            		<a href="postings.cgi?action=edit&forum=7&topic=17&postno=135"><img src="http://www.eyeball-design.com/ikonboard/images/edit.gif" border=0></a> &nbsp; <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> <a href="profile.cgi?action=show&member=decimator"><img src="http://www.eyeball-design.com/ikonboard/images/profile.gif" border=0></a> <a href="http://www.dualtype.com" target="_blank"><img src="http://www.eyeball-design.com/ikonboard/images/homepage.gif" border=0></a> <a href="mailto:decimator@mail.com"><img src="http://www.eyeball-design.com/ikonboard/images/email.gif" border=0></a> <a href="javascript:openScript('messenger.cgi?action=new&touser=decimator',600,400)"><img src="http://www.eyeball-design.com/ikonboard/images/message.gif" border=0></a>  <a href="javascript:openScript('misc.cgi?action=icq&UIN=82701366',450,300)"><img src="http://wwp.icq.com/scripts/online.dll?icq=82701366&img=5" border=0><img src="http://www.eyeball-design.com/ikonboard/images/icq.gif" border=0></a> <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> &nbsp; <a href="post.cgi?action=replyquote&forum=7&topic=17&postno=135"><img src="http://www.eyeball-design.com/ikonboard/images/reply.gif" border=0></a>
+    			    <hr size=1 width=100% color=#222222>
+            		<font face="arial" color=#FFFFFFF size=2>
+           			I'm so excited!!!!!!
+<br><br>-----<br><b>http://www.dualtype.com/superflyreality/index.html</b><br>dualtype &quot;no need for reality&quot;
+				</td>
+			</tr>
+			<tr>
+				<td class="bottomline" bgcolor="#444444">
+					<hr size=1 width=100% color=#222222>
+                    <font face="arial" color=#FFFFFFF size=1>Total Posts: <b>294</b> | Joined <b>Oct. 2001</b> | Posted on: <b>6:34 am on Nov. 7, 2001</b> | <a href="viewip.cgi?forum=7&topic=17&postno=135">IP</a></font>
+    		    </td>
+             </tr>
+			</table>
+			</td>
+		</tr>
+    <!-- end Message -->
+    
+    <!--Begin Msg Number 15-->
+		<tr>
+			<td bgcolor="#333333">
+			<table width=100% cellpadding=4 cellspacing=0 bgcolor="#333333">
+			<tr>
+        		<td bgcolor="#333333" valign="top" width=20%  rowspan=2>
+            		<font face="arial" color="#FFC956" size="2">
+            		<b>Nightshade</b></font>
+            		<br>
+            		<br><img src="http://www.eyeball-design.com/ikonboard/images/pips3.gif" border="0">
+                    <br><font face="arial" color=#EEEEEE size=1>Member</font>
+        		</td>
+        		<td bgcolor="#333333" valign=top width=80% height=100%>
+            		<a href="postings.cgi?action=edit&forum=7&topic=17&postno=136"><img src="http://www.eyeball-design.com/ikonboard/images/edit.gif" border=0></a> &nbsp; <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> <a href="profile.cgi?action=show&member=Nightshade"><img src="http://www.eyeball-design.com/ikonboard/images/profile.gif" border=0></a> <a href="http://www.suggestafix.com" target="_blank"><img src="http://www.eyeball-design.com/ikonboard/images/homepage.gif" border=0></a> <a href="mailto:i_am_nightshade@hotmail.com"><img src="http://www.eyeball-design.com/ikonboard/images/email.gif" border=0></a> <a href="javascript:openScript('messenger.cgi?action=new&touser=Nightshade',600,400)"><img src="http://www.eyeball-design.com/ikonboard/images/message.gif" border=0></a>  <a href="javascript:openScript('misc.cgi?action=icq&UIN=16064414',450,300)"><img src="http://wwp.icq.com/scripts/online.dll?icq=16064414&img=5" border=0><img src="http://www.eyeball-design.com/ikonboard/images/icq.gif" border=0></a> <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> &nbsp; <a href="post.cgi?action=replyquote&forum=7&topic=17&postno=136"><img src="http://www.eyeball-design.com/ikonboard/images/reply.gif" border=0></a>
+    			    <hr size=1 width=100% color=#222222>
+            		<font face="arial" color=#EEEEEE size=2>
+           			No peper for me I'm a Mt. Dew man myself. &nbsp;Gotta have my caffine and can't stand Coffee or colas.
+<br><br>-----<br><b>The Nightshade</b><br>&quot;The only difference between genius and stupity is that genius has it's limits.&quot; --  Albert Einstein
+				</td>
+			</tr>
+			<tr>
+				<td class="bottomline" bgcolor="#333333">
+					<hr size=1 width=100% color=#222222>
+                    <font face="arial" color=#EEEEEE size=1>Total Posts: <b>284</b> | Joined <b>Oct. 2001</b> | Posted on: <b>6:48 am on Nov. 7, 2001</b> | <a href="viewip.cgi?forum=7&topic=17&postno=136">IP</a></font>
+    		    </td>
+             </tr>
+			</table>
+			</td>
+		</tr>
+    <!-- end Message -->
+    
+    <!--Begin Msg Number 16-->
+		<tr>
+			<td bgcolor="#444444">
+			<table width=100% cellpadding=4 cellspacing=0 bgcolor="#444444">
+			<tr>
+        		<td bgcolor="#444444" valign="top" width=20%  rowspan=2>
+            		<font face="arial" color="#FFC956" size="2">
+            		<b>TheDPQ <img src="http://www.eyeball-design.com/ikonboard/images/team.gif" border=0></b></font>
+            		<br>
+            		<br><img src="http://www.eyeball-design.com/ikonboard/images/pips4.gif" border="0">
+                    <br><font face="arial" color=#FFFFFFF size=1>Moderator</font>
+        		</td>
+        		<td bgcolor="#444444" valign=top width=80% height=100%>
+            		<a href="postings.cgi?action=edit&forum=7&topic=17&postno=137"><img src="http://www.eyeball-design.com/ikonboard/images/edit.gif" border=0></a> &nbsp; <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> <a href="profile.cgi?action=show&member=TheDPQ"><img src="http://www.eyeball-design.com/ikonboard/images/profile.gif" border=0></a> <a href="http://www.thedpq.com" target="_blank"><img src="http://www.eyeball-design.com/ikonboard/images/homepage.gif" border=0></a> <a href="mailto:thedpq@eyeball-design.com"><img src="http://www.eyeball-design.com/ikonboard/images/email.gif" border=0></a> <a href="javascript:openScript('messenger.cgi?action=new&touser=TheDPQ',600,400)"><img src="http://www.eyeball-design.com/ikonboard/images/message.gif" border=0></a> <a href="javascript:openScript('misc.cgi?action=aim&aimname=TheDPQ',450,200)"><img src="http://www.eyeball-design.com/ikonboard/images/aol.gif" border=0></a> <a href="javascript:openScript('misc.cgi?action=icq&UIN=2156743',450,300)"><img src="http://wwp.icq.com/scripts/online.dll?icq=2156743&img=5" border=0><img src="http://www.eyeball-design.com/ikonboard/images/icq.gif" border=0></a> <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> &nbsp; <a href="post.cgi?action=replyquote&forum=7&topic=17&postno=137"><img src="http://www.eyeball-design.com/ikonboard/images/reply.gif" border=0></a>
+    			    <hr size=1 width=100% color=#222222>
+            		<font face="arial" color=#FFFFFFF size=2>
+           			*gag* could never stand MD. Just always tasted horrible to me.. <br> <br>FYI most people who really like DP don't really like MD, and vice versa
+<br><br>-----<br>We're all here because we're not all there
+				</td>
+			</tr>
+			<tr>
+				<td class="bottomline" bgcolor="#444444">
+					<hr size=1 width=100% color=#222222>
+                    <font face="arial" color=#FFFFFFF size=1>Total Posts: <b>760</b> | Joined <b>Oct. 2001</b> | Posted on: <b>6:53 am on Nov. 7, 2001</b> | <a href="viewip.cgi?forum=7&topic=17&postno=137">IP</a></font>
+    		    </td>
+             </tr>
+			</table>
+			</td>
+		</tr>
+    <!-- end Message -->
+    
+    <!--Begin Msg Number 17-->
+		<tr>
+			<td bgcolor="#333333">
+			<table width=100% cellpadding=4 cellspacing=0 bgcolor="#333333">
+			<tr>
+        		<td bgcolor="#333333" valign="top" width=20%  rowspan=2>
+            		<font face="arial" color="#FFC956" size="2">
+            		<b>Groucho</b></font>
+            		<br>
+            		<br><img src="http://www.eyeball-design.com/ikonboard/images/pips1.gif" border="0">
+                    <br><font face="arial" color=#EEEEEE size=1>Peon</font>
+        		</td>
+        		<td bgcolor="#333333" valign=top width=80% height=100%>
+            		<a href="postings.cgi?action=edit&forum=7&topic=17&postno=138"><img src="http://www.eyeball-design.com/ikonboard/images/edit.gif" border=0></a> &nbsp; <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> <a href="profile.cgi?action=show&member=Groucho"><img src="http://www.eyeball-design.com/ikonboard/images/profile.gif" border=0></a> <a href="http://www.g-effect.com/" target="_blank"><img src="http://www.eyeball-design.com/ikonboard/images/homepage.gif" border=0></a> <a href="mailto:groucho@g-effect.com"><img src="http://www.eyeball-design.com/ikonboard/images/email.gif" border=0></a> <a href="javascript:openScript('messenger.cgi?action=new&touser=Groucho',600,400)"><img src="http://www.eyeball-design.com/ikonboard/images/message.gif" border=0></a>   <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> &nbsp; <a href="post.cgi?action=replyquote&forum=7&topic=17&postno=138"><img src="http://www.eyeball-design.com/ikonboard/images/reply.gif" border=0></a>
+    			    <hr size=1 width=100% color=#222222>
+            		<font face="arial" color=#EEEEEE size=2>
+           			Hrmpf, you won't believe what happend to me - my wonderful 17" flatscreen trinitron monitor burned out a week ago while I was working on my computer. It literally burned out, with smoke and stuff. d*amn thing &nbsp;refused to work anymore and just died. Now I have to work on an ugly 14" monitor with screen that looks like someone used spherize filter on it a few times. Not to mention I have to work in 800x600 resolution with 60Hz refresh rate which is not very good for my eyes. &nbsp;The best of all is I don't have the money to buy a new monitor and I doub't the old one can be repaired. My cd-rom burned out the same way a few month ago and I'm begining to think someone put a curse on my computer.
+<br><br>-----<br>&quot; I cannot say that I do not disagree with you. &quot;<br> ~ Groucho Marx
+				</td>
+			</tr>
+			<tr>
+				<td class="bottomline" bgcolor="#333333">
+					<hr size=1 width=100% color=#222222>
+                    <font face="arial" color=#EEEEEE size=1>Total Posts: <b>33</b> | Joined <b>Oct. 2001</b> | Posted on: <b>8:38 am on Nov. 7, 2001</b> | <a href="viewip.cgi?forum=7&topic=17&postno=138">IP</a></font>
+    		    </td>
+             </tr>
+			</table>
+			</td>
+		</tr>
+    <!-- end Message -->
+    
+    <!--Begin Msg Number 18-->
+		<tr>
+			<td bgcolor="#444444">
+			<table width=100% cellpadding=4 cellspacing=0 bgcolor="#444444">
+			<tr>
+        		<td bgcolor="#444444" valign="top" width=20%  rowspan=2>
+            		<font face="arial" color="#FFC956" size="2">
+            		<b>Sadai</b></font>
+            		<br>
+            		<br><img src="http://www.eyeball-design.com/ikonboard/images/pips1.gif" border="0">
+                    <br><font face="arial" color=#FFFFFFF size=1>Peon</font>
+        		</td>
+        		<td bgcolor="#444444" valign=top width=80% height=100%>
+            		<a href="postings.cgi?action=edit&forum=7&topic=17&postno=139"><img src="http://www.eyeball-design.com/ikonboard/images/edit.gif" border=0></a> &nbsp; <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> <a href="profile.cgi?action=show&member=Sadai"><img src="http://www.eyeball-design.com/ikonboard/images/profile.gif" border=0></a> <a href="http://www.quantumr.com" target="_blank"><img src="http://www.eyeball-design.com/ikonboard/images/homepage.gif" border=0></a> <a href="mailto:m_sadai@hotmail.com"><img src="http://www.eyeball-design.com/ikonboard/images/email.gif" border=0></a> <a href="javascript:openScript('messenger.cgi?action=new&touser=Sadai',600,400)"><img src="http://www.eyeball-design.com/ikonboard/images/message.gif" border=0></a> <a href="javascript:openScript('misc.cgi?action=aim&aimname=TheDiddlySquat',450,200)"><img src="http://www.eyeball-design.com/ikonboard/images/aol.gif" border=0></a>  <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> &nbsp; <a href="post.cgi?action=replyquote&forum=7&topic=17&postno=139"><img src="http://www.eyeball-design.com/ikonboard/images/reply.gif" border=0></a>
+    			    <hr size=1 width=100% color=#222222>
+            		<font face="arial" color=#FFFFFFF size=2>
+           			No wonder some people have so many posts they just go on and on and on and on... :-D
+<br><br>-----<br><b>.: </b> Sadai<br><b>:: </b><a href="http://www.quantumr.com" target="_blank">QR-hp</a>
+				</td>
+			</tr>
+			<tr>
+				<td class="bottomline" bgcolor="#444444">
+					<hr size=1 width=100% color=#222222>
+                    <font face="arial" color=#FFFFFFF size=1>Total Posts: <b>11</b> | Joined <b>Nov. 2001</b> | Posted on: <b>9:39 am on Nov. 7, 2001</b> | <a href="viewip.cgi?forum=7&topic=17&postno=139">IP</a></font>
+    		    </td>
+             </tr>
+			</table>
+			</td>
+		</tr>
+    <!-- end Message -->
+    
+    <!--Begin Msg Number 19-->
+		<tr>
+			<td bgcolor="#333333">
+			<table width=100% cellpadding=4 cellspacing=0 bgcolor="#333333">
+			<tr>
+        		<td bgcolor="#333333" valign="top" width=20%  rowspan=2>
+            		<font face="arial" color="#FFC956" size="2">
+            		<b>TheDPQ <img src="http://www.eyeball-design.com/ikonboard/images/team.gif" border=0></b></font>
+            		<br>
+            		<br><img src="http://www.eyeball-design.com/ikonboard/images/pips4.gif" border="0">
+                    <br><font face="arial" color=#EEEEEE size=1>Moderator</font>
+        		</td>
+        		<td bgcolor="#333333" valign=top width=80% height=100%>
+            		<a href="postings.cgi?action=edit&forum=7&topic=17&postno=140"><img src="http://www.eyeball-design.com/ikonboard/images/edit.gif" border=0></a> &nbsp; <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> <a href="profile.cgi?action=show&member=TheDPQ"><img src="http://www.eyeball-design.com/ikonboard/images/profile.gif" border=0></a> <a href="http://www.thedpq.com" target="_blank"><img src="http://www.eyeball-design.com/ikonboard/images/homepage.gif" border=0></a> <a href="mailto:thedpq@eyeball-design.com"><img src="http://www.eyeball-design.com/ikonboard/images/email.gif" border=0></a> <a href="javascript:openScript('messenger.cgi?action=new&touser=TheDPQ',600,400)"><img src="http://www.eyeball-design.com/ikonboard/images/message.gif" border=0></a> <a href="javascript:openScript('misc.cgi?action=aim&aimname=TheDPQ',450,200)"><img src="http://www.eyeball-design.com/ikonboard/images/aol.gif" border=0></a> <a href="javascript:openScript('misc.cgi?action=icq&UIN=2156743',450,300)"><img src="http://wwp.icq.com/scripts/online.dll?icq=2156743&img=5" border=0><img src="http://www.eyeball-design.com/ikonboard/images/icq.gif" border=0></a> <img src="http://www.eyeball-design.com/ikonboard/images/part.gif" border=0> &nbsp; <a href="post.cgi?action=replyquote&forum=7&topic=17&postno=140"><img src="http://www.eyeball-design.com/ikonboard/images/reply.gif" border=0></a>
+    			    <hr size=1 width=100% color=#222222>
+            		<font face="arial" color=#EEEEEE size=2>
+           			Why do people care how many posts they have really? I may joke about be being behind Raptor but really, its not a big deal how many posts i have, or the status i have.  <br> <br>I can't understand how people consider 'peon' degrading. WTF its a joke. Its just another way to say 'newbie' 
+<br><br>-----<br>We're all here because we're not all there
+				</td>
+			</tr>
+			<tr>
+				<td class="bottomline" bgcolor="#333333">
+					<hr size=1 width=100% color=#222222>
+                    <font face="arial" color=#EEEEEE size=1>Total Posts: <b>760</b> | Joined <b>Oct. 2001</b> | Posted on: <b>10:35 am on Nov. 7, 2001</b> | <a href="viewip.cgi?forum=7&topic=17&postno=140">IP</a></font>
+    		    </td>
+             </tr>
+			</table>
+			</td>
+		</tr>
+    <!-- end Message -->
+    
+    <!-- Cgi-bot Bottom of page -->
+        <tr>
+            <td bgcolor=#263C83 colspan=2 align="left" valign="middle"><a href="post.cgi?action=new&forum=7"><img src="http://www.eyeball-design.com/ikonboard/images/newthread.gif" border="0"></a> &nbsp; <a href="post.cgi?action=reply&forum=7&topic=17"><img src="http://www.eyeball-design.com/ikonboard/images/replytothread.gif" border="0"></a></td>
+            </tr>
+            </table>
+        </td>
+      </tr>
+    </table>
+    <p>
+    <table cellpadding=0 cellspacing=0 border=0 width=750 bgcolor=#222222 align=center>
+    <tr>
+        <td>
+        <table cellpadding=3 cellspacing=1 border=0 width=100%>
+            <tr bgcolor="#000000"><td valign=middle align=center nowrap width=10%><font face="arial" color=#FFC956 size=1>
+            Topic Jump<br><a href="topic.cgi?forum=7&topic=168"><< Back </a><a href="topic.cgi?forum=7&topic=176"> Next >></a></td>
+            <td valign=middle nowrap width=30%>
+            <font face="arial" color=#FFFFFF size=1><font face="arial" color=#FFFFFF size=1><b>Multiple pages for this topic</b> [ <a href="topic.cgi?forum=7&topic=17&start=0"><font face="arial" color=#FFC956 size=1><b>1</b></font></a> <a href="topic.cgi?forum=7&topic=17&start=20"><font face="arial" color=#FFC956 size=1><b>2</b></font></a> <a href="topic.cgi?forum=7&topic=17&start=40"><font face="arial" color=#FFC956 size=1><b>3</b></font></a> <a href="topic.cgi?forum=7&topic=17&start=60"><font face="arial" color=#FFC956 size=1><b>4</b></font></a> <a href="topic.cgi?forum=7&topic=17&start=80"><font face="arial" color=#FFC956 size=1><b>5</b></font></a> <a href="topic.cgi?forum=7&topic=17&start=100"><font face="arial" color=#FFC956 size=1><b>6</b></font></a> <a href="topic.cgi?forum=7&topic=17&start=120"><font face="arial" color=#FFFFFF size=1>7</font></a> <a href="topic.cgi?forum=7&topic=17&start=140"><font face="arial" color=#FFC956 size=1><b>8</b></font></a> <a href="topic.cgi?forum=7&topic=17&start=160"><font face="arial" color=#FFC956 size=1><b>9</b></font></a> <a href="topic.cgi?forum=7&topic=17&start=180"><font face="arial" color=#FFC956 size=1><b>10</b></font></a> <a href="topic.cgi?forum=7&topic=17&start=200"><font face="arial" color=#FFC956 size=1><b>11</b></font></a>  ]</td>
+            <td align=right valign=bottom bgcolor=#000000 nowrap>
+<SCRIPT LANGUAGE="JavaScript">
+<!-- 
+function menu(){
+var URL = document.jump.jumpto.options[document.jump.jumpto.selectedIndex].value;
+top.location.href = URL; target = '_self';
+}
+// -->
+</SCRIPT>
+<form action="http://www.eyeball-design.com/cgi-bin/ikonboard/forums.cgi" method="post" name="jump">
+<select name="jumpto" onchange="menu()">
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/ikonboard.cgi">Forum Jump
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/ikonboard.cgi">
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/ikonboard.cgi">-- &nbsp; 
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/forums.cgi?forum=1" target="_self"> 2001 Web Interface Design Contest
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/forums.cgi?forum=13" target="_self"> FxZone Live Chat
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/forums.cgi?forum=7" target="_self"> General Discussions
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/ikonboard.cgi">
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/ikonboard.cgi">-- &nbsp; 
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/forums.cgi?forum=11" target="_self"> Flash Tutorials and Tips
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/forums.cgi?forum=12" target="_self"> Flash Works
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/forums.cgi?forum=9" target="_self"> Photoshop Artwork
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/forums.cgi?forum=2" target="_self"> Photoshop Tutorials &amp; Tips 
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/ikonboard.cgi">
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/ikonboard.cgi">-- &nbsp; 
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/forums.cgi?forum=3" target="_self"> Interface Depot
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/ikonboard.cgi">
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/ikonboard.cgi">-- &nbsp; 
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/forums.cgi?forum=8" target="_self"> Cool Site of the day
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/forums.cgi?forum=4" target="_self"> Site Critique
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/forums.cgi?forum=6" target="_self"> Web design / HTML
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/ikonboard.cgi">
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/ikonboard.cgi">-- &nbsp; 
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/forums.cgi?forum=5" target="_self"> Administrator
+<option value="http://www.eyeball-design.com/cgi-bin/ikonboard/forums.cgi?forum=10" target="_self"> Moderators Lounge
+</select></form>
+</td>
+        </tr>
+        </table></td></tr></table>
+        <p>
+        
+
+
+        <p>
+        <table width=80% align=center cellpadding=3 cellspacing=0>
+        <tr><td align=center valign=middle>
+        <font face=verdana color=#FFC956 size=1>
+        &copy; 1998-2001 Ryan Lacdao.  &#0124; <a href="http://www.eyeball-design.com/cgi-bin/ikonboard/privacy.cgi">Our Privacy Statement</a><br><br>
+        Powered by <a href="http://www.ikonboard.com">Ikonboard 2.1.9 Beta</a><br>&copy; 2001 Ikonboard.com
+        </font></td></tr></table>
+        <p>
+        
+
+
+
+<p>
+</body>
+</html>
+    
+
+   
+   
+   
+   
+   
+   
+   
+   

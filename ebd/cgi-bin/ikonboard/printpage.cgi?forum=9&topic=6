@@ -1,0 +1,111 @@
+
+    <html><head><title>FxZone Forum powered by Ikonboard</title></head>
+    <body topmargin=10 leftmargin=0>
+    <table cellpadding=0 cellspacing=0 border=0 width=90% align=center>
+        <tr>
+            <td>
+            <p><b>Printable Version of topic</b><p>
+            <b>-FxZone Forum</b> (http://www.eyeball-design.com/cgi-bin/ikonboard/ikonboard.cgi)<br>
+            <b>--Photoshop Artwork</b> (http://www.eyeball-design.com/cgi-bin/ikonboard/forums.cgi?forum=9)<br>
+            <b>---Blast</b> (http://www.eyeball-design.com/cgi-bin/ikonboard/forums.cgi?forum=9&topic=6)
+        </tr>
+    </table>
+    <p><p><p>
+    <table cellpadding=0 cellspacing=0 border=0 width=90% align=center>
+        <tr>
+            <td>
+            
+    
+        <p>
+        <hr><p>
+        -- Posted by xenocide on 11:02 am on Oct. 19, 2001<p>
+        Just something i was messing around with.  <G> <br> <br><a href="http://www.bmi.net/xenocide/blast.jpg" target="_blank">http://www.bmi.net/xenocide/blast.jpg</a> <br> <br>All original, except i did use a filter for the lightning.  (takes forever free-hand and i can never seem to get it right)
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by Virtual Ry on 5:50 pm on Oct. 19, 2001<p>
+        Awesome! How is the lighting done especially the circular lightning effect?
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by WebWyvern on 11:12 pm on Oct. 19, 2001<p>
+        looks cool xenocide.. <br> <br>just the effect around the letters seems to stand out too much to me.. <br> <br>but the rest is very nice.
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by Kojaru on 12:04 am on Oct. 20, 2001<p>
+        how do you create a lightning the easy way??
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by WebWyvern on 12:09 am on Oct. 20, 2001<p>
+        Create a new layer. <br>Pick the Linear Gradient Tool. <br>With Black to White, drag from the top to the bottom. &nbsp; <br>Filter->Render->Difference Clouds. <br>Image->Adjust->Invert. &nbsp; <br>Image->Adjust->Levels. <br>Drag the middle slider to the right.  <br> <br>Thats just one way that is real easy..
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by Kojaru on 1:04 am on Oct. 20, 2001<p>
+        ei it works!! btw, it creates a random lightning ryt?? depending on the gradient direction ryt??
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by xenocide on 1:06 am on Oct. 20, 2001<p>
+        on a square image, you make a vert white bar, blur it as much as you want, then run the wind filter on it... &nbsp;After you have it pretty cool that way run polar coordinates filter on it .. rect²polar...  <br> <br>
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by WebWyvern on 1:07 am on Oct. 20, 2001<p>
+        yeah.. that one is random due to the difference clouds filter. &nbsp;theres many other ways to do it.. that one is just simple in my opinion
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by Virtual Ry on 5:43 am on Oct. 23, 2001<p>
+        I gotta give that a try :) <br>
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by xenocide on 3:10 pm on Oct. 24, 2001<p>
+        hmmm had that tutorial on my HD for a while so i kinda sorta finished it and posted it for anyone who wants.. ::  <br><a href="http://xen-fx.com/txt/tutorials/"><img src="http://xen-fx.com/tutorials/blast/blast_500x60.jpg" border="0" width="500" height="60"></a> <br> <br>(Edited by xenocide at 12:12 am on Oct. 24, 2001)
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by FreeStyler on 2:15 pm on Oct. 28, 2001<p>
+        When you use the gradient-clouds-invert way to get the lightning how exactly do you get the black in the background to go transparent
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by xenocide on 4:15 am on Oct. 30, 2001<p>
+        set the layer that it is on to screen blending mode on the layers palette. &nbsp;That will let all light colors (white) through, and dark will be transparent.
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by Nightshade on 6:06 am on Oct. 30, 2001<p>
+        Wel thanks for putting up the tutorial. &nbsp;It's some nice work.
+        <p><p>
+        
+        </td></tr></table><center><hr><p>FxZone Forum powered by Ikonboard<br>http://www.ikonboard.com<br>&copy; 2000 Ikonboard.com</center>
+        </body></html>
+        

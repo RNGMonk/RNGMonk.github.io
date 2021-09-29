@@ -1,0 +1,521 @@
+<html>
+<head>
+<title>Eyeball-Design - Online Tutorials</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+font { font-family: Arial; font-size: 13.5px }
+small { font-family: Arial; font-size: 11px }
+b { font-family: Arial; color: #FFC956}
+a {  text-decoration: none}
+-->
+</style>
+
+<script language="javascript"><!--
+
+//Display Mouse coordinates- By Kous (kous@ihateclowns.com)
+//Visit http://wsabstract.com for this script and more
+
+
+function lib_bwcheck(){ //Browsercheck (needed)
+        this.ver=navigator.appVersion
+        this.agent=navigator.userAgent
+        this.dom=document.getElementById?1:0
+        this.opera5=this.agent.indexOf("Opera 5")>-1
+        this.ie5=(this.ver.indexOf("MSIE 5")>-1 && this.dom && !this.opera5)?1:0; 
+        this.ie6=(this.ver.indexOf("MSIE 6")>-1 && this.dom && !this.opera5)?1:0;
+        this.ie4=(document.all && !this.dom && !this.opera5)?1:0;
+        this.ie=this.ie4||this.ie5||this.ie6
+        this.mac=this.agent.indexOf("Mac")>-1
+        this.ns6=(this.dom && parseInt(this.ver) >= 5) ?1:0; 
+        this.ns4=(document.layers && !this.dom)?1:0;
+        this.bw=(this.ie6 || this.ie5 || this.ie4 || this.ns4 || this.ns6 || this.opera5)
+        return this
+}
+var bw=new lib_bwcheck()
+
+
+pos_x = 0; pos_y = 0
+
+var where = ""; // which link
+
+function checkwhere(e) {
+        if (document.layers){ pos_x = e.x; pos_y = e.y; }
+        else if (document.all){ pos_x = event.x; pos_y = event.y; }
+        }
+
+
+document.onmousemove = checkwhere;
+if(document.captureEvents) {document.captureEvents(Event.MOUSEMOVE);}
+
+
+function tip(my_layer) {
+
+
+if (document.layers) {  tip_show = document.layers[my_layer] }
+		else if (document.all) { tip_show = document.all[my_layer].style }
+
+current_val = tip_show.visibility;
+
+if (document.layers) {seen_val = 'show' ; hide_val = 'hide'}
+if (document.all) {seen_val = 'visible' ; hide_val = 'hidden'}
+
+if ((current_val == "show") || (current_val == "visible")) {  show_value = hide_val }
+else if ((current_val == "hidden") || (current_val == "hide")) {  show_value = seen_val }						
+
+
+Check_value = screen.width / 2;
+
+if (pos_x < Check_value) { tip_show.left = pos_x + 5; }
+ else if (pos_x > Check_value) { tip_show.left = pos_x - 280; }
+
+
+tip_show.top = pos_y + 15;
+if (bw.ie5||bw.ie6) { tip_show.top = pos_y + 15 + document.body.scrollTop; }
+tip_show.visibility = show_value; 
+
+}
+
+
+//--></script>
+
+</head>
+<body background="images/top_bg.gif"  bgcolor=#000000 leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" text="#dddddd" link="#385E9F" vlink="#385E9F" alink="#385E9F">
+<table width=771 border=0 cellpadding=0 cellspacing=0 align="center">
+  <tr> 
+    <td rowspan=3><img src="images/hdr01.gif" width=77 height=97></td>
+    <td rowspan=3><img src="images/hdr02.gif" width="13" height="27"><br>
+      <img src="images/hdr_e.gif" width="13" height="54"><br>
+      <img src="images/hdr03.gif" width="13" height="16"></td>
+    <td rowspan=3><img src="images/hdr04.gif" width=45 height=97></td>
+    <td colspan=2><img src="images/hdr05.gif" width=536 height=8></td>
+    <td rowspan=3 valign="top"><img src="images/hdr08.gif" width=100 height=50></td>
+  </tr>
+  <tr> 
+    <td><img src="images/hdr06.gif" width=380 height=20></td>
+    <td rowspan=2 valign="top"> <img src="images/hdr_tutorials.gif" width=156 height=33></td>
+  </tr>
+  <tr> 
+    <td><img src="images/hdr07.gif" width=380 height=69></td>
+  </tr>
+</table>
+<br>
+  <center>
+  <img src="images/tutorials_figure03_hdr.gif" width="321" height="58"></center>
+<br>
+<br>
+<table width="730" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td width="313"><img src="images/tutorials_figure03_img01.gif" width="293" height="131"></td>
+    <td width="417"><font>The <b><font color="#FFC956">cornering technique</font></b> 
+      is one of the few ways you can eliminate the boxed edges or rectangular 
+      corners of your interfaces. By converting them to rounded corners. The technique 
+      makes use of the <b><font color="#FFC956">elliptical marquee tool</font></b> 
+      combined with proper positioning or placing.</font></td>
+  </tr>
+</table>
+<br>
+<br>
+<table width="730" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td width="415" valign="top"> <font> 
+      <table width="415" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="36"><img src="images/num01.gif" width="29" height="29"></td>
+          <td><font>This technique is pretty easy to execute but is tricky at 
+            the first few tries. You'll notice that the <b><font color="#FFC956">elliptical 
+            marquee tool has 4</font></b></font></td>
+        </tr>
+      </table>
+      <font color="#FFC956"><b>small regions on each side of the selection which 
+      are flat</b></font>. We'll be using those flat regions to place our selections 
+      properly and make the rounded corners or edges.<br>
+      <br>
+      I positioned my elliptical selection and made it big enough to fit in the 
+      area of the interface where I want to create a rounded corner. Using the 
+      <b><font color="#FFC956">arrow keys</font></b> helps you position the selection 
+      and make sure you still have the marquee tool selected when you use them. 
+      </font></td>
+    <td align="right" width="315" valign="top" height="173"><img src="images/tutorials_figure03_img02.gif" width="305" height="143"></td>
+  </tr>
+</table>
+<br>
+<br>
+<table width="730" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td width="331"><img src="images/tutorials_figure03_img03.gif" width="311" height="179"></td>
+    <td width="399" valign="top"> 
+      <table width="399" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="36"><img src="images/num02.gif" width="29" height="29"></td>
+          <td><font>After positioning the elliptical selection, you then need 
+            to select the remaining sections of the in of the interface.</font></td>
+        </tr>
+        <tr> 
+          <td colspan="2"><font>You can do this using the <b><font color="#FFC956">rectangular 
+            marquee tool</font></b> and adding a selection to the current selection 
+            (hold the <b><font color="#FFC956">shift key</font></b> while using 
+            the <b><font color="#FFC956">marquee tool</font></b>).<br>
+            <br>
+            You'll notice that I start the left most end of the rectangular selection 
+            where it would intersect the top flat regions of the first elliptical 
+            selection.<br>
+            <br>
+            Once the selection has been added and all of the remaining parts of 
+            the interfaces selected, you can then reverse the selection and hit 
+            the delete key to remove the rectangular tip of the interface </font></td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<br>
+<br>
+<table width="730" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td width="410" valign="top"> <br>
+      <table width="410" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="36"><img src="images/num03.gif" width="29" height="29"></td>
+          <td><font>The process is the same to make the upper right hand corner 
+            rounded but this time you'll be adding two rectangular selections.</font></td>
+        </tr>
+      </table>
+      <font>I've indicated where the rectangular and elliptical selections intersect 
+      using the tiny red arrows on the right image.<br>
+      <br>
+      Once you've selected the interface, just <a href="#" onMouseOver="tip('inverseselection')" onMouseOut="tip('inverseselection')">inverse 
+      selection</a> and again hit the delete key to create the rounded corner.</font> 
+    </td>
+    <td width="320" align="right"><img src="images/tutorials_figure03_img04.gif" width="319" height="171"></td>
+  </tr>
+</table>
+<br>
+<br>
+<table width="730" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td width="339"><img src="images/tutorials_figure03_img05.gif" width="319" height="149"></td>
+    <td width="391"> 
+      <table width="391" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="36"><img src="images/num04.gif" width="29" height="29"></td>
+          <td><font>Repeat the process for the lower right section of the interface. 
+            This time I only needed one rectangular selection to add the </font></td>
+        </tr>
+        <tr> 
+          <td colspan="2"><font>elliptical selection to be able to select the 
+            remaining sections of the interface to complete the cornering technique.</font></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<br>
+<table width="730" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr align="right"> 
+    <td><a href="tutorial.htm"><font color="#FFC956"><b>Go Back <img src="images/back.gif" width="20" height="20" border="0" align="absmiddle"></b></font></a></td>
+  </tr>
+</table>
+
+<br><center><img src="images/news_line.gif" width="530" height="13"><br>
+	<table border="0" cellspacing="2" cellpadding="0" align="center">
+	<tr> <td><img src=images/button.gif border=0 width=88 height=31><br></td><td>
+      <b><font><small><b>Images and content Copyright &copy; 1998-2001 
+	<a href="mailto:webmaster@eyeball-design.com"><font color="#FFFFFF"><small>Ryan Lacdao</font></small></a> <br>
+	Bandwidth by <a href="http://www.philmetro.com" target="_blank"><font color="#FFFFFF"><small>Philmetro</small></font></a>
+	</font></b>
+	</td> </tr></table>
+<br>
+<center>
+  <table cellpadding=0 cellspacing=3 border=0>
+    <tr> 
+      <td colspan=2 align=center> 
+        <div id="alertmessage" style="position:absolute; left:10; top:10; width:280; visibility:hidden"> 
+          <font face=arial size=-1><b>Your Javascript is Turned Off. Please turn 
+          on the Javascript in your browser preferences..<br>
+          </b></font></div>
+
+    <tr> 
+      <td> 
+        <div id="loadselection" style="position:absolute; left:10; top:10; width:280; visibility:hidden"> 
+          <table border=0 cellspacing=0 cellpadding=0>
+            <tr> 
+              <td colspan=3 width=50 height=1 bgcolor=467DCF><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+            </tr>
+            <tr> 
+              <td bgcolor=203563><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+              <td bgcolor=2952A3 width=280> 
+                <table border=0 cellspacing=0 cellpadding=2>
+                  <tr> 
+                    <td><font face=arial size=-2><small> <font color=FFC956><small>CTRL 
+                      + A</small></font> then <font color=FFC956><small>hit V(move 
+                      tool)</small></font> then hit <font color=FFC956><small>1 
+                      arrow key UP</small></font> and <font color=FFC956><small>1 
+                      arrow key DOWN</small></font> </small></font></td>
+                  </tr>
+                </table>
+              </td>
+              <td bgcolor=467DCF><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+            </tr>
+            <tr> 
+              <td colspan=3 width=50 height=1 bgcolor=203563><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </td>
+      <td> 
+        <div id="contractselection" style="position:absolute; left:10; top:10; width:280; visibility:hidden"> 
+          <table border=0 cellspacing=0 cellpadding=0>
+            <tr> 
+              <td colspan=3 width=50 height=1 bgcolor=467DCF><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+            </tr>
+            <tr> 
+              <td bgcolor=203563><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+              <td bgcolor=2952A3 width=280> 
+                <table border=0 cellspacing=0 cellpadding=2>
+                  <tr> 
+                    <td><font face=arial size=-2><small> Select the <font color=FFC956><small> 
+                      SELECT > MODIFY > CONTRACT</small></font> the enter the 
+                      pixel value <br>
+                      </small></font></td>
+                  </tr>
+                </table>
+              </td>
+              <td bgcolor=467DCF><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+            </tr>
+            <tr> 
+              <td colspan=3 width=50 height=1 bgcolor=203563><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </td>
+    </tr>
+    <tr> 
+      <td> 
+        <div id="expandselection" style="position:absolute; left:10; top:10; width:280; visibility:hidden"> 
+          <table border=0 cellspacing=0 cellpadding=0>
+            <tr> 
+              <td colspan=3 width=50 height=1 bgcolor=467DCF><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+            </tr>
+            <tr> 
+              <td bgcolor=203563><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+              <td bgcolor=2952A3 width=280> 
+                <table border=0 cellspacing=0 cellpadding=2>
+                  <tr> 
+                    <td><font face=arial size=-2><small> Select the <font color=FFC956><small> 
+                      SELECT > MODIFY > EXPAND</small></font> the enter the pixel 
+                      value <br>
+                      </small></font></td>
+                  </tr>
+                </table>
+              </td>
+              <td bgcolor=467DCF><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+            </tr>
+            <tr> 
+              <td colspan=3 width=50 height=1 bgcolor=203563><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </td>
+      <td> 
+        <div id="duplicatelayer" style="position:absolute; left:10; top:10; width:280; visibility:hidden"> 
+          <table border=0 cellspacing=0 cellpadding=0>
+            <tr> 
+              <td colspan=3 width=50 height=1 bgcolor=467DCF><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+            </tr>
+            <tr> 
+              <td bgcolor=203563><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+              <td bgcolor=2952A3 width=280> 
+                <table border=0 cellspacing=0 cellpadding=2>
+                  <tr> 
+                    <td><font face=arial size=-2><small> Go to the <font color=FFC956><small>LAYERS 
+                      PALETTE</small></font> then <font color=FFC956><small>CLICK 
+                      and HOLD</small></font> on the layer thumbnail you want 
+                      to duplicate then <font color=FFC956><small>DRAG</small></font> 
+                      it to the <font color=FFC956><small>NEW LAYER BUTTON</small></font> 
+                      at the bottom of the layers pallete </small></font></td>
+                  </tr>
+                </table>
+              </td>
+              <td bgcolor=467DCF><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+            </tr>
+            <tr> 
+              <td colspan=3 width=50 height=1 bgcolor=203563><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </td>
+    </tr>
+    <tr> 
+      <td> 
+        <div id="fill" style="position:absolute; left:10; top:10; width:280; visibility:hidden"> 
+          <table border=0 cellspacing=0 cellpadding=0>
+            <tr> 
+              <td colspan=3 width=50 height=1 bgcolor=467DCF><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+            </tr>
+            <tr> 
+              <td bgcolor=203563><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+              <td bgcolor=2952A3 width=280> 
+                <table border=0 cellspacing=0 cellpadding=2>
+                  <tr> 
+                    <td><font face=arial size=-2><small> One you have the selection 
+                      press <font color=FFC956><small>SHIFT + F5</small></font> 
+                      then set your fill options </small></font></td>
+                  </tr>
+                </table>
+              </td>
+              <td bgcolor=467DCF><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+            </tr>
+            <tr> 
+              <td colspan=3 width=50 height=1 bgcolor=203563><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </td>
+      <td> 
+        <div id="inverseselection" style="position:absolute; left:10; top:10; width:280; visibility:hidden"> 
+          <table border=0 cellspacing=0 cellpadding=0>
+            <tr> 
+              <td colspan=3 width=50 height=1 bgcolor=467DCF><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+            </tr>
+            <tr> 
+              <td bgcolor=203563><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+              <td bgcolor=2952A3 width=280> 
+                <table border=0 cellspacing=0 cellpadding=2>
+                  <tr> 
+                    <td><font face=arial size=-2><small> One you have the selection 
+                      press <font color=FFC956><small>SHIFT + CTRL + I</small></font> 
+                      </small></font></td>
+                  </tr>
+                </table>
+              </td>
+              <td bgcolor=467DCF><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+            </tr>
+            <tr> 
+              <td colspan=3 width=50 height=1 bgcolor=203563><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </td>
+    </tr>
+    <tr> 
+      <td> 
+        <div id="inversecolor" style="position:absolute; left:10; top:10; width:280; visibility:hidden"> 
+          <table border=0 cellspacing=0 cellpadding=0>
+            <tr> 
+              <td colspan=3 width=50 height=1 bgcolor=467DCF><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+            </tr>
+            <tr> 
+              <td bgcolor=203563><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+              <td bgcolor=2952A3 width=280> 
+                <table border=0 cellspacing=0 cellpadding=2>
+                  <tr> 
+                    <td><font face=arial size=-2><small> Inverse the color of 
+                      the layer contents press <font color=FFC956><small>CTRL 
+                      + I</small></font> </small></font></td>
+                  </tr>
+                </table>
+              </td>
+              <td bgcolor=467DCF><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+            </tr>
+            <tr> 
+              <td colspan=3 width=50 height=1 bgcolor=203563><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </td>
+      <td> 
+        <div id="deselect" style="position:absolute; left:10; top:10; width:280; visibility:hidden"> 
+          <table border=0 cellspacing=0 cellpadding=0>
+            <tr> 
+              <td colspan=3 width=50 height=1 bgcolor=467DCF><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+            </tr>
+            <tr> 
+              <td bgcolor=203563><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+              <td bgcolor=2952A3 width=280> 
+                <table border=0 cellspacing=0 cellpadding=2>
+                  <tr> 
+                    <td><font face=arial size=-2><small> to deselect or release 
+                      a selection press <font color=FFC956><small>CTRL + D</small></font> 
+                      </small></font></td>
+                  </tr>
+                </table>
+              </td>
+              <td bgcolor=467DCF><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+            </tr>
+            <tr> 
+              <td colspan=3 width=50 height=1 bgcolor=203563><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </td>
+    </tr>
+    <tr> 
+      <td> 
+        <div id="copyclip" style="position:absolute; left:10; top:10; width:280; visibility:hidden"> 
+          <table border=0 cellspacing=0 cellpadding=0>
+            <tr> 
+              <td colspan=3 width=50 height=1 bgcolor=467DCF><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+            </tr>
+            <tr> 
+              <td bgcolor=203563><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+              <td bgcolor=2952A3 width=280> 
+                <table border=0ellspacing=0 cellpadding=2>
+                  <tr> 
+                    <td><font face=arial size=-2><small> Press <font color=FFC956><small>CTRL 
+                      + A</small></font> to select all and <font color=FFC956><small>CTRL 
+                      + C</small></font> to copy the image or layer contents to 
+                      the clipboard. </small></font></td>
+                  </tr>
+                </table>
+              </td>
+              <td bgcolor=467DCF><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+            </tr>
+            <tr> 
+              <td colspan=3 width=50 height=1 bgcolor=203563><img src=spc.gif border=0 width=1 height=1><br>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </td>
+    </tr>
+  </table>
+</center>
+</body>
+</html>

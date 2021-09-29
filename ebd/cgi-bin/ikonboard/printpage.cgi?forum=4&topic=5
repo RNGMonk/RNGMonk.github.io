@@ -1,0 +1,160 @@
+
+    <html><head><title>FxZone Forum powered by Ikonboard</title></head>
+    <body topmargin=10 leftmargin=0>
+    <table cellpadding=0 cellspacing=0 border=0 width=90% align=center>
+        <tr>
+            <td>
+            <p><b>Printable Version of topic</b><p>
+            <b>-FxZone Forum</b> (http://www.eyeball-design.com/cgi-bin/ikonboard/ikonboard.cgi)<br>
+            <b>--Site Critique</b> (http://www.eyeball-design.com/cgi-bin/ikonboard/forums.cgi?forum=4)<br>
+            <b>---xen-fx.com/beta</b> (http://www.eyeball-design.com/cgi-bin/ikonboard/forums.cgi?forum=4&topic=5)
+        </tr>
+    </table>
+    <p><p><p>
+    <table cellpadding=0 cellspacing=0 border=0 width=90% align=center>
+        <tr>
+            <td>
+            
+    
+        <p>
+        <hr><p>
+        -- Posted by xenocide on 4:30 am on Oct. 16, 2001<p>
+        <a href="http://xen-fx.com/beta">http://xen-fx.com/beta<a/> <br>ok this is a way basic beta of my new site design. ( and yes, it was inspired by eyeball-design's orbiting orbs )  i have been working on it for a while and wanted some feedback on it.  I like the basic interface but it still needs more in the background or something.. . hmm any ideas? <br> <br>I have the rest of the images for each orb animation done but i need to optimize them. ( so there will be more then just the dune one )  <br> <br> <br>(Edited by xenocide at 3:51 pm on Oct. 25, 2001)
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by maestro on 5:31 am on Oct. 16, 2001<p>
+        the rollover image file is an animated gif ?
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by xenocide on 5:49 am on Oct. 16, 2001<p>
+        no i was using jpeg's because when i did it with gifs origanatly it didn't look as good as i wanted it. &nbsp;It lost a lot of quality, so instead i used 1 jpeg for each frame and used javascript to animate it all. 
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by maestro on 5:52 am on Oct. 16, 2001<p>
+        ahhh.. i see, so the animation is done using javascript to run the jpegs frame by frames.. hmm.. din really look at the code. it's quite smooth..
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by Virtual Ry on 7:19 am on Oct. 16, 2001<p>
+        Nice interface pattern:)  <br>
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by xenocide on 7:22 am on Oct. 16, 2001<p>
+        Thanks. =) &nbsp;I drew it all out first and that is what i came up with. &nbsp;=) &nbsp;still needs a few tweaks though. <G> <br>
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by TheDPQ on 9:50 am on Oct. 16, 2001<p>
+        Just gotta fix those orbs. Maybe make the spikes a bit more metalic? <br> <br>
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by Virtual Ry on 11:23 am on Oct. 16, 2001<p>
+        I noticed that too. The orientation seems to be wrong. The highlight that appears on it is on the wrong side but I could be wrong. *takes another peek*
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by xenocide on 11:36 am on Oct. 16, 2001<p>
+        hmm lol  now that i think about it i don't think i rendered each of those at the different angles. DOH!  hehe ok... &nbsp;cool you guys rock. =) &nbsp; &nbsp;got some work cut out 4 me. <br> <br>(Edited by xenocide at 8:38 pm on Oct. 15, 2001)
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by HollowLexicoN on 9:27 pm on Oct. 24, 2001<p>
+        I would suggest shrinking the interface to be more conducive to people with lower reslolutions. &nbsp;I'm at 1024x768 and it's off the screen, plus it will load quicker. &nbsp;I have a LAN connection and first time out loads noticably slower than it probably should. &nbsp;I would also suggest it as a pop-up window from your main site (when you click on the high-band width link). &nbsp;Good start. &nbsp;Can't wait to see it when it's done.
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by Kojaru on 8:57 pm on Oct. 25, 2001<p>
+        uuhhhh xen?? can you teach me how you did that rollover script thing?? I just want that rollover thing and not that orbiting orbs.. eheh :p <br> <br>btw, nice blades!! I like it!!
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by xenocide on 6:50 am on Oct. 26, 2001<p>
+        yeah the javascript for those were each done seperately.. &nbsp;I made the orbit from scratch myself but the rolover i don't remember where i origonally got it. &nbsp;i hevaly modified it to fit my need. &nbsp;basically it is just animating .jpg in a sequence ( howerver fast you want.. ) .. &nbsp; i'll post the stripped down ver tonight.. &nbsp;i allready had someone else ask me for it <G> ..  <br> <br>Yeah i need to re-do the blades.. i didn't render the lighting different on each. ( if i remember i think i was just sticking them there to see if they looked cool .. &nbsp;then forgot to render the other two blades... &nbsp; =p )  <br>
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by Virtual Ry on 8:12 am on Oct. 26, 2001<p>
+        You can do a sequence of animation using the javascript with the setTimeout command. The algo is basically <br> <br>function MyAnimationSequence() { <br> <br>setTimeout('do this after',100) ; <br>setTimeout('do this after',300) ; <br>setTimeout('do this after',400) ; <br> <br>} <br> <br>setTimeout &nbsp;tells a single command to be delayed for a period of time set by a given value. The time is in milliseconds.
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by Kojaru on 12:24 pm on Oct. 26, 2001<p>
+        i'll be waiting for it xen... I really suck at this programming thingy!! :)
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by xenocide on 2:01 am on Oct. 27, 2001<p>
+         ok. i'll try to get it up this weekend if i'm not to busy.. &nbsp;I was just thinking it would be pretty cool to offer javascript tutorials / templates also for download on my website.. &nbsp;maybe some perl(CGI) php DHTML kind of stuff too. <G> &nbsp; we'll see..
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by Kojaru on 11:47 am on Oct. 27, 2001<p>
+        ok.. just post it when your done and i'll visit that.. ;)
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by Kojaru on 11:05 pm on Nov. 6, 2001<p>
+        are you done with the script xeno??
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by JSFX on 9:44 am on Nov. 12, 2001<p>
+        Hi, <br>I first saw your interface in the competition zone. I thought it looked real good. I was especially aware of the 3D ring that looks really smooth! I have a ring on the interface I am developing (from one of the patterns in the Depot) but mine seems very jagged compared to yours (In fact most of the stuff I do seems to have jaggies). <br>I was very interested in your scripting, it looks similar to something I have seen on <br><A HREF="http://www.ozones.com/toypages/">http://www.ozones.com/toypages/</A> <br> <br>I have had animated rollovers on my site for over 2 years using a script I developed. You might be interested in it. It has undergone various refinements, and the latest version is here. <br><A HREF="http://www.javascript-fx.com/ani_rollovers/index.html">Animated Rollovers</A> The images are not much, they are just for demonstrating the various combinations. <br>If you are interested I would be glad to help. Especially if you can help me get rid of the jaggies from my IFC. <br> <br>
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by HiepNotik on 12:13 pm on Nov. 12, 2001<p>
+        hey that hella kool what program did you use to make the animations? Flash 5?
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by Kojaru on 5:29 pm on Nov. 12, 2001<p>
+        woohooo.. finally.. :) thanxxxx :)
+        <p><p>
+        
+        </td></tr></table><center><hr><p>FxZone Forum powered by Ikonboard<br>http://www.ikonboard.com<br>&copy; 2000 Ikonboard.com</center>
+        </body></html>
+        

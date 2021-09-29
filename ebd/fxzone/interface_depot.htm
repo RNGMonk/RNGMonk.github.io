@@ -1,0 +1,963 @@
+<html>
+
+
+
+<head>
+
+
+
+<title>Eyeball Design - Interface Depot</title>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+
+<style type="text/css">
+
+
+
+<!--
+
+
+
+font { font-family: Arial; font-size: 13.5px }
+
+b { font-family: Arial; color: #FFC956}
+
+small { font-family: Arial; font-size: 11px }
+
+a {  text-decoration: none}
+
+
+
+-->
+
+
+
+</style>
+
+
+
+<script language="JavaScript">
+
+
+
+<!--
+
+
+
+function MM_swapImgRestore() { //v3.0
+
+
+
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+
+
+
+}
+
+
+
+
+
+
+
+function MM_preloadImages() { //v3.0
+
+
+
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+
+
+
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+
+
+
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+
+
+
+}
+
+
+
+
+
+
+
+function MM_findObj(n, d) { //v3.0
+
+
+
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+
+
+
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+
+
+
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+
+
+
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
+
+
+
+}
+
+
+
+
+
+
+
+function MM_swapImage() { //v3.0
+
+
+
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+
+
+
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+
+
+
+}
+
+
+
+//-->
+
+
+
+</script>
+
+
+
+</head>
+
+
+
+<body bgcolor=#000000 leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" text="#dddddd" link="#FFC956" vlink="#FFC956" alink="#FFC956" onLoad="MM_preloadImages('images/depot_nav01on.gif','images/depot_nav02on.gif','images/depot_nav03on.gif','images/depot_nav04on.gif','images/depot_nav05on.gif','images/depot_btn01on.gif','images/depot_btn02on.gif','images/depot_btn03on.gif','images/depot_btn04on.gif','images/depot_btn05on.gif')" background="images/top_bg.gif">
+
+<table width=771 border=0 cellpadding=0 cellspacing=0 align="center">
+
+  <tr> 
+
+    <td rowspan=3><img src="images/hdr01.gif" width=77 height=97></td>
+
+    <td rowspan=3><img src="images/hdr02.gif" width="13" height="27"><br>
+
+      <img src="images/hdr_e.gif" width="13" height="54"><br>
+
+      <img src="images/hdr03.gif" width="13" height="16"></td>
+
+    <td rowspan=3><img src="images/hdr04.gif" width=45 height=97></td>
+
+    <td colspan=2><img src="images/hdr05.gif" width=536 height=8></td>
+
+    <td rowspan=3 valign="top"><img src="images/hdr08.gif" width=100 height=50></td>
+
+  </tr>
+
+  <tr> 
+
+    <td><img src="images/hdr06.gif" width=380 height=20></td>
+
+    <td rowspan=2 valign="top"> <img src="images/hdr_depot.gif" width=156 height=33></td>
+
+  </tr>
+
+  <tr> 
+
+    <td><img src="images/hdr07.gif" width=380 height=69></td>
+
+  </tr>
+
+</table>
+
+<br>
+
+
+
+<table width="770" border="0" cellspacing="0" cellpadding="0" align="center">
+
+
+
+  <tr>
+
+
+
+    <td width="256" valign="top"> 
+
+
+
+      <table width=256 border=0 cellpadding=0 cellspacing=0>
+
+
+
+        <tr> 
+
+
+
+          <td><img src="images/spacer.gif" width=90 height=1></td>
+
+
+
+          <td><img src="images/spacer.gif" width=13 height=1></td>
+
+
+
+          <td><img src="images/spacer.gif" width=10 height=1></td>
+
+
+
+          <td><img src="images/spacer.gif" width=33 height=1></td>
+
+
+
+          <td><img src="images/spacer.gif" width=110 height=1></td>
+
+
+
+        </tr>
+
+
+
+        <tr align="right"> 
+
+
+
+          <td colspan=5><img src="images/depot_img01.gif" width=67 height=19></td>
+
+
+
+        </tr>
+
+
+
+        <tr> 
+
+
+
+          <td colspan=4 valign="top"><img src="images/spacer.gif" width="1" height="21"><br>
+
+
+
+            <a href="depot_patterns01.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('nav01','','images/depot_nav01on.gif','btn01','','images/depot_btn01on.gif',1)"><img name="nav01" border="0" src="images/depot_nav01.gif" width="146" height="13"></a></td>
+
+
+
+          <td><a href="depot_patterns01.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('nav01','','images/depot_nav01on.gif','btn01','','images/depot_btn01on.gif',1)"><img name="btn01" border="0" src="images/depot_btn01.gif" width="89" height="63"></a></td>
+
+
+
+        </tr>
+
+
+
+        <tr> 
+
+
+
+          <td colspan=2 valign="top"><img src="images/spacer.gif" width="1" height="54"><br>
+
+
+
+            <a href="depot_textures01.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('nav02','','images/depot_nav02on.gif','btn02','','images/depot_btn02on.gif',1)"><img name="nav02" border="0" src="images/depot_nav02.gif" width="103" height="12"></a></td>
+
+
+
+          <td colspan=3><img src="images/depot_img02.gif" width=153 height=37><br>
+
+
+
+            <a href="depot_textures01.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('nav02','','images/depot_nav02on.gif','btn02','','images/depot_btn02on.gif',1)"><img name="btn02" border="0" src="images/depot_btn02.gif" width="49" height="44"></a><img src="images/depot_img03.gif" width="104" height="44"><br>
+
+
+
+            <img src="images/depot_img04.gif" width="125" height="23"></td>
+
+
+
+        </tr>
+
+
+
+        <tr> 
+
+
+
+          <td valign="top"><img src="images/spacer.gif" width="1" height="36"><br>
+
+
+
+            <a href="depot_submit.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('nav03','','images/depot_nav03on.gif','btn03','','images/depot_btn03on.gif',1)"><img name="nav03" border="0" src="images/depot_nav03.gif" width="90" height="12"></a></td>
+
+
+
+          <td colspan=4><img src="images/depot_img05.gif" width="103" height="25"><br>
+
+
+
+            <a href="depot_submit.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('nav03','','images/depot_nav03on.gif','btn03','','images/depot_btn03on.gif',1)"><img name="btn03" border="0" src="images/depot_btn03.gif" width="39" height="34"></a><img src="images/depot_img06.gif" width="49" height="34"><br>
+
+
+
+            <img src="images/depot_img07.gif" width="82" height="54"></td>
+
+
+
+        </tr>
+
+
+
+        <tr> 
+
+
+
+          <td valign="top"><img src="images/spacer.gif" width="1" height="23"><br>
+
+
+
+            <a href="depot_misc.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('nav04','','images/depot_nav04on.gif','btn04','','images/depot_btn04on.gif',1)"><img name="nav04" border="0" src="images/depot_nav04.gif" width="90" height="12"></a></td>
+
+
+
+          <td colspan=4><a href="depot_misc.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('nav04','','images/depot_nav04on.gif','btn04','','images/depot_btn04on.gif',1)"><img name="btn04" border="0" src="images/depot_btn04.gif" width="67" height="44"></a><br>
+
+
+
+            <img src="images/depot_img08.gif" width=80 height=54></td>
+
+
+
+        </tr>
+
+
+
+        <tr> 
+
+
+
+          <td colspan=3 valign="top"><img src="images/spacer.gif" width="1" height="24"><br>
+
+
+
+            <a href="depot_interfaces01.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('nav05','','images/depot_nav05on.gif','btn05','','images/depot_btn05on.gif',1)"><img name="nav05" border="0" src="images/depot_nav05.gif" width="113" height="13"></a></td>
+
+
+
+          <td colspan=2><a href="depot_interfaces01.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('nav05','','images/depot_nav05on.gif','btn05','','images/depot_btn05on.gif',1)"><img name="btn05" border="0" src="images/depot_btn05.gif" width="68" height="50"></a><br>
+
+
+
+            <img src="images/depot_img09.gif" width=116 height=81></td>
+
+
+
+        </tr>
+
+
+
+      </table>
+
+
+
+    </td>
+
+
+
+    <td width="514" valign="top" align="left"><img src="images/spacer.gif" width="1" height="1"><br>
+
+
+
+      <table width=514 border=0 cellpadding=0 cellspacing=0>
+
+
+
+        <tr> 
+
+
+
+          <td colspan=4><img src="images/depot_top01.gif" width=248 height=19></td>
+
+
+
+        </tr>
+
+
+
+        <tr> 
+
+
+
+          <td rowspan=2 valign="top"><img src="images/depot_top02.gif" width=97 height=146></td>
+
+
+
+          <td rowspan=2 valign="top"><img src="images/depot_e.gif" width=31 height=128><br>
+
+
+
+            <img src="images/depot_top04.gif" width="31" height="18"></td>
+
+
+
+          <td rowspan=2 valign="top"><img src="images/depot_top03.gif" width=99 height=146></td>
+
+
+
+          <td width="287"><img src="images/depot_title.gif" width=274 height=63 alt="FxZone: Interface Depot"></td>
+
+
+
+        </tr>
+
+
+
+        <tr> 
+
+
+
+          <td width="287" height="104" valign="bottom" align="right"> 
+
+
+
+            <table width="261" border="0" cellspacing="0" cellpadding="0">
+
+              <tr> 
+
+
+
+                <td valign=top><font>The interface depot 
+
+
+
+                  is an online file resource where you can find and share files for 
+
+
+
+                  learning or creating graphic user interfaces.</font></td>
+
+
+
+              </tr>
+
+
+
+            </table>
+
+
+
+            
+
+
+
+          </td>
+
+
+
+        </tr>
+
+
+
+      </table>
+
+
+
+      <br>
+
+
+
+      <table width="514" border="0" cellspacing="0" cellpadding="0">
+
+
+
+        <tr>
+
+
+
+          <td width="237" valign="top"> 
+
+
+
+            <table width="227" border="0" cellspacing="0" cellpadding="0" align="center">
+
+
+
+              <tr>
+
+
+
+                <td width="44"> 
+
+
+
+                  <table width="36" border="0" cellspacing="0" cellpadding="0" height="21">
+
+
+
+                    <tr> 
+
+
+
+                      <td width="10"><img src="images/depot_corner01.gif" width="10" height="21"></td>
+
+
+
+                      <td width="16" bgcolor="#2E508D" align="center"><font color="#FFC956"><b>24</b></font></td>
+
+
+
+                      <td width="10"><img src="images/depot_corner02.gif" width="10" height="21"></td>
+
+
+
+                    </tr>
+
+
+
+                  </table>
+
+
+
+                </td>
+
+
+
+                <td width="183"><small><a href="depot_patterns01.htm"><font color="#FFC956"><b>Interface Patterns</b></font></a><br>
+                  updated: 11/08/01 • added 4 patterns</small></td>
+
+
+
+              </tr>
+
+
+
+            </table>
+
+
+
+            <br>
+
+
+
+            <table width="226" border="0" cellspacing="0" cellpadding="0" align="center">
+
+
+
+              <tr> 
+
+
+
+                <td width="44"> 
+
+
+
+                  <table width="36" border="0" cellspacing="0" cellpadding="0" height="21">
+
+
+
+                    <tr> 
+
+
+
+                      <td width="10"><img src="images/depot_corner01.gif" width="10" height="21"></td>
+
+
+
+                      <td width="16" bgcolor="#2E508D" align="center"><font color="#FFC956"><b>12</b></font></td>
+
+
+
+                      <td width="10"><img src="images/depot_corner02.gif" width="10" height="21"></td>
+
+
+
+                    </tr>
+
+
+
+                  </table>
+
+
+
+                </td>
+
+
+
+                <td width="182"><small><a href="depot_textures01.htm"><font color="#FFC956"><b>Texture Files</b></font></a><br>
+
+
+
+                  updated: 10/11/01 •</small></td>
+
+
+
+              </tr>
+
+
+
+            </table>
+
+
+
+            <br>
+
+
+
+            <table width="227" border="0" cellspacing="0" cellpadding="0" align="center">
+
+
+
+              <tr> 
+
+
+
+                <td width="44"> 
+
+
+
+                  <table width="36" border="0" cellspacing="0" cellpadding="0" height="21">
+
+
+
+                    <tr> 
+
+
+
+                      <td width="10"><img src="images/depot_corner01.gif" width="10" height="21"></td>
+
+
+
+                      <td width="16" bgcolor="#2E508D" align="center"><font color="#FFC956"><b>9</b></font></td>
+
+
+
+                      <td width="10"><img src="images/depot_corner02.gif" width="10" height="21"></td>
+
+
+
+                    </tr>
+
+
+
+                  </table>
+
+
+
+                </td>
+
+
+
+                <td width="183"><small><a href="depot_interfaces01.htm"><font color="#FFC956"><b>Full Interfaces</b></font></a><br>
+                  updated: 10/30/01 •</small></td>
+
+
+
+              </tr>
+
+
+
+            </table>
+
+
+
+            <br>
+
+
+
+            <table width="227" border="0" cellspacing="0" cellpadding="0" align="center">
+
+
+
+              <tr> 
+
+
+
+                <td width="44"> 
+
+
+
+                  <table width="36" border="0" cellspacing="0" cellpadding="0" height="21">
+
+
+
+                    <tr> 
+
+
+
+                      <td width="10"><img src="images/depot_corner01.gif" width="10" height="21"></td>
+
+
+
+                      <td width="16" bgcolor="#2E508D" align="center"><font color="#FFC956"><b>0</b></font></td>
+
+
+
+                      <td width="10"><img src="images/depot_corner02.gif" width="10" height="21"></td>
+
+
+
+                    </tr>
+
+
+
+                  </table>
+
+
+
+                </td>
+
+
+
+                <td width="183"><small><a href="depot_misc.htm"><font color="#FFC956"><b>Misc Files</b></font></a><br>
+
+
+
+                  updated: 10/11/01 •</small></td>
+
+
+
+              </tr>
+
+
+
+            </table>
+
+
+
+            <br>
+
+
+
+            <br>
+
+
+
+            <img src="images/depot_news.gif" width="94" height="10"><br>
+
+
+
+            <img src="images/line01.gif" width="237" height="13"><br>
+
+
+
+            <table border="0" cellspacing="0" cellpadding="0">
+
+
+
+              <tr>
+
+
+
+                <td width="15"><br></td>
+
+
+
+                <td width="215"><font>
+
+
+
+			The depot is fully open. We are now accepting links to other interface files.
+
+			
+
+			You can <a href="depot_submit.htm"><font color="#FFC956"><b>submit your interface files</b></font></a> here
+
+			or you can check out the files we linked that you can download.
+
+
+
+			</font></td>
+
+
+
+              </tr>
+
+
+
+            </table>
+
+
+
+            
+
+
+
+          </td>
+
+
+
+          <td width="277" valign="top"><br>
+
+
+
+            <img src="images/depot_howitworks.gif" width="106" height="7"><br>
+
+
+
+            <img src="images/line01.gif" width="237" height="13"><br>
+
+
+
+            <table width="277" border="0" cellspacing="0" cellpadding="0">
+
+
+
+              <tr> 
+
+
+
+                <td width="15"><br></td>
+
+
+
+                <td width="261"><font>The concept of the interface 
+
+
+
+                  depot is simple. It serves as a file link archive where 
+
+
+
+                  you can download useful <font color="#FFC956"><b>patterns, textures, PSD files</b></font> 
+
+
+
+			and other types of
+
+
+
+			interface files than can help you learn or create your own interfaces but 
+
+
+
+			it also accepts file submissions from other interface designers who wish to publish
+
+
+
+			their own helpful interface files and make it available for download.
+
+
+
+			
+
+
+
+			
+
+
+
+		</font></td>
+
+
+
+              </tr>
+
+
+
+            </table>
+
+
+
+            <br>
+
+
+
+            <br>
+
+
+
+            <table width="230" border="0" cellspacing="0" cellpadding="0" align="center">
+
+
+
+              <tr>
+
+
+
+                <td width="96"><img src="images/button.gif" width="88" height="31"></td>
+
+
+
+                <td width="134"><font><font color="#FFC956"><b>Link the</b></font> FxZone<br>
+
+
+
+                  <font color="#FFC956"><b>Right click and save</b></font></font></td>
+
+
+
+              </tr>
+
+
+
+            </table>
+
+
+
+            <br>
+
+
+
+            <img src="images/line01.gif" width="237" height="13"><br>
+
+		
+
+	<table border="0" cellspacing="2" cellpadding="0" align="center">
+
+	<tr> <td>
+
+      <b><font><small><b>Copyright &copy; 1998-2001 
+
+	<a href="mailto:webmaster@eyeball-design.com"><font color="#FFFFFF"><small>Ryan Lacdao</small></font></a> <br>
+
+	Bandwidth by <a href="http://www.philmetro.com" target="_blank"><font color="#FFFFFF"><small>Philmetro</small></font></a>
+
+	</b></small></font>
+
+	</b></td> </tr></table>
+
+
+
+        </tr>
+
+
+
+      </table>
+
+
+
+    </td>
+
+
+
+  </tr>
+
+
+
+</table>
+
+
+
+<br>
+
+
+
+<img src="http://www.eyeball-design.com/Count.cgi?dd=E|ft=1|df=fxbeta" width=1 height=1><br>
+
+
+
+</body>
+
+
+
+</html>

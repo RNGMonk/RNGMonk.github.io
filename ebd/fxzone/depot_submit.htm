@@ -1,0 +1,356 @@
+<html>
+
+<head>
+
+<title>Eyeball Design - Interface Depot</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<style type="text/css">
+
+<!--
+
+
+font { font-family: Arial; font-size: 13.5px }
+b { font-family: Arial; color: #FFC956}
+small { font-family: Arial; font-size: 11px }
+a {  text-decoration: none}
+
+-->
+
+</style>
+
+
+
+<SCRIPT LANGUAGE = "JavaScript"> <!-- 
+
+
+
+function CheckURL(){
+
+
+
+URLValue = document.depotform.file_url.value;
+
+if (URLValue != '') {
+
+checkhttp = document.depotform.file_url.value.indexOf('http://');
+
+URLlen = URLValue.length;
+
+checkext = URLValue.substring((URLlen-4),URLlen);
+
+checkext = checkext.toLowerCase();
+
+
+
+
+
+if ((checkext == '.zip') || (checkext == '.jpg')) {
+
+
+
+	if (checkhttp == -1) {URLValue = 'http://' + URLValue }
+
+	open(URLValue,'window1');
+
+}
+
+else alert('Check for proper file extension .ZIP or .JPG')
+
+
+
+
+
+	}
+
+else if (URLValue == '') {alert('Please fill up the FILE URL field');}
+
+
+
+
+
+
+
+}
+
+//-->
+
+</script>
+
+
+
+</head>
+
+<body bgcolor=#000000 leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" text="#FFFFFF" link="#FFC956" vlink="#FFC956" alink="#FFC956" background="images/top_bg.gif">
+<table width="769" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr valign="top"> 
+    <td width="81"><img src="images/depot_hdr01.gif" width="81" height="53"></td>
+    <td width="58"><img src="images/depot_hdr02.gif" width="58" height="68"></td>
+    <td width="100"><img src="images/depot_hdr03.gif" width="100" height="55"></td>
+    <td width="530"><img src="images/depot_hdr04.gif" width="311" height="33"><img src="images/depot_hdr_submit.gif" width="219" height="33"></td>
+  </tr>
+</table>
+<br>
+
+<form method="post" action="formmail.php">
+
+
+
+<table width="515" border="0" cellspacing="0" cellpadding="0" align="center">
+
+  <tr> 
+
+    <td colspan="3"><img src="images/depot_submit_hdr.gif" width="515" height="55"></td>
+
+  </tr>
+
+  <tr> 
+
+    <td width="12"><img src="images/spacer.gif" width="12" height="1"></td>
+
+      <td width="493" bgcolor="#284687" align="center"> 
+        <table width="473" border="0" cellspacing="0" cellpadding="0">
+
+        <tr> 
+
+          <td><small><br>
+
+              We will first need you to fill up some contact info so we can inform 
+
+              you when we have added your file to our archive. We will use this info to link you back
+
+		  and give proper credits. Don't forget to 
+
+              read the <a href="depot_terms.htm">terms of use</a> for this service. 
+
+              <font color="#FFC956"><small>All fields are required to be filled 
+
+              up</small></font> except the <font color="#FFC956"><small>web site 
+
+              field</small></font> which is <font color="#FFC956"><small>optional</small></font></small><br>
+
+            <br>
+              <img src="images/depot_submit_name.gif" width="76" height="17" align="absbottom">&nbsp;&nbsp; 
+              <input type="text" name="name" size="40">
+
+              <br>
+
+              <br>
+              <img src="images/depot_submit_email.gif" width="76" height="17" align="absbottom">&nbsp;&nbsp; 
+              <input type="text" name="email" size="40">
+
+              <br>
+
+              <br>
+              <img src="images/depot_submit_website.gif" width="76" height="17" align="absbottom">&nbsp;&nbsp; 
+              <input type="text" name="website" size="40">
+
+              <br>
+
+              <br>
+
+            </td>
+
+        </tr>
+
+      </table>
+
+      </td>
+
+    <td width="10"></td>
+
+  </tr>
+
+  <tr>
+
+    <td width="12"></td>
+
+    <td width="493" align="center"><img src="images/depot_submit_terms.gif" width="493" height="36"></td>
+
+    <td width="10"></td>
+
+  </tr>
+
+</table>
+
+<br>
+
+<table width="515" border="0" cellspacing="0" cellpadding="0" align="center">
+
+  <tr> 
+
+    <td width="10"><img src="images/spacer.gif" width="10" height="1"></td>
+
+    <td width="493"><img src="images/depot_submit_fileinfo.gif" width="493" height="36"></td>
+
+    <td width="12">&nbsp;</td>
+
+  </tr>
+
+  <tr> 
+
+    <td width="10"></td>
+
+      <td width="493" bgcolor="#284687" align="center"> 
+        <table width="473" border="0" cellspacing="0" cellpadding="0">
+
+          <tr>
+
+            <td><font><br><small>
+
+              The files we are looking for are textures files in JPG format, Interface 
+
+              patterns and full interfaces in PSD format and must be zipped and 
+
+              Misc. files in zip format. If you are unsure of the file you are 
+
+              submitting please check the current archive for a sample of the 
+
+              files we need.</small></font><small><br></small>
+
+              <br>
+              <img src="images/depot_submit_filetype.gif" width="76" height="17" align="absbottom">&nbsp;&nbsp; 
+              <select name="file_category">
+
+                <option selected>Interface Pattern - Zip</option>
+
+                <option selected>Full Interface - Zip</option>
+
+                <option selected>Texture - JPG</option>
+
+                <option selected>Misc File - Zip</option>
+
+              </select>
+
+              <br>
+
+              <br>
+              <img src="images/depot_submit_fileurl.gif" width="76" height="17" align="absbottom">&nbsp;&nbsp; 
+              <input type="text" name="file_url" size="40">
+
+              <br>
+
+
+
+		  
+
+
+
+              <br>
+
+              <table width="473" border="0" cellspacing="0" cellpadding="0">
+
+                <tr>
+
+                  <td width="113"><a href="#" onclick="CheckURL()"><img src="images/depot_submit_checkurl.gif" width="103" height="21" border="0"></a></td>
+
+                  <td width="360"><small><font color="#FFC956"><small>
+
+			The FILE URL is what we will use for the download link. Click on 
+
+                    the button to check if FILE URL is correct and If the</small></font> 
+
+                    save file dialog <font color="#FFC956"><small>box appears then it 
+
+                    means the URL is working. This option requires Javascript.</small></font></small></td>
+
+                </tr>
+
+              </table>
+
+              <br>
+
+              <small>Once we have recieved the email we will then screen the file 
+
+              being submitted. You will be informed when your file has been accepted 
+
+              and added to the archive. You do not need to worry about the thumbnail since we
+
+		will take creating it. <font color="#FFC956"><small>Currently we do not host 
+
+              files and all files submitted will be linked using the FILE URL 
+
+              provided above.</small></font><br><br>
+
+
+
+			We don't have the luxury to inform you 
+
+              if the info you submitted is incorrect so please check before submitting 
+
+              this form. </small><br>
+
+
+
+
+
+		<center><br><input type="submit" value="submit interface file"><br></center><br>
+
+            </td>
+
+          </tr>
+
+        </table>
+
+      </td>
+
+    <td width="12"></td>
+
+  </tr>
+
+  <tr> 
+
+    <td colspan="3"><img src="images/depot_submit_ftr.gif" width="515" height="52"></td>
+
+  </tr>
+
+</table>
+
+<br>
+
+<br>
+
+<br>
+
+<table width="760" border="0" cellspacing="0" cellpadding="0" align="center">
+
+  <tr>
+
+    <td>
+
+      <center>
+
+
+
+      <br><center>
+
+        <img src="images/depot_subhdr_left.gif" width="217" height="20"><a href="depot_submit.htm"><img src="images/depot_submit.gif" width="120" height="20" border="0"></a><img src="images/depot_subhdr_mid.gif" width="30" height="20"><a href="interface_depot.htm"><img src="images/depot_back.gif" width="121" height="20" border="0"></a><img src="images/depot_subhdr_right.gif" width="217" height="20"> 
+
+	<table border="0" cellspacing="2" cellpadding="0" align="center">
+	<tr> <td><img src=images/button.gif border=0 width=88 height=31><br></td><td>
+      <b><font><small><b>Images and content Copyright &copy; 1998-2001 
+	<a href="mailto:webmaster@eyeball-design.com"><font color="#FFFFFF"><small>Ryan Lacdao</font></small></a> <br>
+	Bandwidth by <a href="http://www.regex.com" target="_new"><font color="#FFFFFF"><small>Regex Networks</small></font></a>
+	</font></b>
+	</td> </tr></table>
+
+
+  </tr>
+
+</table>
+
+
+
+
+
+<INPUT TYPE="hidden" NAME="FORM_NAME" VALUE="Interface Depot">        
+<INPUT TYPE="hidden" NAME="subject" VALUE="Interface Depot Submission">        
+<INPUT TYPE="hidden" NAME="redirect" VALUE="http://www.eyeball-design.com/fxzone/depot_redirect.htm">
+<INPUT TYPE="hidden" NAME="recipient" VALUE="depot@eyeball-design.com, webmaster@barbiescradle.com.ph">
+
+</form>
+
+</body>
+
+</html>

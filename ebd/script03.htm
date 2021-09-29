@@ -1,0 +1,189 @@
+<HTML><head> <TITLE>Eyeball Site</TITLE> 
+
+<SCRIPT LANGUAGE="Javascript">
+
+	filename = new Array(11);
+	alt = new Array(11);
+	URL = new Array(11);
+
+	Ptr = new Array(5);
+	TempString = new Array(5);
+
+
+	FlowString = document.cookie;
+	Ptr[1] = FlowString.indexOf('*'); 
+
+	numImages = FlowString.substring(0,Ptr[1]); // Extract Number of Images from StringFlow
+	TempString[1] = FlowString.substring(++Ptr[1],FlowString.length);
+	Ptr[2] = TempString[1].indexOf('*');
+
+	imageGroup = TempString[1].substring(0,Ptr[2]); //Extract Image Group
+	TempString[2] = TempString[1].substring(++Ptr[2],TempString[1].length);
+
+
+function Process() { 
+
+	Ptr[3] = TempString[2].indexOf('%');
+	Ptr[4] = TempString[2].indexOf('$');
+
+	Index = new Array(11);
+	FileString = new Array(11);
+	AltString = new Array(11);
+	URLString = new Array(11);
+
+	FileString[1] = TempString[2].substring(0,Ptr[3]);
+	AltString[1] = TempString[2].substring(++Ptr[3],Ptr[4]);
+	URLString[1] = TempString[2].substring(++Ptr[4],TempString[2].length);
+
+	++numImages; Count = 1;
+		
+	for (i = 1; i < numImages; i++) { 
+
+		//Extract all normal image filenames
+	
+		Index[Count] = FileString[Count].indexOf('*');
+		filename[Count] = FileString[Count].substring(0,Index[Count]);
+		FileString[Count + 1] = FileString[Count].substring(++Index[Count],FileString[Count].length);	
+	
+		//Extract all filenames for image swap
+
+		Index[Count] = AltString[Count].indexOf('*');
+		alt[Count] = AltString[Count].substring(0,Index[Count]);
+		AltString[Count + 1] = AltString[Count].substring(++Index[Count],AltString[Count].length);	
+
+		//Extract URL for all links
+
+		Index[Count] = URLString[Count].indexOf('*');
+		URL[Count] = URLString[Count].substring(0,Index[Count]);
+		URLString[Count + 1] = URLString[Count].substring(++Index[Count],URLString[Count].length);	
+
+		++Count ;
+
+		}}
+
+function InitializeImages() {
+
+	for (i = 1; i < numImages ; i++) {
+
+	document.write(imageGroup + i + "= new Image(); " + imageGroup + i +".src = \"" + filename[i] + "\"; <br>");
+	document.write(imageGroup + i + "on = new Image(); " + imageGroup + i +"on.src = \"" + alt[i] + "\"; <br>");
+
+	}}
+
+function ImageCode() {
+
+	for (i = 1; i < numImages ; i++) {
+
+	document.write("&lt;" + "!-- Code for " + imageGroup + " : " + filename[i] + " --" + "&gt <br>");
+	document.write("&lt;" + "a href=\"" + URL[i] + "\" <br> ")
+	document.write("onmouseover=\"swap('img" + imageGroup + i + "','" + imageGroup + i +"on')\" <br> " );
+	document.write("onmouseout=\"swap('img" + imageGroup + i + "','" + imageGroup + i + "')\"" + "&gt;<br> " );
+	document.write("&lt;" + "img name =\"img" + imageGroup + i + "\" <br> src= \"" + filename[i] + "\" border = 0 alt = \"" + filename[i] + "\"" + "&gt;&lt;br&gt;");
+	document.write("&lt;" + "/a&gt;<br>");
+	document.write("<br><br>");
+
+	}}
+
+
+
+	
+</SCRIPT>
+
+
+</HEAD>
+
+
+<BODY text=white link=c4aF64 vlink=c4aF64 bgcolor=black 
+background=back.gif onload="window.defaultStatus='Welcome to the Eyeball Site'"> 
+
+<center><img src=images/header/header06.jpg border=0 width=600 height=94><br>
+
+
+	<table border=0 width=560 ><tr><td>
+
+	<font face=arial size=-1>
+
+	The first code segment generated below should be placed between the <b>&lt;head&gt;&lt;/head&gt; </b> tags
+	on the upper part of the HTML document. Highlight, copy then paste the code to your HTML document. 
+	<font face=arial size=-1><b>
+
+	<hr noshade>
+
+	<table border=0 width=560 bgcolor=b7b7b7 cellpadding=10><tr><td>
+
+	<font face=arial size=-1 color=000000><b>
+
+		<script language="javascript"> Process(); </script>	
+
+	&lt;SCRIPT LANGUAGE = "JavaScript"&gt <br><br>
+
+	// Javascript Animation<br>
+	// Script Genereated by Eyeball Animation code generator<br>
+	// http://www.eyeball-design.com (freebie section)<br><br>
+
+	&lt!-- hide <br><br>      
+        browserName = navigator.appName; <br>       
+        browserVer = parseInt(navigator.appVersion); <br>       
+        browser = "NotOk"; <br><br>
+
+	// Detect if Netscape or MSIE version is ok <br><br>
+
+        if (browserName == "Netscape" && browserVer >= 3) { browser = "ok"}    <br>
+	if (browserName == "Microsoft Internet Explorer" && browserVer >= 4) { browser = "ok"} <br><br>
+
+	// Initialize your images<br><br>
+
+	
+	if (browser == "ok")        { <br><br>
+
+	<blockquote>
+
+		<script language="javascript"> InitializeImages(); </script>	
+
+	</blockquote>
+
+ 	}<br><br>
+
+
+	function swap(imgName,select) <br><br>
+
+        { if (browser == "ok") {imgOn = eval(select+ ".src");     <br> 
+        document.images[imgName].src = imgOn;        }} <br><br>
+
+
+	// --&gt
+
+	&lt/SCRIPT &gt 
+
+	</td></tr></table>
+
+	<hr noshade></b>
+
+	The code below is the actual <b>HTML code for each image.</b> You can format the apperance or layout
+	of the images using tables.
+
+	<hr noshade>	
+
+	<table border=0 width=560 bgcolor=b7b7b7 cellpadding=10><tr><td>
+	<font face=arial size=-1 color=000000><b>
+
+		<script language="javascript"> ImageCode(); </script>		
+
+	</td></tr></table>
+
+	<hr noshade>
+	If you encounter any problems with the script email me at  
+	<a href=mailto:script@eyeball-design.com>script@eyeball-design.com</a><br>
+	I will also put up an FAQ in the future to help you debug the problems
+	you encounter with the code. Also email me if you are using this script
+	created by my code generator.
+	
+
+	</td></tr></table>
+	
+<br><font face=arial size=-2>
+For your comments, questions, suggestions and complaints send your email to 
+<a href=mailto:webmaster@eyeball-design.com>webmaster@eyeball-design.com.</a>
+
+
+</BODY></HTML>

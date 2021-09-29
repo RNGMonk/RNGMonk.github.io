@@ -1,0 +1,124 @@
+<html>
+<head>
+<title>nickname</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+font { font-family: Arial; font-size: 13.5px }
+small { font-family: Arial; font-size: 11px }
+a {  text-decoration: none}
+b { font-family: Arial; color: #FFC956}
+-->
+</style>
+</head>
+
+<body bgcolor="#000000" text="#DDDDDD" link="#FFC956" vlink="#FFC956" alink="#FFC956" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="84%" border="0" cellspacing="2" cellpadding="2">
+  <tr> 
+    <td height="21" valign="middle" colspan="2"> 
+      <div align="center"><img src="images/nickserv.jpg" width="432" height="27"></div>
+    </td>
+  </tr>
+  <tr> 
+    <td height="22" valign="top" width="53%"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td><img src="images/register.jpg" width="237" height="13"></td>
+        </tr>
+        <tr> 
+          <td><img src="images/line01.gif" width="237" height="13"></td>
+        </tr>
+      </table>
+    </td>
+    <td height="22" valign="top" width="47%"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" height="8">
+        <tr> 
+          <td><img src="images/identify.jpg" width="237" height="13"></td>
+        </tr>
+        <tr> 
+          <td><img src="images/line01.gif" width="237" height="13"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td height="156" valign="top" width="53%"><b><font size="+0">/msg nickserv 
+      register password email<br>
+      </font></b><br>
+      Make sure you put a real email address cause if you forget your password 
+      they will email it to the email, which you used to register your nick with.<br>
+      <br>
+      example:<font size="+0"><b>/msg nickserv register mypassword irc@eyeball-design.com</b></font></td>
+    <td height="156" valign="top" width="47%"> 
+      <p><b><font size="+0">/msg nickserv identify password</font></b><br>
+        <br>
+        This identifies you to nickserv so that you can get channel op status 
+        if you have it in a certain channel as well as check your memos with memoserv.<br>
+        <br>
+        example:<font size="+0"><b>/msg nickserv identify mypassword</b></font></p>
+    </td>
+  </tr>
+  <tr> 
+    <td height="21" valign="top" width="53%"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td><img src="images/ghost.jpg" width="237" height="13"></td>
+        </tr>
+        <tr> 
+          <td><img src="images/line01.gif" width="237" height="13"></td>
+        </tr>
+      </table>
+    </td>
+    <td height="21" valign="top" width="47%"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td><img src="images/recover.jpg" width="237" height="13"></td>
+        </tr>
+        <tr> 
+          <td><img src="images/line01.gif" width="237" height="13"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td height="21" valign="top" width="53%"> 
+      <p><b><font size="+0">/msg nickserv ghost nickname password</font></b></p>
+      <p>If you have become disconnected, but your client is still online, you 
+        can use the ghost command to disconnect the client. You must either have 
+        identified for the nick with the client sending the ghost command or you 
+        must include the password in the command. </p>
+      <p>example: <b><font size="+0">/msg nickserv ghost webmaster webpass</font></b> 
+        <br>
+        <br>
+        When a computer disconnects abruptly, for example by crashing, sometimes 
+        it does not log off of the chat network. The server will eventually realize 
+        that the client is dead, but you may log back on and still see a &quot;ghost&quot; 
+        of yourself. This command is designed to allow you to remove these ghosts. 
+        You can only ghost a nick if you have registered it. If you have an unregistered 
+        ghost, just wait for it to disconnect itself. If it is causing problems, 
+        you can ask a network operator to &quot;kill&quot; it. <br>
+      </p>
+    </td>
+    <td height="21" valign="top" width="47%">
+      <p><b><font size="+0">/msg nickserv recover nick password<br>
+        <br>
+        </font></b><font size="+0"> <font size="none">If another user is using 
+        your nick and you haven't turned nick protect on, you can use this command 
+        to disconnect the user and recover your nick. After using the recover 
+        command, you need to use the release command or wait two minutes to get 
+        the nick back. Services puts up an enforcer, to prevent someone from auto-rejoining 
+        with your nick. If you have identified for the nick already, then you 
+        do not need to include the password. If you have not identified, then 
+        it will not work without the nick's pass. </font></font></p>
+      <p><font size="none">example:<font size="+0"><b>/msg nickserv recover Andrew 
+        mypass</b></font></font></p>
+      <p>Recover is a harsh command in that it disconnects the person from the 
+        chat network. You can try asking someone to stop using your nick before 
+        recovering it. But if your nick is in use and you want it back, this is 
+        always available. <br>
+      </p>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,339 @@
+<html>
+  <head>
+    
+    <title>FxZone Forum - Posting in Photoshop Tutorials &amp; Tips </title>
+
+
+<!--Javascript-->
+
+<script type="text/javascript">
+
+function openScript(url, width, height) {
+        var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=yes,status=yes' );
+}
+
+</script>
+
+<script type="text/javascript">
+
+clckcnt = 0;
+function clckcntr() {
+clckcnt++;
+if(clckcnt > 1) {
+    if(clckcnt > 2) { return false; }
+    alert('Processing...\n\n' + '     Thank you for your patience.');
+    return false;}
+return true;}
+
+</script>
+
+
+
+
+
+
+
+
+
+<!--end Java-->
+   
+   
+   
+   
+   
+   
+   
+   
+
+
+<!--css info(editable)-->
+
+<style type="text/css">
+SELECT, option, textarea, input {   FONT-FAMILY:verdana,arial;color:#000000; FONT-SIZE: 12px; background-color:#eeeeee  }
+a:link,a:visited,a:active {text-decoration:none; color:#FFC956; font-weight:plain;}
+b { font-family: Arial; color: #FFC956}
+</style>
+
+<!--end css info-->
+
+</head>
+
+<body background="http://www.eyeball-design.com/fxzone/images/top_bg.gif" bgcolor=#000000 text="#ABABAB" link="#FFFFFF" vlink="#FFFFFF" alink="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width=771 border=0 cellpadding=0 cellspacing=0 align="center">
+  <tr> 
+    <td rowspan=3><img src="http://www.eyeball-design.com/fxzone/images/hdr01.gif" width=77 height=97></td>
+    <td rowspan=3><img src="http://www.eyeball-design.com/fxzone/images/hdr02.gif" width="13" height="27"><br>
+      <img src="http://www.eyeball-design.com/fxzone/images/hdr_e.gif" width="13" height="54"><br>
+      <img src="http://www.eyeball-design.com/fxzone/images/hdr03.gif" width="13" height="16"></td>
+    <td rowspan=3><img src="http://www.eyeball-design.com/fxzone/images/hdr04.gif" width=45 height=97></td>
+    <td colspan=2><img src="http://www.eyeball-design.com/fxzone/images/hdr05.gif" width=536 height=8></td>
+    <td rowspan=3 valign="top"><img src="http://www.eyeball-design.com/fxzone/images/hdr08.gif" width=100 height=50></td>
+  </tr>
+  <tr> 
+    <td><img src="http://www.eyeball-design.com/fxzone/images/hdr06.gif" width=380 height=20></td>
+    <td rowspan=2 valign="top"> <img src="http://www.eyeball-design.com/fxzone/images/hdr_forums.gif" width=156 height=33></td>
+  </tr>
+  <tr> 
+    <td><img src="http://www.eyeball-design.com/fxzone/images/hdr07.gif" width=380 height=69></td>
+  </tr>
+</table>
+
+<p>
+
+
+
+
+<table width="750" align="center" cellspacing="1" cellpadding="0"  border="0" bgcolor=#000000>
+  <tr>
+    <td bgcolor=#000000>
+      <table width="100%" cellspacing="0" cellpadding="4" border="0">
+        <tr>
+        <td bgcolor=#000000><font face=arial color=#FFC956 size=4><b>FxZone Forum</font></b><br><font face=arial color=#FFC956 size=2></font></td>
+        <td bgcolor=#000000 align=right valign=bottom><font face=arial color=#FFC956 size=1><a href="http://www.eyeball-design.com/fxzone/news.htm">&raquo; back to Eyeball-Design &#0124; FxZone</a></font></td>
+        </tr>
+            <tr>
+            <td bgcolor=#000000 colspan=2>
+                <font face=arial color=#FFFFFF size=2>
+                <a href="register.cgi">Register</a> | <a href="profile.cgi">Profile</a> | <a href="loginout.cgi">Log-in</a> | <a href="profile.cgi?action=lostpassword">Lost Password</a> | <a href="whosonline.cgi">Active Users</a> | <a href="javascript:openScript('help.cgi',500,400)">Help</a> | <a href="search.cgi">Search</a>
+                </font>
+            </td>
+            </tr>
+        </table>
+        </td>
+    </tr>
+</table>
+<p>
+<table width="750" align="center" cellspacing="0" cellpadding="1"  border="0" bgcolor=#000000>
+  <tr>
+    <td>
+      <table width="100%" cellspacing="0" cellpadding="4" border="0">
+        <tr>
+        <td bgcolor=#000000 valign="middle">
+            <font face=arial color=#FFFFFF size=1>
+            &raquo; Welcome Guest: <a href="loginout.cgi">log in</a> | <a href="register.cgi">Register</a> 
+            </font>
+            </td>
+            </tr>
+        </table>
+        </td>
+    </tr>
+</table>
+<p>
+
+            
+            <table cellpadding=0 cellspacing=0 border=0 width=750 align=center>
+                <tr>
+                    <td width=30% rowspan=2>
+                    <a href="forums.cgi?forum=2"><img src="http://www.eyeball-design.com/ikonboard/images/logo.gif
+" border=0></a>
+                    </td>
+                    <td valign=top align=left>
+                        <font face=arial color=#FFC956 size=2>
+                        &nbsp;&nbsp;<img src="http://www.eyeball-design.com/ikonboard/images/closedfold.gif" border=0><a href="ikonboard.cgi">&nbsp;&nbsp;FxZone Forum</a>
+	                    <br>
+                        &nbsp;&nbsp;<img src="http://www.eyeball-design.com/ikonboard/images/bar.gif" border=0><img src="http://www.eyeball-design.com/ikonboard/images/closedfold.gif" border=0>&nbsp;&nbsp;<a href="forums.cgi?forum=2">Photoshop Tutorials &amp; Tips </a>
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.eyeball-design.com/ikonboard/images/bar.gif" border=0><img src="http://www.eyeball-design.com/ikonboard/images/openfold.gif" border=0>&nbsp;&nbsp;Replying to post in
+                    </td>
+                    
+                </tr>
+            </table>
+            
+            <p>
+            
+        <table cellpadding=0 cellspacing=0 border=0 width=750 bgcolor=#222222 align=center>
+            <tr><td>
+                <table cellpadding=4 cellspacing=1 border=0 width=100%>
+                <tr>
+                    <td bgcolor=#263C83 colspan=2><font face="arial" color=#FFFFFF size=1>Topic: Metallic Bands</td>
+                </tr>
+                <tr><form action="post.cgi" method=post>
+                    <input type=hidden name="action" value="addreply">
+                    <input type=hidden name="forum" value="2">
+                    <input type=hidden name="topic" value="217">
+                </tr><tr>
+                    <td bgcolor=#263C83 valign=middle><font face="arial" color=#FFC956 size=1><b>Username</b></font></td>
+                    <td bgcolor=#263C83 valign=middle><input type=text size=20 name="membername" value="Guest"><font face="arial" color=#FFC956 size=1> &nbsp; <a href="register.cgi">Are you registered?</a></font></td>
+                </tr><tr>
+                    <td bgcolor=#263C83 valign=middle><font face="arial" color=#FFC956 size=1><b>Password</b></font></td>
+                    <td bgcolor=#263C83 valign=middle><input type=password size=20 name="password" value=""><font face="arial" color=#FFC956 size=1> &nbsp; <a href="profile.cgi?action=lostpass">Forgotten your password?</a></font></td>
+                </tr><tr>
+                    <td bgcolor=#263C83 valign=top><font face="arial" color=#FFC956 size=1><b>Post</b><p>
+                    HTML is <b>on</b> for this forum<p>IkonCode is <b>on</b> for this forum<p></font></td>
+                    <td bgcolor=#263C83 valign=middle><textarea cols=60 rows=6 wrap="soft" name="inpost">[quote]Quote: from DarkJester on 10:23 am on Dec. 13, 2001[br]Nice! If only I would have the skills to make the image, LOL. Still learning though...
+[/quote]</textarea></td>
+                </tr><tr>
+                    <td bgcolor=#263C83 valign=top><font face="arial" color=#FFC956 size=1><b>Post Options</b></font></td>
+                    <td bgcolor=#263C83 valign=middle><font face="arial" color=#FFC956 size=1><input type=checkbox name="inshowsignature" value="yes" checked>Do you wish to add your signature?<br>
+                    <input type=checkbox name="notify" value="yes">Do you want email notification of replies?<br>
+                    
+                    <b>Do you wish to preview before posting?</b><input name="previewfirst" type="radio" value="yes"> Yes &nbsp; <input name="previewfirst" type="radio" value="no" checked> No</font>
+                    </font></td>
+                </tr><tr>
+                    <td bgcolor=#263C83 valign=middle colspan=2 align=center>
+                    <input type=Submit value=Submit name=Submit" onClick="return clckcntr();"> &nbsp; <input type="reset" name="Clear"></form>
+                    </td></tr></table></tr></td></table>
+                    
+        <p>
+        <table cellpadding=0 cellspacing=0 border=0 width=750 bgcolor=#222222 align=center>
+        <tr><td>
+        <table cellpadding=8 cellspacing=1 border=0 width=100%>
+        <tr>
+        <td bgcolor=#263C83 colspan=2><font face="arial" color=#FFFFFF size=2><b>Thread Review for Metallic Bands (newest post first)</b></td>
+        
+        <tr>
+            <td bgcolor="#263C83" rowspan=2 valign="top" width=20%><font face="arial" color=#FFC956 size=2>
+            <b>vogonpoet</b></font></td>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2><b>Posted on 11:26 am on Dec. 13, 2001</b></td>
+        </tr>
+        <tr>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2>yup.. please optimise your images, link to a html page that contains the tut or be prepared to have a moderator edit your post <img src="http://www.eyeball-design.com/ikonboard/emoticons/wink.gif" border="0"> <br> <br>Plus bumping up posts is'nt too cool .. &nbsp;welcome to the forums and thanks for your consideration to some of us who have slow 56 modems <img src="http://www.eyeball-design.com/ikonboard/emoticons/smile.gif" border="0"> <br> <br></td>
+        </tr>
+        <tr>
+            <td colspan=2 bgcolor="#263C83">&nbsp;</td>
+        </tr>
+        
+        <tr>
+            <td bgcolor="#263C83" rowspan=2 valign="top" width=20%><font face="arial" color=#FFC956 size=2>
+            <b>DarkJester</b></font></td>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2><b>Posted on 10:23 am on Dec. 13, 2001</b></td>
+        </tr>
+        <tr>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2>Nice! If only I would have the skills to make the image, LOL. Still learning though...
+</td>
+        </tr>
+        <tr>
+            <td colspan=2 bgcolor="#263C83">&nbsp;</td>
+        </tr>
+        
+        <tr>
+            <td bgcolor="#263C83" rowspan=2 valign="top" width=20%><font face="arial" color=#FFC956 size=2>
+            <b>Nightshade</b></font></td>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2><b>Posted on 6:47 am on Dec. 13, 2001</b></td>
+        </tr>
+        <tr>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2>I would just use smaller images. &nbsp;Those while real easy to see are bigger than most use in their tuts. <br> <br>I'll be giving it a try though as soon as I am able. &nbsp;Looks clear enough to understand.
+</td>
+        </tr>
+        <tr>
+            <td colspan=2 bgcolor="#263C83">&nbsp;</td>
+        </tr>
+        
+        <tr>
+            <td bgcolor="#263C83" rowspan=2 valign="top" width=20%><font face="arial" color=#FFC956 size=2>
+            <b>aeon</b></font></td>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2><b>Posted on 6:19 am on Dec. 13, 2001</b></td>
+        </tr>
+        <tr>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2>bump (this will be the last one)
+</td>
+        </tr>
+        <tr>
+            <td colspan=2 bgcolor="#263C83">&nbsp;</td>
+        </tr>
+        
+        <tr>
+            <td bgcolor="#263C83" rowspan=2 valign="top" width=20%><font face="arial" color=#FFC956 size=2>
+            <b>jagr10</b></font></td>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2><b>Posted on 12:04 pm on Dec. 11, 2001</b></td>
+        </tr>
+        <tr>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2>Good job aeon. &nbsp;Nice to see people posting tutorials!
+</td>
+        </tr>
+        <tr>
+            <td colspan=2 bgcolor="#263C83">&nbsp;</td>
+        </tr>
+        
+        <tr>
+            <td bgcolor="#263C83" rowspan=2 valign="top" width=20%><font face="arial" color=#FFC956 size=2>
+            <b>ReMiXx</b></font></td>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2><b>Posted on 8:38 am on Dec. 11, 2001</b></td>
+        </tr>
+        <tr>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2>hi and welcome aeon, hope to see more of your work!
+</td>
+        </tr>
+        <tr>
+            <td colspan=2 bgcolor="#263C83">&nbsp;</td>
+        </tr>
+        
+        <tr>
+            <td bgcolor="#263C83" rowspan=2 valign="top" width=20%><font face="arial" color=#FFC956 size=2>
+            <b>aeon</b></font></td>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2><b>Posted on 7:31 am on Dec. 11, 2001</b></td>
+        </tr>
+        <tr>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2>bump &nbsp;(hehe, top of the list)
+</td>
+        </tr>
+        <tr>
+            <td colspan=2 bgcolor="#263C83">&nbsp;</td>
+        </tr>
+        
+        <tr>
+            <td bgcolor="#263C83" rowspan=2 valign="top" width=20%><font face="arial" color=#FFC956 size=2>
+            <b>aeon</b></font></td>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2><b>Posted on 3:32 pm on Dec. 10, 2001</b></td>
+        </tr>
+        <tr>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2>I could post just the links, but then the user would be spending more time clicking links than making art <img src="http://www.eyeball-design.com/ikonboard/emoticons/smile.gif" border="0"> <br> <br>I don't have a problem with the images and i'm on 56k (right now anyway).  They load before your done reading the first part before you even get to the tutorial. <br> <br>Anyway,  I have been a big fan of eyeball design for some time now, I first visited the site back in '98 and loved the rotating spheres (got alot of attention).  Since then I have become a great artist and have done some of my own projects for the online community. <br> <br>I just wanted to give a little VIP tutorial to the users here exclusively since this one wasn't in the FX Zone tutorial list. <br> <br>It covers everything else but not the &quot;bands&quot; on the interfaces. <br> <br>Anyway, I will post more tutorials here in the future (not VIP ones but ones I have made) and I will post the image links instead of the images themselves.   <br> <br>Anywho, if anyone is interested in seeing some more of my work you can hop over to deviantart and check out my gallery <a href="http://aeon.deviantart.com" target="_blank">http://aeon.deviantart.com</a>  My website doesn't have my artwork on it because my server is going down soon, but I do have a backup one that will be online in the next few days.  (the gfx-online.com one). <br> <br> <br> <br>(Edited by aeon at 10:33 am on Dec. 10, 2001)
+</td>
+        </tr>
+        <tr>
+            <td colspan=2 bgcolor="#263C83">&nbsp;</td>
+        </tr>
+        
+        <tr>
+            <td bgcolor="#263C83" rowspan=2 valign="top" width=20%><font face="arial" color=#FFC956 size=2>
+            <b>Raptor</b></font></td>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2><b>Posted on 3:09 pm on Dec. 10, 2001</b></td>
+        </tr>
+        <tr>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2>great tutorial, and welcome to the forums aeon. i hate to be an assh*le (but i guess that comes w/ being a moderator lol) but we're trying to keep the forums fast for those that don't have a lot of bandwidth. so if you could turn those into links to the images, that would be great. <br> <br>Anyway, welcome to the forums here. there's a lot of people that are willing to help, and if you have any questions feel free to ask them.. everybody does their best to get an answer to every question here. Keep up the good work, and it's nice to have ya here <img src="http://www.eyeball-design.com/ikonboard/emoticons/smile.gif" border="0">
+</td>
+        </tr>
+        <tr>
+            <td colspan=2 bgcolor="#263C83">&nbsp;</td>
+        </tr>
+        
+        <tr>
+            <td bgcolor="#263C83" rowspan=2 valign="top" width=20%><font face="arial" color=#FFC956 size=2>
+            <b>aeon</b></font></td>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2><b>Posted on 2:53 pm on Dec. 10, 2001</b></td>
+        </tr>
+        <tr>
+            <td bgcolor="#263C83"><font face="arial" color=#FFC956 size=2>First off, I started with this patern from the depot here. <br> <br><img src="http://www.vsstudios.f2s.com/tut1/patern.jpg"> <br> <br>I then changed it to this as this is the interface I am going to use for this tutorial. <br> <br><img src="http://www.vsstudios.f2s.com/tut1/iface.jpg"> <br> <br>Start with your interface, make a new layer on top of your interface.  Create a circular selection (I used 250px by 250px) and place it where you want to make <br>the first &quot;band&quot; (Fig 1). <br> <br>(Fig 1) <br><img src="http://www.vsstudios.f2s.com/tut1/1.jpg"> <br> <br>Make a STROKE (Edit -&gt; Stroke) 1px wide, filled with white, on the outside.  Deselect (CTRL+D) and start erasing where you do not want the band. <br>Erase so that the line is just over the section you want it to (Fig 2). <br> <br>(Fig 2) <br><img src="http://www.vsstudios.f2s.com/tut1/2.jpg"> <br> <br>Create an outer glow (Layer -&gt; Layer Style -&gt; Outer Glow) with the settings, Normal blending, 100%, all black, 0% noise, Technique &quot;Precise&quot;, Spread 100%, <br>Size 1px, Alti-aliased, Range 100%, Jitter 0% (Fig 3).  Also while we are in this menu, apply a Gradient Overlay.  Change the black color to a RGB value of 120 for all three (a 120 value grey) and press ok (Fig 4). <br> <br>(Fig 3) <br><img src="http://www.vsstudios.f2s.com/tut1/3.jpg"> <br> <br>(Fig 4) <br><img src="http://www.vsstudios.f2s.com/tut1/4.jpg"> <br> <br>Now you have your first metallic &quot;band&quot; for your interface.  Just repeat these steps (or apply to the same layer but looks better on thier own individual layer) <br>and be artistic, change up the value of the circular selection, try it with lines, try it with any little gadgets you want to make metallic on your interface. <br> <br>If you have any questions or comments, please feel free to email me at:  gabereiser@vsstudios.net <br> <br>Thanks and happy banding. <br> <br>
+</td>
+        </tr>
+        <tr>
+            <td colspan=2 bgcolor="#263C83">&nbsp;</td>
+        </tr>
+        </table></td></tr></table>
+
+
+        <p>
+        <table width=80% align=center cellpadding=3 cellspacing=0>
+        <tr><td align=center valign=middle>
+        <font face=verdana color=#FFC956 size=1>
+        &copy; 1998-2001 Ryan Lacdao.  &#0124; <a href="http://www.eyeball-design.com/cgi-bin/ikonboard/privacy.cgi">Our Privacy Statement</a><br><br>
+        Powered by <a href="http://www.ikonboard.com">Ikonboard 2.1.9 Beta</a><br>&copy; 2001 Ikonboard.com
+        </font></td></tr></table>
+        <p>
+        
+
+
+
+<p>
+</body>
+</html>
+    
+
+   
+   
+   
+   
+   
+   
+   
+   

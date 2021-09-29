@@ -1,0 +1,173 @@
+<html>
+<head>
+<title>memoserv</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+font { font-family: Arial; font-size: 13.5px }
+small { font-family: Arial; font-size: 11px }
+a {  text-decoration: none}
+b { font-family: Arial; color: #FFC956}
+-->
+</style>
+</head>
+
+<body bgcolor="#000000" text="#DDDDDD" link="#FFC956" vlink="#FFC956" alink="#FFC956" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="91%" border="0" cellspacing="2" cellpadding="2" height="75">
+  <tr> 
+    <td height="21" valign="middle" colspan="2"> 
+      <div align="center"><img src="images/memoserv.jpg" width="432" height="27"></div>
+    </td>
+  </tr>
+  <tr> 
+    <td height="21" valign="middle" width="53%"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td><img src="images/list.jpg" width="237" height="13"></td>
+        </tr>
+        <tr> 
+          <td><img src="images/line01.gif" width="237" height="13"></td>
+        </tr>
+      </table>
+    </td>
+    <td height="21" valign="middle" width="47%"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td><img src="images/read.jpg" width="237" height="13"></td>
+        </tr>
+        <tr> 
+          <td><img src="images/line01.gif" width="237" height="13"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td height="281" valign="top" width="53%"> 
+      <p><b><font size="+0">/<font face="Arial, Helvetica, sans-serif">msg memoserv 
+        list</font></font></b></p>
+      <p><font face="Arial, Helvetica, sans-serif">Displays a list of memos sent 
+        to you, in your active memo folder. You cannot see memos that you have 
+        sent. If no memo folder is selected it will show you how many memos you 
+        have in each of your folders. </font></p>
+      <p><font face="Arial, Helvetica, sans-serif">example:<font size="+0"><b>/msg 
+        memoserv list</b></font></font></p>
+      <p><font face="Arial, Helvetica, sans-serif">This will show you the memo 
+        numbers so that you can easily choose which to read or delete. You can 
+        see how many memos you have in each folder, so you can decide if you should 
+        select one to read through its contents. </font> </p>
+    </td>
+    <td height="281" valign="top" width="47%"> 
+      <p><b><font size="+0" face="Arial, Helvetica, sans-serif">/msg memoserv 
+        read number(s)<br>
+        <br>
+        </font></b><font face="Arial, Helvetica, sans-serif">This command can 
+        be used to read memos in the currently selected folder. The argument passed 
+        can be an individual memo number, a comma separated list of memo numbers 
+        or a memo range. A memo range, denoted by the syntax &lt;lo&gt;:&lt;hi&gt; 
+        specifies that you wish to read all memos, whose id is greater than or 
+        equal to 'lo' and less than or equal to 'hi'. <br>
+        <br>
+        examples:<br>
+        <font size="+0"><b>/msg memoserv read 1<br>
+        /msg memoserv read 12:15<br>
+        /msg memoserv read 2,3,6 </b></font></font></p>
+      <p><font face="Arial, Helvetica, sans-serif">This is a fairly simple command. 
+        You will probably want to list all of the memos you wish to read in one 
+        command just for convenience, so long as the scroll isn't a problem. You 
+        can always reread a memo if it scrolls off and you can't scroll back to 
+        see it. </font></p>
+    </td>
+  </tr>
+  <tr> 
+    <td height="11" valign="top" width="53%"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td><img src="images/sending.jpg" width="237" height="13"></td>
+        </tr>
+        <tr> 
+          <td><img src="images/line01.gif" width="237" height="13"></td>
+        </tr>
+      </table>
+    </td>
+    <td height="11" valign="top" width="47%"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td><img src="images/expunge.jpg" width="237" height="13"></td>
+        </tr>
+        <tr> 
+          <td><img src="images/line01.gif" width="237" height="13"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td height="4" valign="top" width="53%"> 
+      <p><b><font face="Arial, Helvetica, sans-serif" size="+0">/msg memoserv 
+        send person message</font></b></p>
+      <p>This command allows you to send a memo to a registered nickname. You 
+        cannot send a memo from the nick you are using to itself. </p>
+      <p>example:<br>
+        <font face="Arial, Helvetica, sans-serif"><b>/msg memoserv send JoelKatz 
+        How was your vacation?</b></font><br>
+        <br>
+      </p>
+    </td>
+    <td height="4" valign="top" width="47%"> 
+      <p><b><font size="+0" face="Arial, Helvetica, sans-serif">/msg memoserv 
+        expunge</font></b></p>
+      <p><font face="Arial, Helvetica, sans-serif">The expunge command will permanently 
+        delete all memos in the &quot;recycler&quot; folder. Once your memos have 
+        been expunged from the folder they cannot be retrieved. <br>
+        <br>
+        example:<b>/msg memoserv expunge</b><br>
+        <br>
+        Expunging your recycler is much like purging emails in some programs or 
+        emptying your trash can or recycle bin. It is the final step that makes 
+        memos irretrievable. <br>
+        </font> </p>
+    </td>
+  </tr>
+  <tr> 
+    <td height="4" valign="top" width="53%"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td><img src="images/delete.jpg" width="237" height="13"></td>
+        </tr>
+        <tr> 
+          <td><img src="images/line01.gif" width="237" height="13"></td>
+        </tr>
+      </table>
+    </td>
+    <td height="4" valign="top" width="47%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="4" valign="top" width="53%">
+      <p><b><font face="Arial, Helvetica, sans-serif">/msg memoserv del range|*|All</font></b></p>
+      <p><font face="Arial, Helvetica, sans-serif">This command will delete specified 
+        memos. del all or del * deletes all of your memos within the active folder, 
+        so use it with care. del all is deprecated, but still works. Use del * 
+        to delete all memos in a folder. When deleting specific memos, the argument 
+        passed can be an individual memo number, a comma separated list of memo 
+        numbers or a memo range. A memo range, denoted by the syntax &lt;lo&gt;:&lt;hi&gt; 
+        specifies that you wish to delete all memos, whose id is greater than 
+        or equal to 'lo' and less than or equal to 'hi'. This command will also 
+        delete a memo folder. However you cannot delete the Inbox, System, or 
+        Recycler memo folders. You can only delete folders you created. <br>
+        <br>
+        examples:<br>
+        <b>/msg memoserv del 1<br>
+        /msg memoserv del 12:15<br>
+        /msg memoserv del 2,3,6<br>
+        /msg memoserv del *<br>
+        /msg memoserv del all </b></font></p>
+      <p>Make sure that you have the correct folder active when you are deleting. 
+        Deleted memos will go into the Recycler folder, so you can move them back 
+        into your other folders if you made a mistake. Use the expunge command 
+        to make the memos in your Recycler folder vanish. <br>
+      </p>
+    </td>
+    <td height="4" valign="top" width="47%">&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

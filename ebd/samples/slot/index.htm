@@ -1,0 +1,448 @@
+<HTML><HEAD><TITLE>Slot-O-Matic</TITLE>
+
+<META NAME="keywords" 
+
+CONTENT="slot machine, slot machine, online games, online entertainment, entertainment, online gambling, 
+
+javascript game, game, javascript, gambling">
+
+
+
+<SCRIPT LANGUAGE="JavaScript">
+
+
+
+<!--
+
+ // Javascript Animation
+      // Script Genereated by Eyeball Animation code generator
+      // http://www.eyeball-design.com (freebie section)
+
+      <!-- hide 
+
+      browserName = navigator.appName; 
+      browserVer = parseInt(navigator.appVersion); 
+      browser = "NotOk"; 
+
+
+      // Detect if Netscape or MSIE version is ok 
+
+      if (browserName == "Netscape" && browserVer >= 3) { browser = "ok"} 
+      if (browserName == "Microsoft Internet Explorer" && browserVer == 4) { browser = "ok"} 
+
+
+
+//Slot-O-Matic Script beta version
+
+//© 1997 Virtual Ry | virtual_ry@hotmail.com
+
+//Script may not be used w/o persmission
+
+
+
+
+max=3;
+
+MaxBar=7;
+
+fullvalue=100; 			// starting money
+
+var value = new Array(5);	// For the counter
+
+PlusPoints = 7;			// For two case match additional points
+
+
+function SetCookie(name , form) {
+	document.cookie = name + ";";
+}
+
+
+
+
+	if (browser == "ok")        {
+
+	var bar = new Array(11);
+
+        for (i = 1 ; i < 10 ; i++){
+
+             bar[i] = new Image(); }
+
+
+
+	bar[1].src = "bar1.gif";
+
+	bar[2].src = "bar2.gif";
+
+	bar[3].src = "bar3.gif";
+
+	bar[4].src = "bar4.gif";
+
+	bar[5].src = "bar5.gif";
+
+	bar[6].src = "bar6.gif";
+
+	bar[7].src = "bar7.gif";
+
+	bar[8].src = "barb.gif";
+
+	bar[9].src = "barc.gif";
+
+
+
+	var number = new Array(11);
+
+        for (i = 0 ; i < 10 ; i++){
+
+             number[i] = new Image(); }
+
+
+
+	number[0].src = "0.gif";
+
+	number[1].src = "1.gif";
+
+	number[2].src = "2.gif";
+
+	number[3].src = "3.gif";
+
+	number[4].src = "4.gif";
+
+	number[5].src = "5.gif";
+
+	number[6].src = "6.gif";
+
+	number[7].src = "7.gif";
+
+	number[8].src = "8.gif";
+
+	number[9].src = "9.gif";	
+
+	}
+
+
+
+function extract(fullvalue){
+
+	value[1] = Math.floor(fullvalue/10000);
+
+	value[2] = Math.floor((fullvalue-(value[1]*10000))/1000);
+
+	value[3] = Math.floor((fullvalue-((value[1]*10000)+(value[2]*1000)))/100);
+
+	value[4] = Math.floor((fullvalue-((value[1]*10000)+(value[2]*1000)+(value[3]*100)))/10);
+
+	value[5] = Math.floor((fullvalue-((value[1]*10000)+(value[2]*1000)+(value[3]*100)+(value[4]*10))));
+
+	}
+
+
+
+function update(){
+
+   extract(fullvalue);   
+
+   swap2('tenthousands',value[1]);
+
+   swap2('thousands',value[2]);
+
+   swap2('hundreds',value[3]);
+
+   swap2('tens',value[4]);
+
+   swap2('ones',value[5]); }      
+
+
+
+function randomize() {
+
+	if (counts == 3) {
+
+	RandomNumber = (Math.random() * (MaxBar-1))+1 ; 
+
+	RandomNumber2 = (Math.random() * (MaxBar-1))+1 ; 
+
+	RandomNumber3 = (Math.random() * (MaxBar-1))+1 ;
+
+	RandomNumber = Math.round(RandomNumber);
+
+	RandomNumber2 = Math.round(RandomNumber2);
+
+	RandomNumber3 = Math.round(RandomNumber3);
+
+	if (RandomNumber < 1) { RandomNumber=1 } ;
+
+	if (RandomNumber2 < 1) { RandomNumber2=1} ;
+
+	if (RandomNumber3 < 1) { RandomNumber3=1} ;
+
+	if (RandomNumber > MaxBar) { RandomNumber=MaxBar} ;
+
+	if (RandomNumber2 > MaxBar) { RandomNumber2=MaxBar} ;
+
+	if (RandomNumber3 > MaxBar) { RandomNumber3=MaxBar} ;}
+
+
+
+	if (counts == 2) {
+
+	RandomNumber2 = (Math.random() * (MaxBar-1))+1 ; 
+
+	RandomNumber3 = (Math.random() * (MaxBar-1))+1 ;
+
+	RandomNumber2 = Math.round(RandomNumber2);
+
+	RandomNumber3 = Math.round(RandomNumber3);
+
+	if (RandomNumber2 < 1) { RandomNumber2=1} ;
+
+	if (RandomNumber3 < 1) { RandomNumber3=1} ;
+
+	if (RandomNumber2 > MaxBar) { RandomNumber2=MaxBar} ;
+
+	if (RandomNumber3 > MaxBar) { RandomNumber3=MaxBar} ;}
+
+
+
+	if (counts == 1) {
+
+	RandomNumber3 = (Math.random() * (MaxBar-1))+1 ;
+
+	RandomNumber3 = Math.round(RandomNumber3);
+
+	if (RandomNumber3 < 1) { RandomNumber3=1} ;
+
+	if (RandomNumber3 > MaxBar) { RandomNumber3=MaxBar} ;}
+
+
+
+}
+
+
+
+function SwapNow() {swap('bar1','RandomNumber'); swap('bar2','RandomNumber2'); swap('bar3','RandomNumber3'); }
+
+function SwapNow2() {swap('bar2','RandomNumber2'); swap('bar3','RandomNumber3'); }
+
+function SwapNow3() {swap('bar3','RandomNumber3'); }
+
+
+
+function Rotate()  {randomize(); SwapNow(); randomize(); setTimeout('SwapNow()','100');randomize(); setTimeout('SwapNow()','200'); }
+
+function Rotate2()  {randomize(); SwapNow2(); randomize(); setTimeout('SwapNow2()','100');randomize(); setTimeout('SwapNow2()','200'); }
+
+function Rotate3()  {randomize(); SwapNow3(); randomize(); setTimeout('SwapNow3()','100');randomize(); setTimeout('SwapNow3()','200'); }
+
+
+
+function check(){
+
+	if (RandomNumber == RandomNumber2) { fullvalue = fullvalue + PlusPoints; };
+
+}
+
+
+
+function check2(){
+
+	if (RandomNumber3 == RandomNumber2) { 
+
+	 	if (RandomNumber != RandomNumber2) {fullvalue = fullvalue + PlusPoints; }; }
+
+	if (RandomNumber3 == RandomNumber) { 
+
+	 	if (RandomNumber3 != RandomNumber2) {fullvalue = fullvalue + PlusPoints; }; }
+
+	if (RandomNumber3 == RandomNumber) { 
+
+	 	if (RandomNumber3 == RandomNumber2) {fullvalue = fullvalue + 200; }; }
+
+
+
+}
+
+
+
+function CountDown() { counts = counts - 1; }
+
+
+
+function BarRandom() {
+
+counts = 3;
+
+Rotate();
+
+setTimeout('Rotate()','300');setTimeout('Rotate()','600');
+
+setTimeout('Rotate()','900');setTimeout('Rotate()','1200');
+
+setTimeout('Rotate()','1500');setTimeout('Rotate()','1800');
+
+setTimeout('CountDown()','1900');
+
+setTimeout('Rotate2()','2100');setTimeout('Rotate2()','2400');
+
+setTimeout('Rotate2()','2700');setTimeout('Rotate2()','3000');
+
+setTimeout('Rotate2()','3300');setTimeout('Rotate2()','3600');
+
+setTimeout('CountDown()','3700');; setTimeout('check()','3700');
+
+
+
+setTimeout('Rotate3()','3900');setTimeout('Rotate3()','4200');
+
+setTimeout('Rotate3()','4500');setTimeout('Rotate3()','4800');
+
+setTimeout('Rotate3()','5200');
+
+
+
+setTimeout('check2()','5400');
+
+setTimeout('update()','5500');}
+
+
+
+
+
+function play(){
+
+	BarRandom(); 
+
+	fullvalue = fullvalue - 5;
+
+	update();}
+
+
+
+function swap(imgName,select) 
+
+        { if (browser == "ok") {imgOn = eval("bar["+select+"].src");      
+
+        document [imgName].src = imgOn;}} 
+
+
+
+function swap2(imgName,select) 
+
+        { if (browser == "ok") {imgOn = eval("number["+select+"].src");      
+
+        document [imgName].src = imgOn;}} 
+
+
+
+
+
+// -->
+
+
+
+
+
+</SCRIPT>
+
+
+
+</HEAD>
+
+
+
+
+
+<BODY BGCOLOR=000000 text=white link=white onLoad="update()">
+
+
+
+<center><br>
+
+
+
+<table border=0 cellspacing=0 cellpadding=0><tr><td>
+
+
+
+<table border=0 cellspacing=0 cellpadding=0 bgcolor=000000><tr><td>
+
+<table border=3 cellspacing=10><tr>
+
+<td><img name=bar1 src=bara.gif border=0><br></td>
+
+<td><img name=bar2 src=barb.gif border=0><br></td>
+
+<td><img name=bar3 src=barc.gif border=0><br></td>
+
+</tr></table></td></tr></table>
+
+<table border=0><tr><td>
+
+
+<table border=0 cellspacing=0 cellpadding=0 bgcolor=000000><tr><td>
+
+<table border=3 cellpadding=4 cellspacing=3 width=160><tr>
+
+<td><img name=tenthousands src=0.gif border=0 width=24 height=50><br></td>
+
+<td><img name=thousands    src=0.gif border=0 width=24 height=50><br></td>
+
+<td><img name=hundreds     src=0.gif border=0 width=24 height=50><br></td>
+
+<td><img name=tens         src=0.gif border=0 width=24 height=50><br></td>
+
+<td><img name=ones         src=0.gif border=0 width=24 height=50><br></td>
+
+</tr></table></td></tr></table><br>
+
+</td><td align=center width=200>
+
+
+<form>
+
+<input name="test" type="button" value="Click here to play" 
+
+onClick="play()">
+
+</form>
+
+</td></tr></table>
+
+
+
+<table border=0 width=380 bgcolor=000000><tr><td>
+
+<font face=arial size=-2 color=C5C5C7>
+
+Copyright © 1997,1998 Ryan Lacdao. The contents of the enitre page including the images and scripts may not
+
+be used without proper permission from the owner. For your comments, suggestions &
+
+complains, email me at <a href=mailto:webmaster@eyeball-design.com>webmaster@eyeball-design.com</a>
+
+</font></td></tr></table>
+
+
+
+</td>
+
+</tr></table></td></tr></table>
+
+
+
+
+
+ 
+
+
+
+
+
+</td></tr></table>
+
+
+
+</BODY>
+
+</HTML>
+
+

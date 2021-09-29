@@ -1,0 +1,102 @@
+
+    <html><head><title>FxZone Forum powered by Ikonboard</title></head>
+    <body topmargin=10 leftmargin=0>
+    <table cellpadding=0 cellspacing=0 border=0 width=90% align=center>
+        <tr>
+            <td>
+            <p><b>Printable Version of topic</b><p>
+            <b>-FxZone Forum</b> (http://www.eyeball-design.com/cgi-bin/ikonboard/ikonboard.cgi)<br>
+            <b>--General Discussions</b> (http://www.eyeball-design.com/cgi-bin/ikonboard/forums.cgi?forum=7)<br>
+            <b>---Nothing to do with photoshop but could you help anyway ?</b> (http://www.eyeball-design.com/cgi-bin/ikonboard/forums.cgi?forum=7&topic=175)
+        </tr>
+    </table>
+    <p><p><p>
+    <table cellpadding=0 cellspacing=0 border=0 width=90% align=center>
+        <tr>
+            <td>
+            
+    
+        <p>
+        <hr><p>
+        -- Posted by esp on 4:42 am on Dec. 12, 2001<p>
+        Im just wondering if anyone knows of a program that i can use to convert cs/tfc models into either 3ds or a format that i can use on bryce , i heard of a program called milkshape 3d would this do it ? <br>Thanks alot to any that can help me :o)
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by esp on 3:55 pm on Dec. 12, 2001<p>
+        Cmon i know there are some bryce users that must have done this ? <br>Just need something to convert .mdl to either 3ds or maya .obj file ? <br>Thanks in advance  :o)
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by HiepNotik on 4:31 pm on Dec. 12, 2001<p>
+        sorry I would help but I I dont know how to use bryce, but Ilove playing CS.
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by esp on 5:23 pm on Dec. 13, 2001<p>
+        Yeah i used to love CS before they released HLH its just ruined it ! <br>Also have you seen some of the art work , its amazing , thats the reason im asking this question , coz if you can use the .mdl files in 3d studio max (which u definately can!) then you must be able to use them in bryce (bryce being able to use 3d studio and maya model files) <br>I been wanting to do it for ages , and have asked on a few forums but with no replies at all ! <br>Just thought there may be someone here that would know ? <br>Here is a pic of my desktop , cs done in 3d studio max ;O) (177 kb) <br><a href="http://spots.flatland.com/vampire/counter-strike066.jpg" target="_blank">http://spots.flatland.com/vampire/counter-strike066.jpg</a> <br>Thanks  <br> <br>[E.S.P] <br> <br> <br>(Edited by esp at 5:42 pm on Dec. 13, 2001)
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by DarkJester on 8:38 pm on Dec. 13, 2001<p>
+        Doesn't Milkshape 3D do something like that? <br>Might be wrong though, I've never worked on CS Models.
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by esp on 10:28 pm on Dec. 13, 2001<p>
+        This is the problem , i downloaded milkshape 3d but havnt got a clue how to use it (its not very straight forward) , maybe ill check thier website out see if i can find some links to tutes or get in contact with them over the matter ? <br>Thanks
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by esp on 12:38 am on Dec. 14, 2001<p>
+        Its ok i found out how , but its not gonna work as id thought :( <br>1st off i had to do it in windows 98 coz i installed (milkshape) already a while back on XP (31 day shareware trial) <br>Then all was going cool i converted model all posed and skinned up to .3ds , but when i opened up in bryce there was no texture file , so it was just a flat grey model ! And the model looked crap detail anyway , so until i can get 3d studio im afraid i wont be rendering decent CS pics :( <br>P.S. i found how to do it here > <a href="http://art.counter-strike.net/3dsmax-01-01.shtml" target="_blank">http://art.counter-strike.net/3dsmax-01-01.shtml</a> if anyone is interested in trying it in max ;o) <br> <br>(Edited by esp at 12:40 am on Dec. 14, 2001)
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by SDBX on 2:06 am on Dec. 14, 2001<p>
+        From the Bryce Software Forum at Rederocity, <br> <br>"PolyTrans and 3D Exploration can convert them. I don't know why you would want to use CS/TFC models as they are very very low poly."  <br> <br>"If you change them into .cob or .x or .dxf from 3d exploration <a href="http://www.xdsoft.com/explorer/" target="_blank">http://www.xdsoft.com/explorer/</a> you can then use Metasequoia to increase the poly count. Get the freeware not the shareware <a href="http://www1.sphere.ne.jp/mizno/main_e.html"" target="_blank">http://www1.sphere.ne.jp/mizno/main_e.html"</a> <br> <br>Dunno if this is any help or not. 
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by esp on 2:35 am on Dec. 14, 2001<p>
+        OMG thank you , im downloading the 2 programs now (fingers crossed all goes ok) <br>If i get some decent renders done ill upload em , to show :o) <br>Thanks alot SDBX  <br> <br>[E.S.P]
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by esp on 3:00 am on Dec. 14, 2001<p>
+        Well i succesfully upped the poly count , it went from a 200kb file to 38mb :o) (smooth) heres a pic > <a href="http://spots.flatland.com/vampire/cs%20dude.jpg" target="_blank">http://spots.flatland.com/vampire/cs%20dude.jpg</a> <br>I still havnt figured how to keep the texturing on the model , but im sure ill get there after a bit of fiddling ;) <br>Thanks  <br> <br>[E.S.P]
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by SDBX on 3:46 am on Dec. 14, 2001<p>
+        Very smooth looking... look forward to seeing some nice renders, you should become a member of Renderocity.com the shear amount of forums on different software is amazing, tuts and models the lot.
+
+        <p><p>
+        
+        <p>
+        <hr><p>
+        -- Posted by Illusions on 4:40 am on Dec. 14, 2001<p>
+        Does anyone know of any good texture mapping programs, the one I have is just annoying...
+        <p><p>
+        
+        </td></tr></table><center><hr><p>FxZone Forum powered by Ikonboard<br>http://www.ikonboard.com<br>&copy; 2000 Ikonboard.com</center>
+        </body></html>
+        
