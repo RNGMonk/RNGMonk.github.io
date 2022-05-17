@@ -16,5 +16,7 @@ Even before React and it's counterparts came to dominate web development there w
 
 At around the same time Node appeared on the scene and people who considered themselves frontend developers found a easy route into backend, and backend developers tired of having to use different langauges for the frontend and backend started to embrace Node (despite how different Node and the Browser are).
 
+The increased use of Javascript and differing Javascript environments lead to too important tools: Babel, a compiler which translated Javascript from one environment to another environment (e.g. web to node, chrome to older browsers) and web pack, because now my Javascript is getting huge so I want to try bundle it in pieces and lazy load it for performance.
+
 ## Solutions that Create More Problems
 
