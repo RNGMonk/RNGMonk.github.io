@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Eyeball Design - Creativity at Work</title>
+
+	<style type="text/css">
+		body {
+			color: white;
+			background-color: black;
+			text-align: center;
+		}
+
+		a {
+			color: #d4b878;
+			text-decoration: none;
+		}
+
+		#e {
+			position: absolute;
+			left: 197px;
+			top: 58px;
+			width: 110px;
+			visibility: visible;
+		}
+
+		#txtLink {
+			position: absolute;
+			left: 235px;
+			top: 310px;
+			width: 110px;
+			visibility: visible;
+		}
+
+		#txt01 {
+			position: absolute;
+			left: 141px;
+			top: 330px;
+			width: 110px;
+			visibility: hidden;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: small;
+			color: #503800;
+			font-weight: bold;
+		}
+
+		#txt02 {
+			position: absolute;
+			left: 378px;
+			top: 330px;
+			width: 110px;
+			visibility: hidden;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: small;
+			color: #d4b878;
+			font-weight: bold;
+		}
+
+		#txt03 {
+			position: absolute;
+			left: 168px;
+			top: 376px;
+			width: 270px;
+			visibility: hidden;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: x-small;
+			color: #4e3f23;
+		}
+
+		#Ball01 {
+			position: absolute;
+			left: 295px;
+			top: 320px;
+			width: 50px;
+			visibility: hidden;
+		}
+
+		#Ball02 {
+			position: absolute;
+			left: 417px;
+			top: 260px;
+			width: 50px;
+			visibility: hidden;
+		}
+
+		#Ball03 {
+			position: absolute;
+			left: 448px;
+			top: 126px;
+			width: 50px;
+			visibility: hidden;
+		}
+
+		#Ball04 {
+			position: absolute;
+			left: 362px;
+			top: 19px;
+			width: 50px;
+			visibility: hidden;
+		}
+
+		#Ball05 {
+			position: absolute;
+			left: 225px;
+			top: 20px;
+			width: 50px;
+			visibility: hidden;
+		}
+
+		#Ball06 {
+			position: absolute;
+			left: 140px;
+			top: 128px;
+			width: 50px;
+			visibility: hidden;
+		}
+
+		#Ball07 {
+			position: absolute;
+			left: 174px;
+			top: 262px;
+			width: 50px;
+			visibility: hidden;
+		}
+	</style>
+
+	<script language="javascript">
+
+		// Javascript Animation
+
+		// http://www.eyeball-design.com. Use of this script is not allowed. Do not bother to ask!
+
+		function px(number) {
+			return `${number}px`;
+		}
+
+		// Initialize your images
+		var eye01 = new Image(); eye01.src = "images/eye01.gif";
+		var eye02 = new Image(); eye02.src = "images/eye02.gif";
+		var eye03 = new Image(); eye03.src = "images/eye03.gif";
+
+		var img02 = new Image(); img02.src = "images/button.b.gif";
+		var img03 = new Image(); img03.src = "images/button.c.gif";
+		var img04 = new Image(); img04.src = "images/button.d.gif";
+
+		var bt01 = new Image(); bt01.src = "images/button01.gif";
+		var bt02 = new Image(); bt02.src = "images/button02.gif";
+		var bt03 = new Image(); bt03.src = "images/button03.gif";
+		var bt04 = new Image(); bt04.src = "images/button04.gif";
+		var bt05 = new Image(); bt05.src = "images/button05.gif";
+		var bt06 = new Image(); bt06.src = "images/button06.gif";
+		var bt07 = new Image(); bt07.src = "images/button07.gif";
+
+		var txtBlank = new Image(); txtBlank.src = "images/txtblank.gif"
+
+		var txt01a = new Image(); txt01a.src = "images/txt01a.gif";
+		var txt01b = new Image(); txt01b.src = "images/txt01b.gif";
+		var txt01c = new Image(); txt01c.src = "images/txt01c.gif";
+
+		var txt02a = new Image(); txt02a.src = "images/txt02a.gif";
+		var txt02b = new Image(); txt02b.src = "images/txt02b.gif";
+		var txt02c = new Image(); txt02c.src = "images/txt02c.gif";
+
+		var txt03a = new Image(); txt03a.src = "images/txt03a.gif";
+		var txt03b = new Image(); txt03b.src = "images/txt03b.gif";
+		var txt03c = new Image(); txt03c.src = "images/txt03c.gif";
+
+		var txt04a = new Image(); txt04a.src = "images/txt04a.gif";
+		var txt04b = new Image(); txt04b.src = "images/txt04b.gif";
+		var txt04c = new Image(); txt04c.src = "images/txt04c.gif";
+
+		var txt05a = new Image(); txt05a.src = "images/txt05a.gif";
+		var txt05b = new Image(); txt05b.src = "images/txt05b.gif";
+		var txt05c = new Image(); txt05c.src = "images/txt05c.gif";
+
+		var txt06a = new Image(); txt06a.src = "images/txt06a.gif";
+		var txt06b = new Image(); txt06b.src = "images/txt06b.gif";
+		var txt06c = new Image(); txt06c.src = "images/txt06c.gif";
+
+		var txt07a = new Image(); txt07a.src = "images/txt07a.gif";
+		var txt07b = new Image(); txt07b.src = "images/txt07b.gif";
+		var txt07c = new Image(); txt07c.src = "images/txt07c.gif";
+
+		var blk = new Image(); blk.src = "images/blank.gif";
+
+		var Xorigin = 282;
+		var Yorigin = 154;
+		var OrbitSize = 150;
+
+		var Count1 = 0;
+		var Count2 = 0.9;
+		var Count3 = 1.8;
+		var Count4 = 2.7;
+		var Count5 = 3.6;
+		var Count6 = 4.5;
+		var Count7 = 5.4;
+
+		var SpeedAdj = 0.009;
+
+		var Blinking = 0;
+
+		var Txt01Left = 137;
+		var Txt02Left = 374;
+		var Txt03Top = 380;
+
+		function Spin() {
+			if (OrbitSize != 120) {
+				OrbitSize = OrbitSize - 2
+			}
+
+			Count1 += SpeedAdj;
+			Count2 += SpeedAdj;
+			Count3 += SpeedAdj;
+			Count4 += SpeedAdj;
+			Count5 += SpeedAdj;
+			Count6 += SpeedAdj;
+			Count7 += SpeedAdj;
+
+			Xpoint = Xorigin + OrbitSize * Math.sin(Count1);
+			Ypoint = Yorigin + OrbitSize * Math.cos(Count1);
+
+			Xpoint2 = Xorigin + OrbitSize * Math.sin(Count2);
+			Ypoint2 = Yorigin + OrbitSize * Math.cos(Count2);
+
+			Xpoint3 = Xorigin + OrbitSize * Math.sin(Count3);
+			Ypoint3 = Yorigin + OrbitSize * Math.cos(Count3);
+
+			Xpoint4 = Xorigin + OrbitSize * Math.sin(Count4);
+			Ypoint4 = Yorigin + OrbitSize * Math.cos(Count4);
+
+			Xpoint5 = Xorigin + OrbitSize * Math.sin(Count5);
+			Ypoint5 = Yorigin + OrbitSize * Math.cos(Count5);
+
+			Xpoint6 = Xorigin + OrbitSize * Math.sin(Count6);
+			Ypoint6 = Yorigin + OrbitSize * Math.cos(Count6);
+
+			Xpoint7 = Xorigin + OrbitSize * Math.sin(Count7);
+			Ypoint7 = Yorigin + OrbitSize * Math.cos(Count7);
+
+			document.Ball01.left = px(Xpoint);
+			document.Ball01.top = px(Ypoint);
+
+			document.Ball02.left = px(Xpoint2);
+			document.Ball02.top = px(Ypoint2);
+
+			document.Ball03.left = px(Xpoint3);
+			document.Ball03.top = px(Ypoint3);
+
+			document.Ball04.left = px(Xpoint4);
+			document.Ball04.top = px(Ypoint4);
+
+			document.Ball05.left = px(Xpoint5);
+			document.Ball05.top = px(Ypoint5);
+
+			document.Ball06.left = px(Xpoint6);
+			document.Ball06.top = px(Ypoint6);
+
+			document.Ball07.left = px(Xpoint7);
+			document.Ball07.top = px(Ypoint7);
+
+			if (Count1 == 6.30) { Count1 = 0; }
+
+			if (Count2 == 6.30) { Count2 = 0; }
+
+			if (Count3 == 6.30) { Count3 = 0; }
+
+			if (Count4 == 6.30) { Count4 = 0; }
+
+			if (Count5 == 6.30) { Count5 = 0; }
+
+			if (Count6 == 6.30) { Count6 = 0; }
+
+			if (Count7 == 6.30) { Count7 = 0; }
+
+			setTimeout('Spin()', 20);
+		}
+
+		function OpenEye() {
+			document.eyeimg.src = eye02.src;
+
+			setTimeout('document.eyeimg.src = eye01.src', 50);
+		}
+
+		function Blink() {
+			Blinking = 1;
+
+			document.eyeimg.src = eye02.src;
+
+			setTimeout('document.eyeimg.src = eye03.src', 50);
+			setTimeout('document.eyeimg.src = eye02.src', 100);
+			setTimeout('document.eyeimg.src = eye01.src', 150);
+
+			setTimeout('Blinking  = 0', 200);
+		}
+
+		function Blink2() {
+			Blinking = 1;
+
+			document.eyeimg.src = eye02.src;
+
+			setTimeout('document.eyeimg.src = eye03.src', 50);
+			setTimeout('document.eyeimg.src = eye02.src', 150);
+			setTimeout('document.eyeimg.src = eye01.src', 200);
+			setTimeout('document.eyeimg.src = eye02.src', 300);
+			setTimeout('document.eyeimg.src = eye03.src', 350);
+			setTimeout('document.eyeimg.src = eye02.src', 400);
+			setTimeout('document.eyeimg.src = eye01.src', 450);
+
+			setTimeout('Blinking = 0', 500);
+		}
+
+		function FadeInButtons() {
+			setTimeout('document.bimg01.src = img02.src', 0);
+			setTimeout('document.bimg01.src = img03.src', 50);
+			setTimeout('document.bimg01.src = img04.src', 100);
+			setTimeout('document.bimg01.src = bt01.src', 150);
+
+			setTimeout('document.bimg02.src = img02.src', 200);
+			setTimeout('document.bimg02.src = img03.src', 250);
+			setTimeout('document.bimg02.src = img04.src', 300);
+			setTimeout('document.bimg02.src = bt02.src', 350);
+
+			setTimeout('document.bimg03.src = img02.src', 400);
+			setTimeout('document.bimg03.src = img03.src', 450);
+			setTimeout('document.bimg03.src = img04.src', 500);
+			setTimeout('document.bimg03.src = bt03.src', 550);
+
+			setTimeout('document.bimg04.src = img02.src', 600);
+			setTimeout('document.bimg04.src = img03.src', 650);
+			setTimeout('document.bimg04.src = img04.src', 700);
+			setTimeout('document.bimg04.src = bt04.src', 750);
+
+			setTimeout('document.bimg05.src = img02.src', 800);
+			setTimeout('document.bimg05.src = img03.src', 850);
+			setTimeout('document.bimg05.src = img04.src', 900);
+			setTimeout('document.bimg05.src = bt05.src', 950);
+
+			setTimeout('document.bimg06.src = img02.src', 1000);
+			setTimeout('document.bimg06.src = img03.src', 1050);
+			setTimeout('document.bimg06.src = img04.src', 1100);
+			setTimeout('document.bimg06.src = bt06.src', 1150);
+
+			setTimeout('document.bimg07.src = img02.src', 1200);
+			setTimeout('document.bimg07.src = img03.src', 1250);
+			setTimeout('document.bimg07.src = img04.src', 1300);
+			setTimeout('document.bimg07.src = bt07.src', 1350);
+		}
+
+		function RunAnimation() {
+			document.Ball01.visibility = 'visible';
+			document.Ball02.visibility = 'visible';
+			document.Ball03.visibility = 'visible';
+			document.Ball04.visibility = 'visible';
+			document.Ball05.visibility = 'visible';
+			document.Ball06.visibility = 'visible';
+			document.Ball07.visibility = 'visible';
+
+			FadeInButtons();
+			setTimeout(TextIn, 1400);
+			setTimeout(OpenEye, 2750);
+			setTimeout(Spin, 1400);
+		}
+
+		function AssignLayers() {
+			document.Ball01 = document.all.Ball01.style;
+			document.Ball02 = document.all.Ball02.style;
+			document.Ball03 = document.all.Ball03.style;
+			document.Ball04 = document.all.Ball04.style;
+			document.Ball05 = document.all.Ball05.style;
+			document.Ball06 = document.all.Ball06.style;
+			document.Ball07 = document.all.Ball07.style;
+
+			document.Ball01.left = 286;
+			document.Ball02.left = 406;
+			document.Ball03.left = 437;
+			document.Ball04.left = 351;
+			document.Ball05.left = 214;
+			document.Ball06.left = 129;
+			document.Ball07.left = 163;
+
+			Txt01 = document.all.txt01.style;
+			Txt02 = document.all.txt02.style;
+			Txt03 = document.all.txt03.style;
+		}
+
+		function TextIn() {
+			if (Txt01.visibility != "visible") {
+				Txt01.visibility = "visible";
+				Txt02.visibility = "visible";
+				Txt03.visibility = "visible";
+			}
+
+			Txt01Left += 4;
+			Txt02Left -= 4;
+			Txt03Top -= 2;
+
+			Txt01.left = px(Txt01Left);
+			Txt02.left = px(Txt02Left);
+			Txt03.top = px(Txt03Top);
+
+			if (Txt01Left < 190) {
+				setTimeout(TextIn, 10)
+			}
+		}
+
+		function BlinkNow() {
+			var Select = 0;
+
+			Select = Math.round(Math.random(1) * 4);
+
+			if (Blinking == 0) {
+				if (Select <= 1) {
+					Blink2();
+				}
+
+				if (Select >= 2) {
+					Blink();
+				}
+			}
+		}
+
+		function AdjustVertical1024() {
+			Yorigin += 82;
+
+			document.Ball01.top = px(390);
+			document.Ball02.top = px(330);
+			document.Ball03.top = px(196);
+			document.Ball04.top = px(89);
+			document.Ball05.top = px(90);
+			document.Ball06.top = px(198);
+			document.Ball07.top = px(330);
+
+			Txt01.top = px(400);
+			Txt02.top = px(400);
+			Txt03.top = px(446);
+			Txt03Top = 446;
+
+			document.all.txtLink.style.top = px(380);
+
+			document.all.e.style.top = px(140);
+		}
+
+		function AdjustVertical1280() {
+			Yorigin += 200;
+
+			document.Ball01.top = 520;
+			document.Ball02.top = 460;
+			document.Ball03.top = 326;
+			document.Ball04.top = 219;
+			document.Ball05.top = 220;
+			document.Ball06.top = 328;
+			document.Ball07.top = 462;
+
+			Txt01.top = 530;
+			Txt02.top = 530;
+			Txt03.top = 576;
+			Txt03Top = 576;
+
+			document.all.txtLink.style.top = 510;
+			document.all.e.style.top = 258;
+		}
+
+		function Initialize() {
+			AssignLayers()
+
+			if (screen.width == 1024) {
+				AdjustVertical1024();
+			}
+
+			if (screen.width == 1280) {
+				AdjustVertical1280();
+			}
+
+			setTimeout(RunAnimation, 300);
+		}
+
+		function Text(option, text) {
+			TextImage = document.spc;
+
+			if (option == 'show') {
+				if (text == '01') {
+					TextImage.src = txt01a.src;
+					setTimeout('TextImage.src = txt01b.src', 50);
+					setTimeout('TextImage.src = txt01c.src', 100);
+				}
+
+				if (text == '02') {
+					TextImage.src = txt02a.src;
+					setTimeout('TextImage.src = txt02b.src', 50);
+					setTimeout('TextImage.src = txt02c.src', 100);
+				}
+
+				if (text == '03') {
+					TextImage.src = txt03a.src;
+					setTimeout('TextImage.src = txt03b.src', 50);
+					setTimeout('TextImage.src = txt03c.src', 100);
+				}
+
+				if (text == '04') {
+					TextImage.src = txt04a.src;
+					setTimeout('TextImage.src = txt04b.src', 50);
+					setTimeout('TextImage.src = txt04c.src', 100);
+				}
+
+				if (text == '05') {
+					TextImage.src = txt05a.src;
+					setTimeout('TextImage.src = txt05b.src', 50);
+					setTimeout('TextImage.src = txt05c.src', 100);
+				}
+
+				if (text == '06') {
+					TextImage.src = txt06a.src;
+					setTimeout('TextImage.src = txt06b.src', 50);
+					setTimeout('TextImage.src = txt06c.src', 100);
+				}
+
+				if (text == '07') {
+					TextImage.src = txt07a.src;
+					setTimeout('TextImage.src = txt07b.src', 50);
+					setTimeout('TextImage.src = txt07c.src', 100);
+				}
+			}
+
+			if (option == 'hide') {
+				if (text == '01') {
+					TextImage.src = txt01b.src;
+					setTimeout('TextImage.src = txt01a.src', 50);
+					setTimeout('TextImage.src = txtBlank.src', 100);
+				}
+
+				if (text == '02') {
+					TextImage.src = txt02b.src;
+					setTimeout('TextImage.src = txt02a.src', 50);
+					setTimeout('TextImage.src = txtBlank.src', 100);
+				}
+
+				if (text == '03') {
+					TextImage.src = txt03b.src;
+					setTimeout('TextImage.src = txt03a.src', 50);
+					setTimeout('TextImage.src = txtBlank.src', 100);
+				}
+
+				if (text == '04') {
+					TextImage.src = txt04b.src;
+					setTimeout('TextImage.src = txt04a.src', 50);
+					setTimeout('TextImage.src = txtBlank.src', 100);
+				}
+
+				if (text == '05') {
+					TextImage.src = txt05b.src;
+					setTimeout('TextImage.src = txt05a.src', 50);
+					setTimeout('TextImage.src = txtBlank.src', 100);
+				}
+
+				if (text == '06') {
+					TextImage.src = txt06b.src;
+					setTimeout('TextImage.src = txt06a.src', 50);
+					setTimeout('TextImage.src = txtBlank.src', 100);
+				}
+
+				if (text == '07') {
+					TextImage.src = txt07b.src;
+					setTimeout('TextImage.src = txt07a.src', 50);
+					setTimeout('TextImage.src = txtBlank.src', 100);
+				}
+			}
+		}
+
+	</script>
+</head>
+
+<body onload="Initialize()">
+	<div id="e">
+		<table cellpadding=0 cellspacing=0>
+			<tr>
+				<td>
+					<img src=images/ct01.jpg width=78 height=219>
+				</td>
+				<td>
+					<a href="#"
+						onmouseover="window.status='email the webmaster';return true">
+						<img name="eyeimg" src=images/eye03.gif width=63 height=219>
+					</a>
+				</td>
+				<td>
+					<img src=images/ct02.jpg width=78 height=219>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<div id="txtLink">
+		<img name="spc" src=images/txtblank.gif>
+	</div>
+
+	<div id="txt01">
+		e &nbsp;y &nbsp;e &nbsp;b &nbsp;a &nbsp;l &nbsp;l
+	</div>
+
+	<div id="txt02">
+		d &nbsp;e &nbsp;s &nbsp;i &nbsp;g &nbsp;n
+	</div>
+
+	<div id="txt03">
+		Copyright 1998, 1999 by Ryan Lacdao. All rights reserved hosted by
+		<a href="#">regex networks.</a>
+		<a href="#">Bouncing Balls</a>
+		<br>
+		<a href="#" target="_top">
+			<span>i</span>
+			<span style="color: #ff9333">/</span>
+			<span style="color: #349333">us</span>
+			<span>: All things graphic</span>
+		</a>
+		<br>
+	</div>
+
+	<div id="Ball01">
+		<a href="#" target=_top
+			onmouseover="BlinkNow();Text('show','01');window.status='What\'s new on eyeball design and a list of services ';return true"
+			onmouseout="Text('hide','01');window.status='';return true;">
+			<img name=bimg01 src=images/button.a.gif>
+		</a>
+	</div>
+
+	<div id="Ball02">
+		<a href="#" target=_top
+			onmouseover="BlinkNow();Text('show','02');window.status='Online portfolio';return true"
+			onmouseout="Text('hide','02');window.status='';return true">
+			<img name=bimg02 src=images/button.a.gif>
+		</a>
+	</div>
+
+	<div id="Ball03">
+		<a href="#" target=_top
+			onmouseover="BlinkNow();Text('show','03');window.status='Contact info';return true"
+			onmouseout="Text('hide','03');window.status='';return true">
+			<img name=bimg03 src=images/button.a.gif>
+			<br>
+		</a>
+	</div>
+
+	<div id="Ball04">
+		<a href="#" target=_top
+			onmouseover="BlinkNow();Text('show','04');window.status='More sample designs';return true"
+			onmouseout="Text('hide','04');window.status='';return true">
+			<img name=bimg04 src=images/button.a.gif>
+		</a>
+	</div>
+
+	<div id="Ball05">
+		<a href="#" target=_top
+			onmouseover="BlinkNow();Text('show','06');window.status='FxZone: Photoshop Tutorials and Tips ';return true"
+			onmouseout="Text('hide','06');window.status='';return true">
+			<img name=bimg05 src=images/button.a.gif>
+		</a>
+	</div>
+
+	<div id="Ball06">
+		<a href="#" target=_top
+			onmouseover="BlinkNow();Text('show','05');window.status='Freebie Section: Free Textures, Desktop wallpapers and more';return true"
+			onmouseout="Text('hide','05');window.status='';return true">
+			<img name=bimg06 src=images/button.a.gif>
+		</a>
+	</div>
+
+	<div id="Ball07">
+		<a href="#" target=_top
+			onmouseover="BlinkNow();Text('show','07');window.status='View and sign the guestbook';return true"
+			onmouseout="Text('hide','07');window.status='';return true">
+			<img name=bimg07 src=images/button.a.gif>
+
+		</a>
+	</div>
+</body>
+
+</html>
