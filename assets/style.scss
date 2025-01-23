@@ -177,11 +177,20 @@ sub { top: .5ex; }
 
 .post {
   h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 0.75em;
   }
 
+
+
   p:first-of-type {
     text-indent: 0;
+
+    &::first-letter {
+      initial-letter: 2;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      margin-right: 0.2em;
+    }
   }
 
   p {
