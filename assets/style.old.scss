@@ -5,8 +5,6 @@ $color-darkest: #101214;
 $color-dark: #73808D;
 
 * {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -19,7 +17,10 @@ body {
   text-rendering: optimizeLegibility;
   margin: 50px auto;
 }
-.page { width: 40em; margin: 0 auto; padding: 0 0 0 2px; }
+.page { 
+  max-width: 45em; 
+  margin: 0 auto; 
+  padding: 2em; }
 .page p {
   line-height: 2em;
 }

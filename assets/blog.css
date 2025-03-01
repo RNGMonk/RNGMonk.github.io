@@ -1,0 +1,83 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+body {
+  background: white;
+  color: #101214;
+  font: 18px/26px 'Fira Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  margin: 50px auto;
+}
+ul { padding: 0 0 0 1em;  }
+ul > li, ol > li { margin: 0.5em 0; }
+a { color: inherit; text-decoration: none; border-bottom: 2px solid #73808D; }
+a:hover { border-color: #73808D; }
+
+
+h1, h2 {
+  font: 400 1em 'Fira Sans';
+  margin: 1em 0 0.5em;
+}
+.date { font-size: 14px; color: #73808D; margin-left: 1em; }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.nav__brand {
+  border-bottom: none;
+  font-size: 30px;
+}
+
+.menu > li { list-style: none; display: inline-block; margin: 0 1.5em 0 0; vertical-align: top; }
+.menu__item, a.menu__item { color: #73808D; border-color: transparent; display: inline-block; }
+a.menu__item:hover { color: inherit; border-color: #73808D; border-width: 2px; }
+.menu__item_selected, a.menu__item_selected { color: #101214; font-weight: bold; }
+.menu__item_inside, a.menu__item_inside { border-bottom: 2px solid #73808D; }
+
+h1 { font-size: 1.7em; }
+h2 { font-size: 1.4em; }
+
+.page { 
+  max-width: 45em; 
+  margin: 0 auto; 
+  padding: 2em; 
+
+  p {
+    line-height: 2em;
+  }
+}
+
+.post {
+  h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0.75em;
+  }
+
+
+
+  p:first-of-type {
+    text-indent: 0;
+
+    &::first-letter {
+      initial-letter: 2;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      margin-right: 0.2em;
+    }
+  }
+
+  p {
+    text-indent: 1em;
+    margin: 0;
+    margin-top: 1.2em;
+  }
+}
