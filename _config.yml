@@ -1,5 +1,12 @@
 permalink: /:categories/:title/
 markdown: kramdown
+collections:
+    experiments:
+      output: true
+      permalink: /experiments/:slug/
+    projects:
+      output: true
+      permalink: /projects/:path/
 sass:
   style: compressed
   sass_dir: _sass

@@ -19,6 +19,12 @@
         <li><a class="menu__item" href="/">Blog</a>
       {% endif %}
 
+      {% if page.title == 'Experiments' %}
+        <li><span class="menu__item menu__item_selected">Experiments</span>
+      {% else %}
+        <li><a class="menu__item" href="/experiments">Experiments</a>
+      {% endif %}
+
     
       {% if page.title == 'About' %}
         <li><span class="menu__item menu__item_selected">About</span>
